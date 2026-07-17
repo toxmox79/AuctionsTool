@@ -1,0 +1,27 @@
+{
+  "name": "eBay Auction SEO Tool",
+  "short_name": "eBay Tool",
+  "description": "eBay-Listings, technische Daten und Produktbilder erstellen und aufbereiten.",
+  "id": "./ebay-auction-tool.html",
+  "start_url": "./ebay-auction-tool.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#e0e5ec",
+  "theme_color": "#007aff",
+  "lang": "de-DE",
+  "icons": [
+    {
+      "src": "./Icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./Icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
