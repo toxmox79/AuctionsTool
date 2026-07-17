@@ -733,14 +733,6 @@
             </div>
 
             <div class="card">
-                <div class="card-header">Lieferung</div>
-                <div>
-                    <div id="v-delivery"></div>
-                    <small style="margin-left: 10px; color: #888;">(Klicken zum Kopieren)</small>
-                </div>
-            </div>
-
-                <div class="card">
                 <div class="card-header">Artikelmerkmale (SEO Optimiert)</div>
                 <p style="font-size: 0.85rem; color: #666; margin-bottom: 10px;">Klicke auf eine Zeile, um den Wert
                     direkt zu kopieren.</p>
@@ -2645,7 +2637,6 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             document.getElementById('v-tech-table').innerHTML = "";
             document.getElementById('v-title-tab4').innerText = "";
             renderCategoryIds("N/A");
-            renderDeliveryValue("frei Bordsteinkante");
             document.getElementById('v-specifics-body').innerHTML = "";
             document.getElementById('title-count').innerText = "0/80";
 
@@ -3052,7 +3043,6 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             renderCustomCategoryList();
             await loadKategorienData();
             initMassCanvasBackground();
-            renderDeliveryValue('frei Bordsteinkante');
             galInitRibbonPresets();
             galRenderRibbonList();
             // Setup drag drop after DOM ready
@@ -3202,12 +3192,6 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
                 btn.onclick = () => copyTextRaw(id);
                 container.appendChild(btn);
             });
-        }
-
-        function renderDeliveryValue(rawValue) {
-            const container = document.getElementById('v-delivery');
-            if (!container) return;
-            renderButtonValues(container, rawValue || 'frei Bordsteinkante');
         }
 
         function normalizeScaleText(scaleText) {
@@ -3397,10 +3381,6 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
                 // Tab 4
                 document.getElementById('v-title-tab4').innerText = jsonData.ebay_title || "";
                 renderCategoryIds(jsonData.category_id || "N/A");
-                const deliverySpecific = (jsonData.item_specifics || []).find(item =>
-                    normalizeLookupText(item.key) === 'lieferung'
-                );
-                renderDeliveryValue(deliverySpecific?.value || 'frei Bordsteinkante');
 
                 // Tab 5: Maße automatisch aus Technischen Daten extrahieren
                 extractDimensionsFromTechData(techData);
@@ -3426,7 +3406,15 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
                 const categoryIdForDefs = category?.id || String(jsonData.category_id || "").split(/[\/;,]/)[0].trim();
                 let hasSpecificsHints = false;
 
-                (jsonData.item_specifics || []).forEach(item => {
+                const rawSpecifics = Array.isArray(jsonData.item_specifics) ? jsonData.item_specifics : [];
+                const deliverySpecific = rawSpecifics.find(item => normalizeLookupText(item.key) === 'lieferung');
+                const orderedSpecifics = rawSpecifics.filter(item => normalizeLookupText(item.key) !== 'lieferung');
+                orderedSpecifics.push({
+                    key: 'Lieferung',
+                    value: String(deliverySpecific?.value || 'frei Bordsteinkante').trim()
+                });
+
+                orderedSpecifics.forEach(item => {
                     const tr = document.createElement('tr');
                     const th = document.createElement('th');
                     th.textContent = item.key;
@@ -3438,6 +3426,15 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
                         hasSpecificsHints = true;
                     }
                     renderButtonValues(td, valStr, { fieldDef });
+
+                    if (normalizeLookupText(item.key) === 'lieferung') {
+                        tr.style.cursor = 'pointer';
+                        tr.title = 'Lieferung kopieren';
+                        tr.onclick = event => {
+                            if (event.target.closest('button')) return;
+                            copyTextRaw(valStr || 'frei Bordsteinkante');
+                        };
+                    }
 
                     tr.appendChild(th);
                     tr.appendChild(td);
@@ -6001,7 +5998,7 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             const status = document.getElementById('pdf-url-status');
             status.textContent = 'Lade PDF...';
             try {
-                const data = await pdfFetchWithProxy(url);
+                const data = await pdfFetchWithProxy(url, message => { status.textContent = message; });
                 if (!data) throw new Error('URL konnte nicht geladen werden (CORS). Bitte PDF als Datei hochladen (📤 Datei-Tab oben).');
                 const loadingTask = pdfjsLib.getDocument({ data: data });
                 pdfDoc = await loadingTask.promise;
@@ -6022,24 +6019,40 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             }
         }
 
-        async function pdfFetchWithProxy(url) {
+        async function pdfFetchWithTimeout(url, timeoutMs = 15000) {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+            try {
+                return await fetch(url, { signal: controller.signal, cache: 'no-store' });
+            } finally {
+                clearTimeout(timeoutId);
+            }
+        }
+
+        function pdfHasValidSignature(buffer) {
+            if (!buffer || buffer.byteLength < 5) return false;
+            const signature = String.fromCharCode(...new Uint8Array(buffer, 0, 5));
+            return signature === '%PDF-';
+        }
+
+        async function pdfFetchWithProxy(url, reportStatus = () => {}) {
             const encoded = encodeURIComponent(url);
-            const proxies = [
-                { prefix: '', enc: url },
-                { prefix: 'https://corsproxy.io/?', enc: url },
-                { prefix: 'https://api.codetabs.com/v1/proxy?quest=', enc: encoded },
-                { prefix: 'https://corsproxy.org/?', enc: url },
-                { prefix: 'https://thingproxy.freeboard.io/fetch/', enc: url },
-                { prefix: 'https://api.allorigins.net/raw?url=', enc: encoded }
+            const candidates = [
+                { name: 'direkt', url },
+                { name: 'EPREL-Fallback', url: 'https://cors.eu.org/' + url },
+                { name: 'CORS Proxy', url: 'https://corsproxy.io/?url=' + encoded },
+                { name: 'CodeTabs', url: 'https://api.codetabs.com/v1/proxy?quest=' + encoded },
+                { name: 'AllOrigins', url: 'https://api.allorigins.win/raw?url=' + encoded }
             ];
-            for (const p of proxies) {
+            for (const candidate of candidates) {
                 try {
-                    const resp = await fetch(p.prefix + p.enc, { signal: AbortSignal.timeout(8000) });
+                    reportStatus('Lade PDF (' + candidate.name + ')...');
+                    const resp = await pdfFetchWithTimeout(candidate.url);
                     if (!resp.ok) continue;
                     const ct = resp.headers.get('content-type') || '';
                     if (ct.includes('text/html')) continue;
                     const buf = await resp.arrayBuffer();
-                    if (buf.byteLength > 1000) return buf;
+                    if (pdfHasValidSignature(buf)) return buf;
                 } catch (e) { continue; }
             }
             return null;
