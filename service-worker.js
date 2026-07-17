@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ebay-auction-tool-v1';
+const CACHE_NAME = 'ebay-auction-tool-v2';
 const APP_SHELL = [
   './',
   './index.html',
@@ -6,7 +6,9 @@ const APP_SHELL = [
   './manifest.webmanifest',
   './Icon.png',
   './Einbaugerät.png',
-  './Möbelfront.png'
+  './Möbelfront.png',
+  './Einbaugeraet-overlay.png',
+  './Moebelfront-overlay.png'
 ];
 
 self.addEventListener('install', event => {
