@@ -1248,17 +1248,26 @@
                                     Nach dem Hochladen eines Produktbildes einzeln ein- oder ausschalten.
                                 </div>
                                 <div style="display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px;">
-                                    <button type="button" class="val-btn" id="dl-overlay-btn-einbaugeraet" onclick="dlToggleOverlay('einbaugeraet')"
-                                        style="display:flex; flex-direction:column; gap:8px; align-items:center; padding:10px; white-space:normal;">
-                                        <img src="Einbaugeraet-overlay.png" alt="Einbaugerät" style="width:100%; aspect-ratio:1; object-fit:contain; border-radius:8px;">
-                                        <span>Einbaugerät</span>
-                                    </button>
-                                    <button type="button" class="val-btn" id="dl-overlay-btn-moebelfront" onclick="dlToggleOverlay('moebelfront')"
-                                        style="display:flex; flex-direction:column; gap:8px; align-items:center; padding:10px; white-space:normal;">
-                                        <img src="Moebelfront-overlay.png" alt="Keine Möbelfront enthalten" style="width:100%; aspect-ratio:1; object-fit:contain; border-radius:8px;">
-                                        <span>Möbelfront</span>
-                                    </button>
+                                    <div style="display:flex; flex-direction:column; gap:6px;">
+                                        <button type="button" class="val-btn" id="dl-overlay-select-einbaugeraet" onclick="dlSelectTarget('einbaugeraet')"
+                                            style="display:flex; flex-direction:column; gap:8px; align-items:center; padding:10px; white-space:normal;">
+                                            <img src="Einbaugeraet-overlay.png" alt="Einbaugerät" style="width:100%; aspect-ratio:1; object-fit:contain; border-radius:8px;">
+                                            <span>Einbaugerät bearbeiten</span>
+                                        </button>
+                                        <button type="button" class="subtab-btn" id="dl-overlay-toggle-einbaugeraet" onclick="dlToggleOverlay('einbaugeraet')" style="padding:6px; font-size:0.75rem;">Einblenden</button>
+                                    </div>
+                                    <div style="display:flex; flex-direction:column; gap:6px;">
+                                        <button type="button" class="val-btn" id="dl-overlay-select-moebelfront" onclick="dlSelectTarget('moebelfront')"
+                                            style="display:flex; flex-direction:column; gap:8px; align-items:center; padding:10px; white-space:normal;">
+                                            <img src="Moebelfront-overlay.png" alt="Keine Möbelfront enthalten" style="width:100%; aspect-ratio:1; object-fit:contain; border-radius:8px;">
+                                            <span>Möbelfront bearbeiten</span>
+                                        </button>
+                                        <button type="button" class="subtab-btn" id="dl-overlay-toggle-moebelfront" onclick="dlToggleOverlay('moebelfront')" style="padding:6px; font-size:0.75rem;">Einblenden</button>
+                                    </div>
                                 </div>
+                                <button type="button" class="val-btn ebay-std" id="dl-select-base-btn" onclick="dlSelectTarget('base')" style="width:100%; margin-top:10px; justify-content:center;">
+                                    Grundbild bearbeiten
+                                </button>
                             </div>
 
                             <div style="margin-top:15px; border-top:1px solid rgba(163,177,198,0.2); padding-top:15px;">
@@ -1277,13 +1286,14 @@
                         </div>
 
                         <div class="card">
-                            <div class="card-header">Zoom-Steuerung</div>
+                            <div class="card-header">Position und Größe</div>
+                            <div id="dl-selected-label" style="font-size:0.8rem; color:var(--text-muted); margin-bottom:8px;">Ausgewählt: Grundbild</div>
                             <input type="range" id="dl-zoom-slider" min="0.1" max="5" step="0.01" value="1"
                                 style="width:100%; cursor:pointer;">
                             <div
                                 style="display:flex; justify-content:space-between; margin-top:8px; font-size:0.75rem; color:var(--text-muted);">
                                 <span id="dl-zoom-level">Zoom: 100%</span>
-                                <button class="val-btn" onclick="dlResetView()"
+                                <button class="val-btn" onclick="dlResetSelected()"
                                     style="padding:4px 8px; font-size:0.7rem;">Reset</button>
                             </div>
                         </div>
@@ -1305,8 +1315,8 @@
                             </div>
                             <div
                                 style="margin-top:8px; padding:8px 12px; background:rgba(0,122,255,0.05); border-radius:8px; font-size:0.78rem; color:var(--text-muted); line-height:1.6;">
-                                🖱️ <strong>Ziehen</strong> → Verschieben &nbsp;·&nbsp; <strong>Scrollrad</strong> →
-                                Zoomen
+                                🖱️ <strong>Ausgewählte Ebene ziehen</strong> → Verschieben &nbsp;·&nbsp; <strong>Scrollrad/Regler</strong> →
+                                Größe ändern
                             </div>
                         </div>
                     </div>
@@ -5480,11 +5490,12 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
         let dlImage = null;
         let dlView = { x: 0, y: 0, scale: 1 };
         let dlDrag = null;
+        let dlSelectedTarget = 'base';
         const DL_CANVAS_SIZE = 500;
         const DL_EXPORT_SIZE = 1600;
         const DL_OVERLAYS = [
-            { id: 'einbaugeraet', name: 'Einbaugerät', src: 'Einbaugeraet-overlay.png', img: null, enabled: false },
-            { id: 'moebelfront', name: 'Möbelfront', src: 'Moebelfront-overlay.png', img: null, enabled: false }
+            { id: 'einbaugeraet', name: 'Einbaugerät', src: 'Einbaugeraet-overlay.png', img: null, enabled: false, x: 0, y: 0, w: 0, h: 0, baseW: 0, baseH: 0, scale: 1 },
+            { id: 'moebelfront', name: 'Möbelfront', src: 'Moebelfront-overlay.png', img: null, enabled: false, x: 0, y: 0, w: 0, h: 0, baseW: 0, baseH: 0, scale: 1 }
         ];
 
         const DEFAULT_PROXIES = [
@@ -5508,13 +5519,15 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             if (!overlay) return;
 
             overlay.enabled = !overlay.enabled;
-            const button = document.getElementById('dl-overlay-btn-' + id);
+            const button = document.getElementById('dl-overlay-toggle-' + id);
             if (button) {
-                button.classList.toggle('ebay-std', overlay.enabled);
+                button.classList.toggle('active', overlay.enabled);
                 button.setAttribute('aria-pressed', String(overlay.enabled));
+                button.textContent = overlay.enabled ? 'Ausblenden' : 'Einblenden';
             }
 
             if (!overlay.enabled || overlay.img) {
+                if (!overlay.enabled && dlSelectedTarget === id) dlSelectTarget('base');
                 dlRender();
                 return;
             }
@@ -5522,16 +5535,77 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             const img = new Image();
             img.onload = () => {
                 overlay.img = img;
+                dlResetOverlay(overlay);
+                dlSelectTarget(id);
                 dlRender();
                 showStatus(overlay.name + ' eingeblendet', 'green');
             };
             img.onerror = () => {
                 overlay.enabled = false;
-                if (button) button.classList.remove('ebay-std');
+                if (button) button.classList.remove('active');
                 showStatus('Overlay konnte nicht geladen werden', 'red');
                 alert('Das transparente Overlay konnte nicht geladen werden.');
             };
             img.src = overlay.src;
+        }
+
+        function dlSelectTarget(target) {
+            if (target !== 'base') {
+                const overlay = DL_OVERLAYS.find(item => item.id === target);
+                if (!overlay) return;
+                if (!overlay.enabled) {
+                    dlToggleOverlay(target);
+                    return;
+                }
+            }
+
+            dlSelectedTarget = target;
+            const selectedOverlay = DL_OVERLAYS.find(item => item.id === target);
+            document.getElementById('dl-selected-label').textContent = 'Ausgewählt: ' + (selectedOverlay?.name || 'Grundbild');
+            document.getElementById('dl-select-base-btn').classList.toggle('ebay-std', target === 'base');
+            DL_OVERLAYS.forEach(item => {
+                document.getElementById('dl-overlay-select-' + item.id)?.classList.toggle('ebay-std', item.id === target);
+            });
+            dlSyncSizeControl();
+            dlRender();
+        }
+
+        function dlResetOverlay(overlay) {
+            if (!overlay?.img) return;
+            const aspect = overlay.img.width / overlay.img.height;
+            const maxSize = overlay.id === 'moebelfront' ? 420 : 360;
+            overlay.baseW = aspect >= 1 ? maxSize : maxSize * aspect;
+            overlay.baseH = aspect >= 1 ? maxSize / aspect : maxSize;
+            overlay.scale = 1;
+            overlay.w = overlay.baseW;
+            overlay.h = overlay.baseH;
+            overlay.x = (DL_CANVAS_SIZE - overlay.w) / 2;
+            overlay.y = (DL_CANVAS_SIZE - overlay.h) / 2;
+        }
+
+        function dlResetSelected() {
+            if (dlSelectedTarget === 'base') {
+                dlResetView();
+                return;
+            }
+            const overlay = DL_OVERLAYS.find(item => item.id === dlSelectedTarget);
+            dlResetOverlay(overlay);
+            dlSyncSizeControl();
+            dlRender();
+        }
+
+        function dlSyncSizeControl() {
+            const slider = document.getElementById('dl-zoom-slider');
+            if (!slider) return;
+            if (dlSelectedTarget === 'base') {
+                const baseScale = dlImage ? DL_CANVAS_SIZE / Math.max(dlImage.width, dlImage.height) : 1;
+                slider.value = dlImage ? dlView.scale / baseScale : 1;
+                updateZoomLabel();
+                return;
+            }
+            const overlay = DL_OVERLAYS.find(item => item.id === dlSelectedTarget);
+            slider.value = overlay?.scale || 1;
+            updateZoomLabel();
         }
 
         async function dlLoadFromUrl() {
@@ -5626,7 +5700,9 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             }
             dlView.x = (DL_CANVAS_SIZE - dlImage.width * dlView.scale) / 2;
             dlView.y = (DL_CANVAS_SIZE - dlImage.height * dlView.scale) / 2;
-            document.getElementById('dl-zoom-slider').value = dlView.scale / (DL_CANVAS_SIZE / Math.max(dlImage.width, dlImage.height));
+            if (dlSelectedTarget === 'base') {
+                document.getElementById('dl-zoom-slider').value = dlView.scale / (DL_CANVAS_SIZE / Math.max(dlImage.width, dlImage.height));
+            }
             updateZoomLabel();
             dlRender();
         }
@@ -5650,15 +5726,34 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
 
             // Transparente Hinweise immer über dem hochgeladenen Grundbild zeichnen.
             DL_OVERLAYS.filter(overlay => overlay.enabled && overlay.img).forEach(overlay => {
-                const aspect = overlay.img.width / overlay.img.height;
-                let width = DL_CANVAS_SIZE;
-                let height = DL_CANVAS_SIZE;
-                if (aspect > 1) height = DL_CANVAS_SIZE / aspect;
-                else width = DL_CANVAS_SIZE * aspect;
-                const x = (DL_CANVAS_SIZE - width) / 2;
-                const y = (DL_CANVAS_SIZE - height) / 2;
-                ctx.drawImage(overlay.img, x * drawScale, y * drawScale, width * drawScale, height * drawScale);
+                ctx.drawImage(
+                    overlay.img,
+                    overlay.x * drawScale,
+                    overlay.y * drawScale,
+                    overlay.w * drawScale,
+                    overlay.h * drawScale
+                );
             });
+        }
+
+        function dlCanvasPoint(canvas, event) {
+            const rect = canvas.getBoundingClientRect();
+            return {
+                x: (event.clientX - rect.left) * (DL_CANVAS_SIZE / rect.width),
+                y: (event.clientY - rect.top) * (DL_CANVAS_SIZE / rect.height)
+            };
+        }
+
+        function dlScaleOverlay(overlay, newScale) {
+            if (!overlay?.img) return;
+            newScale = Math.max(0.1, Math.min(5, newScale));
+            const centerX = overlay.x + overlay.w / 2;
+            const centerY = overlay.y + overlay.h / 2;
+            overlay.scale = newScale;
+            overlay.w = overlay.baseW * newScale;
+            overlay.h = overlay.baseH * newScale;
+            overlay.x = centerX - overlay.w / 2;
+            overlay.y = centerY - overlay.h / 2;
         }
 
         // Interaction
@@ -5669,13 +5764,30 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
 
                 canvas.addEventListener('mousedown', e => {
                     if (!dlImage) return;
-                    dlDrag = { x: e.clientX - dlView.x, y: e.clientY - dlView.y };
+                    const point = dlCanvasPoint(canvas, e);
+                    if (dlSelectedTarget === 'base') {
+                        dlDrag = { target: 'base', x: point.x - dlView.x, y: point.y - dlView.y };
+                        return;
+                    }
+                    const overlay = DL_OVERLAYS.find(item => item.id === dlSelectedTarget);
+                    if (overlay?.enabled && overlay.img) {
+                        dlDrag = { target: overlay.id, x: point.x - overlay.x, y: point.y - overlay.y };
+                    }
                 });
 
                 window.addEventListener('mousemove', e => {
                     if (!dlDrag) return;
-                    dlView.x = e.clientX - dlDrag.x;
-                    dlView.y = e.clientY - dlDrag.y;
+                    const point = dlCanvasPoint(canvas, e);
+                    if (dlDrag.target === 'base') {
+                        dlView.x = point.x - dlDrag.x;
+                        dlView.y = point.y - dlDrag.y;
+                    } else {
+                        const overlay = DL_OVERLAYS.find(item => item.id === dlDrag.target);
+                        if (overlay) {
+                            overlay.x = point.x - dlDrag.x;
+                            overlay.y = point.y - dlDrag.y;
+                        }
+                    }
                     dlRender();
                 });
 
@@ -5689,6 +5801,16 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
                     const mouseY = (e.clientY - rect.top) * (DL_CANVAS_SIZE / rect.height);
 
                     const factor = e.deltaY < 0 ? 1.1 : 0.9;
+                    if (dlSelectedTarget !== 'base') {
+                        const overlay = DL_OVERLAYS.find(item => item.id === dlSelectedTarget);
+                        if (overlay?.enabled && overlay.img) {
+                            dlScaleOverlay(overlay, overlay.scale * factor);
+                            slider.value = overlay.scale;
+                            updateZoomLabel();
+                            dlRender();
+                        }
+                        return;
+                    }
                     const newScale = dlView.scale * factor;
 
                     // Zoom centered on mouse
@@ -5703,6 +5825,13 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
 
                 slider.addEventListener('input', () => {
                     if (!dlImage) return;
+                    if (dlSelectedTarget !== 'base') {
+                        const overlay = DL_OVERLAYS.find(item => item.id === dlSelectedTarget);
+                        dlScaleOverlay(overlay, Number(slider.value));
+                        updateZoomLabel();
+                        dlRender();
+                        return;
+                    }
                     const baseScale = DL_CANVAS_SIZE / Math.max(dlImage.width, dlImage.height);
                     const newScale = slider.value * baseScale;
                     // Zoom centered on canvas
@@ -5718,6 +5847,11 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
         })();
 
         function updateZoomLabel() {
+            if (dlSelectedTarget !== 'base') {
+                const overlay = DL_OVERLAYS.find(item => item.id === dlSelectedTarget);
+                document.getElementById('dl-zoom-level').textContent = `Größe: ${Math.round((overlay?.scale || 1) * 100)}%`;
+                return;
+            }
             const pct = Math.round(dlView.scale / (DL_CANVAS_SIZE / Math.max(dlImage?.width || 1, dlImage?.height || 1)) * 100);
             document.getElementById('dl-zoom-level').textContent = `Zoom: ${pct}%`;
         }
