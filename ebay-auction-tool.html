@@ -2506,6 +2506,7 @@ WICHTIG FÜR VALIDES JSON:
 3. Achte auf doppelte Anführungszeichen für alle Keys und Werte.
 4. Nutze KEINERLEI zusätzliche Tags oder Marker wie [cite_start] oder [cite: ...] innerhalb des JSON-Blocks!
 5. Nutze NIEMALS Quellverweise oder Zitate (wie [file:1] oder [1]) im gesamten Text oder in den Daten!
+6. KRITISCH: Maskiere JEDES doppelte Anführungszeichen INNERHALB eines JSON-Textwerts mit einem Backslash. Das gilt besonders für article_html: Schreibe dort z.B. style=\\\"color:#93c01f\\\" statt style="color:#93c01f".
 
 {
   "category_id": "${categoryObj.ids ? categoryObj.ids.join(' / ') : catId}",
@@ -2549,7 +2550,7 @@ WICHTIGE REGELN FÜR DEN ARTIKELTEXT (article_html):
    b) **Abschnitt "Top Features:"** mit einer Aufzählungsliste von MINDESTENS 6–8 konkreten Features. Jedes Feature mit fettem Kurzname und ausführlicher Beschreibung (nicht nur 2–3 Wörter, sondern vollständige Erklärung des Nutzens für den Kunden).
    c) **Abschnitt "Produktdetails:"** mit 2–3 Absätzen zu technischen Besonderheiten, Qualitätsmerkmalen und Alltagsnutzen. Keywords natürlich einbinden.
    d) **Abschnitt "Programme & Funktionen:"** (falls relevant): Liste alle wichtigen Programme/Funktionen/Modi auf, die das Gerät bietet.
-   e) **Abschlussabsatz** (2–3 Sätze): Kaufmotivation, Kundenservice. KEIN Hinweis auf Lieferung, Versand oder Verpackung.
+   e) **Kein allgemeiner Abschlussabsatz**: Beende die Beschreibung direkt nach dem letzten sachlichen Produktabschnitt. Erzeuge am Ende KEINEN Kaufaufruf, KEINE zusammenfassende Werbefloskel und KEINEN Hinweis auf Kundenservice, Beratung oder Rückfragen. Verboten sind insbesondere Formulierungen wie „Sichern Sie sich ...“, „Entscheiden Sie sich für ...“, „Qualität, Komfort und modernes Design ...“ oder „Bei Fragen steht Ihnen unser Kundenservice ... zur Seite“.
    MINDESTLÄNGE: Der gesamte article_html-Wert muss MINDESTENS 1500 Zeichen lang sein.
 
 7. **Energieeffizienzklasse im Artikeltext**: Falls die Energieeffizienzklasse des Produkts schlechter als C ist (also D, E, F oder G), darf die Energieeffizienzklasse im Artikeltext NICHT erwähnt werden – weder direkt noch indirekt (z.B. keine Formulierungen wie "energieeffizient", "sparsam im Verbrauch" o.ä.).
@@ -2561,7 +2562,7 @@ WICHTIGE REGELN FÜR DEN ARTIKELTEXT (article_html):
    - KEINE <br> Tags für Abstände nutzen – nutze Paragraphen (<p>) mit den obigen Spans.
    - Erzeuge NIEMALS "sauberes" oder "einfaches" HTML. Das Ziel ist "Dirty Word-HTML" mit maximaler Verschachtelung, damit Plentymarkets die Formatierung beim Kopieren erkennt.
    - Nutze NIEMALS klassisches fett (<b> oder <strong>) ohne das umgebende Span-Gerüst aus Times New Roman.
-   - KRITISCH: Jeder einzelne <p>-Tag MUSS exakt dieses Span-Gerüst enthalten: <span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">...</span></span></span> – OHNE AUSNAHME, auch beim Einleitungsabsatz und Abschlussabsatz.
+   - KRITISCH: Jeder einzelne <p>-Tag MUSS exakt dieses Span-Gerüst enthalten: <span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif">...</span></span></span> – OHNE AUSNAHME, auch beim Einleitungsabsatz und allen weiteren Absätzen.
    - KRITISCH: Jeder Fließtext-Inhalt MUSS in <span style="font-size:12.0pt"><span style="font-family:Times New Roman,serif">...</span></span> eingebettet sein.
    - KRITISCH: Fette Begriffe MÜSSEN so aussehen: <b><span style="font-size:12.0pt"><span style="font-family:Times New Roman,serif">TEXT</span></span></b> – niemals nur <b>TEXT</b>.
    - KRITISCH: Farbige Highlights MÜSSEN so aussehen: <span style="color:#ff8c00"><b>TEXT</b></span> – niemals mit CSS-Farbnamen wie darkorange.
@@ -3254,6 +3255,164 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             return { label, value };
         }
 
+        /**
+         * Repariert typische Fehler in von KI-Modellen erzeugtem JSON, ohne den
+         * eingefügten Inhalt als JavaScript auszuführen.
+         *
+         * HTML in JSON-Strings enthält häufig nicht maskierte Attribut-
+         * Anführungszeichen (style="..."). Ein Anführungszeichen beendet einen
+         * JSON-String hier nur, wenn danach ein JSON-Trennzeichen folgt.
+         */
+        function repairAiJson(rawJson) {
+            let result = '';
+            let inString = false;
+
+            const nextNonWhitespace = (text, from) => {
+                for (let i = from; i < text.length; i++) {
+                    if (!/\s/.test(text[i])) return text[i];
+                }
+                return '';
+            };
+
+            const nextNonWhitespaceIndex = (text, from) => {
+                for (let i = from; i < text.length; i++) {
+                    if (!/\s/.test(text[i])) return i;
+                }
+                return -1;
+            };
+
+            const looksLikePropertyAt = (text, quoteIndex) => {
+                if (quoteIndex < 0 || text[quoteIndex] !== '"') return false;
+                let escaped = false;
+                for (let i = quoteIndex + 1; i < text.length; i++) {
+                    if (escaped) {
+                        escaped = false;
+                        continue;
+                    }
+                    if (text[i] === '\\') {
+                        escaped = true;
+                        continue;
+                    }
+                    if (text[i] === '"') {
+                        return nextNonWhitespace(text, i + 1) === ':';
+                    }
+                }
+                return false;
+            };
+
+            const quoteEndsJsonString = (text, quoteIndex) => {
+                const nextIndex = nextNonWhitespaceIndex(text, quoteIndex + 1);
+                if (nextIndex === -1) return true;
+
+                const next = text[nextIndex];
+                if (next === ':' || next === '}' || next === ']') return true;
+
+                // Fehlendes Komma vor der nächsten Property.
+                if (next === '"' && looksLikePropertyAt(text, nextIndex)) return true;
+
+                if (next !== ',') return false;
+
+                // Bei einem echten Trennkomma folgt ein weiterer JSON-Wert,
+                // eine Property oder das Ende des Containers. In Fließtext
+                // folgt dagegen meist ein normales Wort.
+                const afterCommaIndex = nextNonWhitespaceIndex(text, nextIndex + 1);
+                if (afterCommaIndex === -1) return true;
+                const afterComma = text[afterCommaIndex];
+                return afterComma === '"' || afterComma === '{' || afterComma === '[' ||
+                    afterComma === '}' || afterComma === ']' || afterComma === '-' ||
+                    /\d/.test(afterComma) ||
+                    text.startsWith('true', afterCommaIndex) ||
+                    text.startsWith('false', afterCommaIndex) ||
+                    text.startsWith('null', afterCommaIndex);
+            };
+
+            for (let i = 0; i < rawJson.length; i++) {
+                const char = rawJson[i];
+
+                if (!inString) {
+                    // Kommentare nur außerhalb von Strings entfernen. URLs wie
+                    // https://... innerhalb des HTML-Inhalts bleiben so erhalten.
+                    if (char === '/' && rawJson[i + 1] === '/') {
+                        while (i < rawJson.length && rawJson[i] !== '\n') i++;
+                        result += '\n';
+                        continue;
+                    }
+                    if (char === '/' && rawJson[i + 1] === '*') {
+                        i += 2;
+                        while (i < rawJson.length - 1 &&
+                               !(rawJson[i] === '*' && rawJson[i + 1] === '/')) i++;
+                        i++;
+                        continue;
+                    }
+
+                    if (char === '"') inString = true;
+                    result += char;
+                    continue;
+                }
+
+                if (char === '\\') {
+                    const next = rawJson[i + 1];
+                    if (next && /["\\\/bfnrt]/.test(next)) {
+                        result += char + next;
+                        i++;
+                    } else if (next === 'u' &&
+                               /^[0-9a-fA-F]{4}$/.test(rawJson.slice(i + 2, i + 6))) {
+                        result += rawJson.slice(i, i + 6);
+                        i += 5;
+                    } else {
+                        // Ungültige Backslashes (z.B. C:\Temp) als Text erhalten.
+                        result += '\\\\';
+                    }
+                    continue;
+                }
+
+                if (char === '"') {
+                    if (quoteEndsJsonString(rawJson, i)) {
+                        inString = false;
+                        result += char;
+                    } else {
+                        // HTML-Attribut oder Anführungszeichen im Fließtext.
+                        result += '\\"';
+                    }
+                    continue;
+                }
+
+                // Echte Steuerzeichen sind in JSON-Strings nicht erlaubt.
+                if (char === '\n') result += '\\n';
+                else if (char === '\r') result += '\\r';
+                else if (char === '\t') result += '\\t';
+                else if (char.charCodeAt(0) < 0x20) {
+                    result += '\\u' + char.charCodeAt(0).toString(16).padStart(4, '0');
+                } else {
+                    result += char;
+                }
+            }
+
+            // Fehlende Kommas zwischen Properties bzw. Array-Werten ergänzen.
+            result = result.replace(
+                /([}\]"])\s*(?="(?:[^"\\]|\\.)*"\s*:)/g,
+                '$1,'
+            );
+            result = result.replace(
+                /([}\]"]|true|false|null|-?\d+(?:\.\d+)?)\s*(?=[{\[])/g,
+                '$1,'
+            );
+
+            return result.replace(/,\s*([}\]])/g, '$1');
+        }
+
+        function describeJsonError(error, jsonText) {
+            const positionMatch = String(error.message).match(/position\s+(\d+)/i);
+            if (!positionMatch) return error.message;
+
+            const position = Number(positionMatch[1]);
+            const before = jsonText.slice(0, position);
+            const line = before.split('\n').length;
+            const lastNewline = before.lastIndexOf('\n');
+            const column = position - lastNewline;
+            return `${error.message} (Zeile ${line}, Spalte ${column})`;
+        }
+
         function processInput() {
             const input = document.getElementById('ai-input').value;
             if (!input.trim()) return;
@@ -3276,50 +3435,20 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
 
                 let rawJson = input.substring(startIdx, endIdx + 1);
 
-                // --- BULLETPROOF REPAIR LOGIC ---
-                let s = rawJson;
-
-                // 1. KI-Zitate/Marker entfernen (z.B. [cite_start], [cite: 1, 2], [file:1], [1])
-                s = s.replace(/\[cite_start\]/g, '');
-                s = s.replace(/\[cite: [^\]]*\]/g, '');
-                s = s.replace(/\[file:\s?\d+\]/g, '');
-                s = s.replace(/\[\d+\]/g, '');
-
-                // 2. Kommentare entfernen
-                s = s.replace(/\/\/.*/g, '').replace(/\/\*[\s\S]*?\*\//g, '');
-
-                // 3. Zeilenumbrüche INNERHALB von Anführungszeichen maskieren (häufigster KI-Fehler)
-                s = s.replace(/"((?:[^"\\]|\\.)*)"/gs, (match, p1) => {
-                    return '"' + p1.replace(/\n/g, '\\n').replace(/\r/g, '\\r') + '"';
-                });
-
-                // 3. Fehlende Kommas zwischen Key-Value Paaren korrigieren
-                // Sucht nach "wert" "nächsterKey": und fügt ein Komma ein
-                s = s.replace(/"\s*\n\s*"/g, '", "');
-                s = s.replace(/([0-9]|"|true|false|null)\s*\n\s*"/g, '$1, "');
-
-                // 4. Keys ohne Anführungszeichen oder mit einfachen Anführungszeichen fixen
-                s = s.replace(/([{,]\s*)([a-zA-Z0-9_-]+)\s*:/g, '$1"$2":');
-
-                // 5. Einfache Anführungszeichen bei Werten zu doppelten fixen
-                s = s.replace(/:\s*'([^']*)'/g, (match, p1) => ': "' + p1.replace(/"/g, '\\"') + '"');
-
-                // 6. Trailing Commas (Komma vor schließender Klammer)
-                s = s.replace(/,\s*([\}\]])/g, '$1');
+                // Marker entfernen und typische KI-JSON-Fehler sicher reparieren.
+                rawJson = rawJson
+                    .replace(/\[cite_start\]/g, '')
+                    .replace(/\[cite:\s*[^\]]*\]/g, '')
+                    .replace(/\[file:\s?\d+\]/g, '');
+                const s = repairAiJson(rawJson);
 
                 try {
                     jsonData = JSON.parse(s);
                 } catch (parseErr) {
-                    console.warn("Standard-Parse fehlgeschlagen, versuche JS-Eval...", parseErr);
-                    try {
-                        // Letzter Rettungsanker: JS-Format (erlaubt fehlende Quotes bei Keys etc.)
-                        jsonData = (new Function('return ' + s))();
-                    } catch (e2) {
-                        console.error("Totaler Parsing-Fehler:", e2);
-                        status.innerText = "JSON-Fehler: " + parseErr.message;
-                        status.style.color = "#F44336";
-                        return;
-                    }
+                    console.error("JSON konnte auch nach der Reparatur nicht gelesen werden:", parseErr);
+                    status.innerText = "JSON-Fehler: " + describeJsonError(parseErr, s);
+                    status.style.color = "#F44336";
+                    return;
                 }
 
                 // Tab 3
@@ -3428,12 +3557,9 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
                     renderButtonValues(td, valStr, { fieldDef });
 
                     if (normalizeLookupText(item.key) === 'lieferung') {
-                        tr.style.cursor = 'pointer';
-                        tr.title = 'Lieferung kopieren';
-                        tr.onclick = event => {
-                            if (event.target.closest('button')) return;
-                            copyTextRaw(valStr || 'frei Bordsteinkante');
-                        };
+                        th.style.cursor = 'pointer';
+                        th.title = 'Bezeichnung „Lieferung“ kopieren';
+                        th.onclick = () => copyTextRaw(item.key);
                     }
 
                     tr.appendChild(th);
