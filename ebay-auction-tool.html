@@ -724,7 +724,7 @@
                     onclick="copyInner('v-title-tab4')">Kopieren</button>
             </div>
 
-            <div class="card">
+            <div class="card" id="category-id-card">
                 <div class="card-header">Kategorie-ID</div>
                 <div>
                     <div id="v-cat-id"></div>
@@ -2274,6 +2274,14 @@
         }
 
         function buildTechnicalDataInstructions(categoryObj) {
+            if (categoryObj.dynamic_technical_data) {
+                return `1. Ermittle die konkrete Produktart aus dem bereitgestellten Produktdatenblatt.
+2. Nimm ALLE für diese Produktart typischen und im Datenblatt belegten technischen Daten auf. Verwende aussagekräftige, fachlich passende Labels statt einer starren Standardliste.
+3. Übernimm Maße, Leistungswerte, Kapazitäten, Schutzklassen, Materialangaben, Anschlüsse, Funktionen und weitere technische Kennwerte, soweit sie für das konkrete Produkt relevant und belegt sind.
+4. Erfinde keine Werte. Nicht belegte Angaben werden nicht als technische Merkmale ergänzt.
+5. Zahlenwerte immer mit der im Datenblatt genannten Einheit ausgeben.`;
+            }
+
             const dimensionInstruction = `Breite, Höhe und Tiefe sind für JEDE Kategorie Pflichtangaben. Gib sie in technical_data immer als drei separate Einträge mit den exakten Labels "Breite", "Höhe" und "Tiefe" aus (jeweils in cm). Wenn ein Wert nicht sicher bekannt ist, bleibt sein Wert leer; lasse den Eintrag niemals weg.`;
             if (Array.isArray(categoryObj.technical_data) && categoryObj.technical_data.length) {
                 const labels = categoryObj.technical_data.map(item => item.label).join(', ');
@@ -2289,7 +2297,9 @@
 
         function getRequiredListingAttributes(categoryObj) {
             const attributes = Array.isArray(categoryObj.attributes) ? [...categoryObj.attributes] : [];
-            const requiredDimensions = ['Breite', 'Höhe', 'Tiefe'];
+            const requiredDimensions = Array.isArray(categoryObj.listing_required_dimensions)
+                ? categoryObj.listing_required_dimensions
+                : ['Breite', 'Höhe', 'Tiefe'];
             requiredDimensions.forEach(required => {
                 if (!attributes.some(attr => normalizeLookupText(attr) === normalizeLookupText(required))) {
                     attributes.push(required);
@@ -2325,6 +2335,15 @@
 
         // Strictly Ordered Category Data (as per Word documents)
         const CATEGORIES = [
+            {
+                id: "__universal__", name: "Universal",
+                hide_category_id: true,
+                dynamic_attributes: true,
+                dynamic_technical_data: true,
+                listing_required_dimensions: [],
+                guidelines: "Ermittle zuerst eindeutig die konkrete Produktart aus dem Produktdatenblatt. Erstelle anschließend eine umfassende, produktspezifische Liste aller Artikelmerkmale, die für diese Produktart bei eBay typischerweise angegeben werden. Übernimm sämtliche passenden Angaben aus dem Datenblatt, darunter je nach Produkt beispielsweise Produktart, Marke, Hersteller, Modell, Herstellernummer, EAN, Material, Farbe, Maße, Gewicht, Leistung, Kapazität, Ausstattung, Funktionen, Kompatibilität, Anschlussarten, Lieferumfang und weitere fachlich relevante Merkmale. Verwende keine unpassenden Standardfelder und erfinde keine Werte. Führe jedes Merkmal nur einmal auf.",
+                attributes: []
+            },
             {
                 id: "116023", name: "Geschirrspüler",
                 guidelines: "REIHENFOLGE EINHALTEN. Maße (Breite, Tiefe, Höhe, innen/außen) IMMER in 'cm' angeben. Marke: Bosch, Siemens, AEG. Besonderheiten: Aquastopp, Korb Höhenverstellbar, Startzeitvorwahl. WICHTIG: Erstelle für das Merkmal 'Waschprogramme' eine KOMMA-GETRENNTE LISTE ALLER PROGRAMME (z.B. 'Auto, Eco, Fein, Intensiv, Kurz, Normal, Vorspülen, Glas, Hygiene, Silent'). Schreibe NIEMALS nur die Anzahl (z.B. '6 Programme'), sondern immer die konkreten Programmnamen! Für 'Breite' immer '60 cm' angeben. Für 'Lieferung' immer 'frei Bordsteinkante' angeben.",
@@ -2461,6 +2480,15 @@
                     "Farbe": ["Keine Angabe","Beige","Blau","Braun","Gelb","Gold","Grau","Grün","Lila","Mehrfarbig","Orange","Rosa","Rot","Schwarz","Silber","Transparent","Weiß"],
                     "Smart Home Kompatibilität": ["Amazon Alexa","Apple HomeKit","Google Home","IFTTT","Logitech Harmony","Nest","Philips Hue","Samsung SmartThings","WeMo","hOn"]
                 }
+            },
+            {
+                id: "112581", name: "Lampen",
+                guidelines: "REIHENFOLGE EINHALTEN. Die Merkmale von 'Produktart' bis einschließlich 'EAN' sind essenziell und müssen vorrangig anhand der Produktdaten ausgefüllt werden. Alle danach folgenden Merkmale sind optional und dürfen nur mit sicher belegbaren Werten ausgefüllt werden. Maße (Durchmesser, Breite, Höhe und Länge) immer in 'cm', Gewicht mit Einheit, Spannung und Ausgangsspannung in 'V', Stromstärke in 'A', Energieverbrauch in 'W' bzw. 'kWh' und Lichtstrom in 'lm' angeben. Farbtemperatur in 'K' angeben. Bei 'Montage erforderlich' ausschließlich 'Ja' oder 'Nein' verwenden. Keine technischen Werte erfinden.",
+                attributes: ["Produktart", "Beleuchtungstechnik", "Zimmer", "Material", "Lichtfarbe", "Farbe", "Marke", "Stil", "Besonderheiten", "Schirmform", "Anzahl der Lichter", "Anzahl der Einstellungen", "Steuerungsart", "Energieeffizienzklasse", "Installationsbereich", "Stromquelle", "Abteilung", "Herstellernummer", "LED String/Strip Typ", "EEK Spektrum", "EAN", "Finish", "Durchmesser", "Hersteller", "Schutzart", "Sensorart", "Spannung", "Energieverbrauch", "Ausgangsspannung", "Herstellungsjahr", "Ursprungsland", "Lichtrichtung", "Lichtstrom", "Epoche", "Stromstärke", "Farbtemperatur", "Anlass", "LED-Chip", "Herstellergarantie", "Gütesiegel & Kennzeichnungen", "Anzahl der Einheiten", "Breite", "Gewicht", "Höhe", "Länge", "Maßeinheit", "Modell", "Montage erforderlich", "Produktlinie", "EPREL-Registrierungsnummer"],
+                listing_required_dimensions: [],
+                ebay_field_options: {
+                    "Montage erforderlich": ["Ja", "Nein"]
+                }
             }
         ];
 
@@ -2471,7 +2499,9 @@
                 const opt = document.createElement('option');
                 opt.value = cat.id;
                 const idLabel = cat.ids ? cat.ids.join(' / ') : cat.id;
-                opt.textContent = cat.source === 'custom'
+                opt.textContent = cat.hide_category_id
+                    ? cat.name
+                    : cat.source === 'custom'
                     ? `${cat.name} (${idLabel})${cat.overrideOf ? ' [Bearbeitete Vorlage]' : ' [Eigene Kategorie]'}`
                     : `${cat.name} (${idLabel})`;
                 select.appendChild(opt);
@@ -2494,6 +2524,34 @@
             const attributesList = listingAttributes.join(", ");
             const categoryGuidelines = categoryObj.guidelines || "Nutze SEO-relevante Werte f?r alle Merkmale.";
             const technicalDataInstructions = buildTechnicalDataInstructions(categoryObj);
+            const categoryIdLine = categoryObj.hide_category_id
+                ? ''
+                : `  "category_id": "${categoryObj.ids ? categoryObj.ids.join(' / ') : catId}",\n`;
+            const itemSpecificsTemplate = categoryObj.dynamic_attributes
+                ? `    {"key": "Produktart", "value": "Passender Wert aus dem Produktdatenblatt"},
+    {"key": "Marke", "value": "Passender Wert aus dem Produktdatenblatt"},
+    {"key": "Modell", "value": "Passender Wert aus dem Produktdatenblatt"},
+    {"key": "Weiteres produkttypisches Merkmal", "value": "Passender belegter Wert"},
+    {"key": "Lieferung", "value": "frei Bordsteinkante"}`
+                : listingAttributes.map(attr => `    {"key": "${attr}", "value": "${attr === 'Lieferung' ? 'frei Bordsteinkante' : 'SEO-optimierter Wert'}"}`).join(",\n");
+            const technicalDataTemplate = categoryObj.dynamic_technical_data
+                ? `    {"label": "Produkttypischer technischer Kennwert", "value": "<strong>Belegter Wert mit Einheit</strong>"},
+    {"label": "Weiterer relevanter technischer Kennwert", "value": "<strong>Belegter Wert mit Einheit</strong>"},
+    {"label": "Artikel-Nr.", "value": ""},
+    {"label": "S-Nr.", "value": ""}`
+                : `    {"label": "Energieeffizienzklasse", "value": "<strong>D (Skala A bis G, Bestwert A)</strong>"},
+    {"label": "Breite", "value": "<strong>59,6 cm</strong>"},
+    {"label": "Höhe", "value": "<strong>81,8 cm</strong>"},
+    {"label": "Tiefe", "value": "<strong>57,5 cm</strong>"},
+    {"label": "Gewicht", "value": "<strong>38,0 kg</strong>"},
+    {"label": "Artikel-Nr.", "value": ""},
+    {"label": "S-Nr.", "value": ""}`;
+            const itemSpecificsRule = categoryObj.dynamic_attributes
+                ? 'Ermittle die konkrete Produktart und liste ALLE dafür typischen Artikelmerkmale auf, sofern sie aus dem Produktdatenblatt sicher belegt werden können. Die Beispiele im JSON-Schema sind nur Platzhalter: Ersetze und erweitere sie passend zum Produkt. Nutze keine starre oder fachfremde Merkmalliste.'
+                : `Nutze folgende SEO-relevante Merkmale: ${attributesList}.`;
+            const originRule = categoryObj.dynamic_attributes
+                ? 'Nimm das Ursprungsland auf, wenn es im Produktdatenblatt eindeutig angegeben ist und für die Produktart üblich ist.'
+                : "Kein 'Ursprungsland' in den Merkmalen.";
 
             const prompt = `Handle als erfahrener eBay-SEO-Experte für die Kategorie "${categoryObj.name}".
 Erstelle ein Listing für das folgende Produkt: [PRODUKTNAME/DETAILS HIER EINFÜGEN]
@@ -2509,22 +2567,16 @@ WICHTIG FÜR VALIDES JSON:
 6. KRITISCH: Maskiere JEDES doppelte Anführungszeichen INNERHALB eines JSON-Textwerts mit einem Backslash. Das gilt besonders für article_html: Schreibe dort z.B. style=\\\"color:#93c01f\\\" statt style="color:#93c01f".
 
 {
-  "category_id": "${categoryObj.ids ? categoryObj.ids.join(' / ') : catId}",
+${categoryIdLine}\
   "ebay_title": "MINDESTENS 70, MAXIMAL 80 ZEICHEN (INKL. LEERZEICHEN), CASSINI-OPTIMIERT, OHNE MODELLNUMMER, NUTZE RELEVANTE KEYWORDS UM DIE LÄNGE ZU ERREICHEN",
   "model_name": "PRÄGNANTE, ÜBERZEUGENDE UND VERKAUFSFÖRDERNDE ÜBERSCHRIFT (DIREKT ZUM KLICKEN ANREGEN)",
   "preview_teaser": "<ul><li>Vorteil 1</li><li>Vorteil 2</li><li>Vorteil 3</li><li>Vorteil 4</li><li>Vorteil 5</li></ul><p><b>MODELLBEZEICHNUNG</b></p>",
   "article_html": "Vollständiger Artikeltext in HTML (Vorgaben siehe unten).",
   "technical_data": [
-    {"label": "Energieeffizienzklasse", "value": "<strong>D (Skala A bis G, Bestwert A)</strong>"},
-    {"label": "Breite", "value": "<strong>59,6 cm</strong>"},
-    {"label": "Höhe", "value": "<strong>81,8 cm</strong>"},
-    {"label": "Tiefe", "value": "<strong>57,5 cm</strong>"},
-    {"label": "Gewicht", "value": "<strong>38,0 kg</strong>"},
-    {"label": "Artikel-Nr.", "value": ""},
-    {"label": "S-Nr.", "value": ""}
+${technicalDataTemplate}
   ],
   "item_specifics": [
-    ${listingAttributes.map(attr => `{"key": "${attr}", "value": "${attr === 'Lieferung' ? 'frei Bordsteinkante' : 'SEO-optimierter Wert'}"}`).join(",\n    ")}
+${itemSpecificsTemplate}
   ]
 }
 
@@ -2595,7 +2647,7 @@ WICHTIGE REGELN FÜR TECHNISCHE DATEN (technical_data):
 
 WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
 1. **Keine Modellbezeichnung** in der Überschrift.
-2. Nutze folgende SEO-relevante Merkmale: ${attributesList}.
+2. ${itemSpecificsRule}
 3. **KATEGORIE-SPEZIFISCHE VORGABEN**: ${categoryGuidelines}
 4. **Vorgaben für Werte**:
    - Wenn ein Merkmal in eBay ein **Auswahlfeld (Dropdown)** ist, nutze die Standardwerte (z.B. "A+++", "Edelstahl", "Freistehend").
@@ -2612,7 +2664,7 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
                      <li>...</li>
                    </ul>
                    <p><b>Modellbezeichnung</b></p>
-              7. **Kein 'Ursprungsland'** in den Merkmalen.
+              7. **Ursprungsland**: ${originRule}
               8. **Besonderheit Waschprogramme**: Liste bei Geschirrspülern und Waschmaschinen stets ALLE konkreten Programmnamen als kommagetrennte Liste auf (z.B. 'Auto, Eco, Intensiv, ...'). Nenne NIEMALS nur die Anzahl der Programme (z.B. '7 Programme').
 6. **Letzter Eintrag** in Merkmalen MUSS SEIN: 'Lieferung' -> 'frei Bordsteinkante'.
 7. Der eBay-Titel muss **mindestens 70 und maximal 80 Zeichen** (inkl. Leerzeichen) lang sein (Cassini-Maximierung).`;
@@ -2637,6 +2689,7 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
             document.getElementById('v-html-preview').innerHTML = "";
             document.getElementById('v-tech-table').innerHTML = "";
             document.getElementById('v-title-tab4').innerText = "";
+            document.getElementById('category-id-card').style.display = '';
             renderCategoryIds("N/A");
             document.getElementById('v-specifics-body').innerHTML = "";
             document.getElementById('title-count').innerText = "0/80";
@@ -3509,7 +3562,16 @@ WICHTIGE REGELN FÜR ARTIKELMERKMALE (ITEM SPECIFICS):
 
                 // Tab 4
                 document.getElementById('v-title-tab4').innerText = jsonData.ebay_title || "";
-                renderCategoryIds(jsonData.category_id || "N/A");
+                const selectedResultCategory = findCategoryById(
+                    document.getElementById('category-select').value
+                );
+                const categoryIdCard = document.getElementById('category-id-card');
+                if (selectedResultCategory?.hide_category_id) {
+                    categoryIdCard.style.display = 'none';
+                } else {
+                    categoryIdCard.style.display = '';
+                    renderCategoryIds(jsonData.category_id || "N/A");
+                }
 
                 // Tab 5: Maße automatisch aus Technischen Daten extrahieren
                 extractDimensionsFromTechData(techData);
