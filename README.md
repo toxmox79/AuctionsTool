@@ -1,9 +1,17 @@
-# eBay Auction SEO Tool – GitHub-PWA
+# eBay Auction SEO Tool
 
-Dieser Ordner enthält genau die Dateien für das GitHub-Repository. Den gesamten Inhalt einschließlich der versteckten Ordner `.github` und der Datei `.nojekyll` hochladen.
+Installierbare PWA zur Erstellung und Aufbereitung von eBay-Listings, Artikelmerkmalen und Produktbildern.
 
-Nach einem Push auf `main` oder `master` veröffentlicht der enthaltene Workflow die PWA automatisch. Im Repository muss unter **Settings → Pages → Build and deployment** die Quelle **GitHub Actions** ausgewählt sein.
+## GitHub Pages
 
-Die PWA enthält 17 JSON-Standardkategorien und funktioniert nach dem ersten vollständigen Laden auch offline. Die eBay-Category-Explorer-Übersicht erscheint erst in den Listingdaten.
+Nach dem Push auf `main` oder `master` veröffentlicht der Workflow die PWA automatisch. Im Repository muss unter **Settings → Pages → Build and deployment** die Quelle **GitHub Actions** ausgewählt sein.
 
-Die eBay-Live-Suche ist auf rein statischem GitHub Pages nicht verfügbar, da das eBay Client Secret nicht in eine öffentliche Web-App eingebaut werden darf.
+Die veröffentlichte PWA enthält die 17 mitgelieferten JSON-Standardkategorien und funktioniert nach dem ersten vollständigen Laden auch offline.
+
+## Live-Suche in der installierten PWA
+
+Die eBay-Live-Suche benötigt den lokalen Python-Dienst, weil die eBay-API kein CORS erlaubt und das Client Secret nicht im Browser liegen darf. `Start.bat` startet den Dienst auf `http://127.0.0.1:8765`.
+
+Die installierte PWA verbindet sich automatisch mit diesem Dienst, auch wenn sie von GitHub Pages geladen wurde. Einmal `Start.bat` starten genügt; die PWA merkt sich die Adresse.
+
+Weitere Hinweise stehen in [PWA-GITHUB.md](PWA-GITHUB.md).

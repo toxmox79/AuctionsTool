@@ -1,10 +1,14 @@
-const CACHE_NAME = 'ebay-auction-tool-v9';
+const CACHE_NAME = 'ebay-auction-tool-v10';
 const APP_SHELL = [
   './',
   './index.html',
   './ebay-auction-tool.html',
   './manifest.webmanifest',
   './Icon.png',
+  './Icon-192.png',
+  './Icon-512.png',
+  './Icon-maskable-192.png',
+  './Icon-maskable-512.png',
   './Einbaugerät.png',
   './Möbelfront.png',
   './Einbaugeraet-overlay.png',
@@ -51,6 +55,9 @@ self.addEventListener('fetch', event => {
   const requestUrl = new URL(event.request.url);
   if (requestUrl.origin !== self.location.origin) return;
 
+  // API-Anfragen nie abfangen – immer direkt durchreichen.
+  if (requestUrl.pathname.startsWith('/api/')) return;
+
   // Kategorieexporte werden bei jedem Start bevorzugt frisch geladen, damit
   // ausgetauschte JSON-Dateien ohne weiteren Codewechsel wirksam werden.
   if (requestUrl.pathname.includes('/categories/')) {
@@ -63,7 +70,16 @@ self.addEventListener('fetch', event => {
           }
           return response;
         })
-        .catch(() => caches.match(event.request))
+        .catch(async () => {
+          const cached = await caches.match(event.request);
+          if (cached) return cached;
+          // Fallback auf index.json falls einzelne Datei fehlt
+          if (requestUrl.pathname.includes('index.json')) {
+            const indexCached = await caches.match('./categories/index.json');
+            if (indexCached) return indexCached;
+          }
+          throw new Error('Kategorie-Daten nicht verfügbar');
+        })
     );
     return;
   }
