@@ -10,8 +10,8 @@ Die veröffentlichte PWA enthält die 17 mitgelieferten JSON-Standardkategorien 
 
 ## Live-Suche in der installierten PWA
 
-Die eBay-Live-Suche benötigt den lokalen Python-Dienst, weil die eBay-API kein CORS erlaubt und das Client Secret nicht im Browser liegen darf. `Start.bat` startet den Dienst auf `http://127.0.0.1:8765`.
+Die eBay-Live-Suche benötigt entweder den lokalen Python-Dienst (`Start.bat`, läuft auf `http://127.0.0.1:8765`) oder einen öffentlich erreichbaren CORS-Proxy (z. B. Cloudflare Worker, Datei `proxy-worker.js`), weil die eBay-API keine CORS-Header sendet und das Client Secret nicht im Browser liegen darf.
 
-Die installierte PWA verbindet sich automatisch mit diesem Dienst, auch wenn sie von GitHub Pages geladen wurde. Einmal `Start.bat` starten genügt; die PWA merkt sich die Adresse.
+Der lokale Dienst startet mit `Start.bat`. Für den Proxy-Modus die Worker-URL in den PWA-Einstellungen unter „API-Proxy“ eintragen. Das Client Secret bleibt dabei geschützt und wird nicht an den Browser ausgeliefert.
 
 Weitere Hinweise stehen in [PWA-GITHUB.md](PWA-GITHUB.md).

@@ -1637,6 +1637,11 @@
                 <div class="card-header">eBay Category Explorer – API-Einstellungen</div>
                 <div class="settings-grid">
                     <div class="form-group">
+                        <label for="ebay-api-proxy-url">API-Proxy (für PWA ohne Start.bat)</label>
+                        <input id="ebay-api-proxy-url" type="text" autocomplete="off" spellcheck="false" placeholder="https://ebay-proxy.deinname.workers.dev">
+                        <div class="helper-text">Cloudflare-Worker oder ähnlicher CORS-Proxy. Leer lassen, wenn der lokale Python-Dienst genutzt wird.</div>
+                    </div>
+                    <div class="form-group">
                         <label for="ebay-api-service-url">Lokaler eBay-Dienst (Adresse)</label>
                         <input id="ebay-api-service-url" type="text" autocomplete="off" spellcheck="false" placeholder="http://127.0.0.1:8765">
                         <div class="helper-text">Wird verwendet, wenn die PWA nicht selbst über den lokalen Dienst geladen wurde.</div>
@@ -2190,6 +2195,102 @@
             if (field && !field.value.trim()) field.value = clean;
         }
 
+        // --- Proxy-Modus (stateless, Zugangsdaten clientseitig) -----------
+        const PROXY_URL_KEY = 'ebayProxyUrl';
+        const CLIENT_ID_KEY = 'ebayApiClientId';
+        const CLIENT_SECRET_KEY = 'ebayApiClientSecret';
+        const ENVIRONMENT_KEY = 'ebayApiEnvironment';
+        const MARKETPLACE_KEY = 'ebayApiMarketplace';
+        let EBAY_PROXY_URL = '';
+        let EBAY_MODE = '';            // 'local' | 'proxy'
+        let EBAY_ACCESS_TOKEN = '';
+        let EBAY_CLIENT_ID = '';
+        let EBAY_CLIENT_SECRET = '';
+        let EBAY_ENVIRONMENT = 'production';
+        let EBAY_MARKETPLACE = 'EBAY_DE';
+        let EBAY_TREE_ID = '';
+
+        function getProxyUrl() {
+            try { return (localStorage.getItem(PROXY_URL_KEY) || '').trim(); } catch (e) { return ''; }
+        }
+        function setProxyUrl(value) {
+            const clean = String(value || '').trim().replace(/\/+$/, '');
+            try {
+                if (clean) localStorage.setItem(PROXY_URL_KEY, clean);
+                else localStorage.removeItem(PROXY_URL_KEY);
+            } catch (e) { }
+            const field = document.getElementById('ebay-api-proxy-url');
+            if (field) field.value = clean;
+        }
+        function loadStoredCredentials() {
+            try {
+                EBAY_CLIENT_ID = String(localStorage.getItem(CLIENT_ID_KEY) || '').trim();
+                EBAY_CLIENT_SECRET = String(localStorage.getItem(CLIENT_SECRET_KEY) || '');
+                EBAY_ENVIRONMENT = String(localStorage.getItem(ENVIRONMENT_KEY) || 'production');
+                EBAY_MARKETPLACE = String(localStorage.getItem(MARKETPLACE_KEY) || 'EBAY_DE');
+            } catch (e) { }
+        }
+        function storeCredentials() {
+            try { localStorage.setItem(CLIENT_ID_KEY, EBAY_CLIENT_ID); } catch (e) { }
+            try { localStorage.setItem(CLIENT_SECRET_KEY, EBAY_CLIENT_SECRET); } catch (e) { }
+            try { localStorage.setItem(ENVIRONMENT_KEY, EBAY_ENVIRONMENT); } catch (e) { }
+            try { localStorage.setItem(MARKETPLACE_KEY, EBAY_MARKETPLACE); } catch (e) { }
+        }
+
+        async function isProxyReachable(proxy) {
+            try {
+                const response = await fetch(proxy + '/api/health');
+                return response.ok;
+            } catch (e) { return false; }
+        }
+
+        async function fetchEbayToken() {
+            if (!EBAY_PROXY_URL) throw new Error('Keine Proxy-URL eingetragen. Bitte unter Einstellungen einen API-Proxy (z. B. Cloudflare Worker) angeben.');
+            if (!EBAY_CLIENT_ID || !EBAY_CLIENT_SECRET) throw new Error('Bitte Client ID und Client Secret eingeben.');
+            const resp = await fetch(EBAY_PROXY_URL + '/api/token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    client_id: EBAY_CLIENT_ID,
+                    client_secret: EBAY_CLIENT_SECRET,
+                    environment: EBAY_ENVIRONMENT,
+                }),
+            });
+            if (!resp.ok) {
+                const body = await resp.text().catch(() => '');
+                throw new Error('eBay lehnt die Zugangsdaten ab (invalid_client). Bitte Client ID und Cert ID im eBay Developer Portal prüfen.' + (body ? ' ' + body.slice(0, 200) : ''));
+            }
+            const data = await resp.json();
+            if (!data.access_token) throw new Error('Kein Access-Token von eBay erhalten.');
+            EBAY_ACCESS_TOKEN = data.access_token;
+            return EBAY_ACCESS_TOKEN;
+        }
+
+        async function ensureEbayToken() {
+            if (EBAY_ACCESS_TOKEN) return EBAY_ACCESS_TOKEN;
+            return await fetchEbayToken();
+        }
+
+        async function proxyEbay(method, path, extraHeaders, body) {
+            const headers = { 'Content-Type': 'application/json' };
+            const token = await ensureEbayToken();
+            headers['Authorization'] = 'Bearer ' + token;
+            for (const [k, v] of Object.entries(extraHeaders || {})) headers[k] = v;
+            const resp = await fetch(EBAY_PROXY_URL + '/api/proxy', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ method, path, headers, body }),
+            });
+            if (!resp.ok) {
+                const bodyText = await resp.text().catch(() => '');
+                throw new Error('Proxy-Fehler: HTTP ' + resp.status + (bodyText ? ' ' + bodyText.slice(0, 200) : ''));
+            }
+            const ct = resp.headers.get('content-type') || 'application/json';
+            const text = await resp.text();
+            if (!ct.includes('application/json')) throw new Error('Proxy antwortet nicht mit JSON.');
+            return JSON.parse(text);
+        }
+
         async function isEbayApiAt(base) {
             try {
                 const response = await fetch(base + '/api/config');
@@ -2201,28 +2302,101 @@
         }
 
         /**
-         * Ermittelt, wo der lokale eBay-Dienst erreichbar ist.
-         * Bevorzugt die eigene Herkunft (wenn die App über den Dienst geladen
-         * wurde), sonst die konfigurierte lokale Adresse. Damit funktioniert
-         * auch die von GitHub Pages installierte PWA.
+         * Ermittelt den API-Betriebsmodus:
+         *  1. Konfigurierter Proxy erreichbar         → 'proxy' (PWA ohne Start.bat)
+         *  2. Eigene Herkunft liefert /api/config      → 'local' (Basis '')
+         *  3. Konfigurierter lokaler Dienst erreichbar → 'local'
          */
-        async function resolveEbayApiBase() {
-            const field = document.getElementById('ebay-api-service-url');
-            if (field && !field.value.trim()) field.value = getStoredApiBase() || DEFAULT_LOCAL_API_BASE;
+        async function resolveEbayApiMode() {
+            const storedProxy = getProxyUrl();
+            if (storedProxy && await isProxyReachable(storedProxy)) {
+                EBAY_PROXY_URL = storedProxy;
+                EBAY_MODE = 'proxy';
+                EBAY_API_BASE = '';
+                return 'proxy';
+            }
             if (await isEbayApiAt('')) {
                 EBAY_API_BASE = '';
-                return '';
+                EBAY_MODE = 'local';
+                return 'local';
             }
             const local = getLocalApiBase();
-            EBAY_API_BASE = local;
             if (await isEbayApiAt(local)) {
-                setLocalApiBase(local);
-                return local;
+                EBAY_API_BASE = local;
+                EBAY_MODE = 'local';
+                return 'local';
             }
-            return local;
+            if (storedProxy) {
+                EBAY_PROXY_URL = storedProxy;
+                EBAY_MODE = 'proxy';
+                return 'proxy';
+            }
+            EBAY_MODE = 'local';
+            EBAY_API_BASE = getLocalApiBase();
+            return 'local';
         }
 
         async function ebayApiRequest(url, options) {
+            const method = (options && options.method) || 'GET';
+            const parsed = new URL(url, 'http://localhost');
+            const path = parsed.pathname + parsed.search;
+
+            // ---- Proxy-Modus (stateless, Zugangsdaten clientseitig) ----
+            if (EBAY_MODE === 'proxy' || EBAY_PROXY_URL) {
+                if (path === '/api/config' && method === 'GET') {
+                    return {
+                        client_id: EBAY_CLIENT_ID || '',
+                        client_secret_set: Boolean(EBAY_CLIENT_SECRET),
+                        environment: EBAY_ENVIRONMENT,
+                        marketplace: EBAY_MARKETPLACE,
+                    };
+                }
+                if (path === '/api/config' && method === 'POST') {
+                    const body = options && options.body ? JSON.parse(options.body) : {};
+                    EBAY_CLIENT_ID = String(body.client_id || '').trim();
+                    EBAY_CLIENT_SECRET = String(body.client_secret || '');
+                    EBAY_ENVIRONMENT = String(body.environment || 'production');
+                    EBAY_MARKETPLACE = String(body.marketplace || 'EBAY_DE');
+                    EBAY_ACCESS_TOKEN = '';
+                    EBAY_TREE_ID = '';
+                    storeCredentials();
+                    return { ok: true };
+                }
+                if (path === '/api/test') {
+                    await ensureEbayToken();
+                    return { ok: true, tree: { categoryTreeId: EBAY_TREE_ID || 'unbekannt' } };
+                }
+                if (path.startsWith('/api/search')) {
+                    const q = parsed.searchParams.get('q') || '';
+                    if (!EBAY_TREE_ID) {
+                        const treeResp = await proxyEbay('GET', '/commerce/taxonomy/v1/get_default_category_tree_id?marketplace_id=' + encodeURIComponent(EBAY_MARKETPLACE), {}, null);
+                        EBAY_TREE_ID = treeResp.categoryTreeId || '';
+                    }
+                    const ebayPath = '/commerce/taxonomy/v1/category_tree/' + encodeURIComponent(EBAY_TREE_ID) + '/get_category_suggestions?q=' + encodeURIComponent(q);
+                    return await proxyEbay('GET', ebayPath, {}, null);
+                }
+                if (path.startsWith('/api/aspects')) {
+                    const catId = parsed.searchParams.get('category') || '';
+                    const catName = parsed.searchParams.get('name') || '';
+                    if (!EBAY_TREE_ID) {
+                        const treeResp = await proxyEbay('GET', '/commerce/taxonomy/v1/get_default_category_tree_id?marketplace_id=' + encodeURIComponent(EBAY_MARKETPLACE), {}, null);
+                        EBAY_TREE_ID = treeResp.categoryTreeId || '';
+                    }
+                    const ebayPath = '/commerce/taxonomy/v1/category_tree/' + encodeURIComponent(EBAY_TREE_ID) + '/get_item_aspects_for_category?category_id=' + encodeURIComponent(catId) + (catName ? '&category_name=' + encodeURIComponent(catName) : '');
+                    return await proxyEbay('GET', ebayPath, {}, null);
+                }
+                if (path.startsWith('/api/categories')) {
+                    return [];
+                }
+                if (path.startsWith('/api/export')) {
+                    const catId = parsed.searchParams.get('category') || '';
+                    const ebayPath = '/commerce/taxonomy/v1/category_tree/' + encodeURIComponent(EBAY_TREE_ID || '') + '/get_item_aspects_for_category?category_id=' + encodeURIComponent(catId);
+                    return await proxyEbay('GET', ebayPath, {}, null);
+                }
+                throw new Error('Unbekannter API-Endpunkt im Proxy-Modus: ' + path);
+            }
+
+            // ---- Lokaler Dienst-Modus (bestehendes Verhalten) ----
             let response;
             try {
                 response = await fetch(EBAY_API_BASE + url, options);
@@ -2245,9 +2419,22 @@
             element.className = `api-status ${isError ? 'error' : 'ok'}`;
         }
 
+        function apiUnavailableMessage() {
+            if (EBAY_MODE === 'proxy' || EBAY_PROXY_URL) {
+                return 'eBay-Proxy nicht erreichbar. Bitte API-Proxy-URL in den Einstellungen prüfen.';
+            }
+            return 'Lokaler eBay-Dienst nicht erreichbar. Bitte Start.bat starten.';
+        }
+
         async function initEbayCategoryExplorer() {
             try {
-                await resolveEbayApiBase();
+                // Gespeicherte Zugangsdaten (Proxy-Modus) in die Felder laden.
+                loadStoredCredentials();
+                document.getElementById('ebay-api-client-id').value = EBAY_CLIENT_ID || '';
+                document.getElementById('ebay-api-secret').value = EBAY_CLIENT_SECRET || '';
+                document.getElementById('ebay-api-environment').value = EBAY_ENVIRONMENT || 'production';
+                document.getElementById('ebay-api-marketplace').value = EBAY_MARKETPLACE || 'EBAY_DE';
+                await resolveEbayApiMode();
                 const config = await ebayApiRequest('/api/config');
                 EBAY_API_AVAILABLE = true;
                 document.getElementById('ebay-api-client-id').value = config.client_id || '';
@@ -2284,7 +2471,7 @@
          */
         async function ensureEbayApi() {
             if (EBAY_API_AVAILABLE) return true;
-            await resolveEbayApiBase();
+            await resolveEbayApiMode();
             try {
                 await ebayApiRequest('/api/config');
                 EBAY_API_AVAILABLE = true;
@@ -2299,7 +2486,7 @@
         async function searchEbayCategories() {
             const term = document.getElementById('ebay-category-term').value.trim();
             if (!term) return setEbayApiStatus('Bitte einen Suchbegriff eingeben.', true);
-            if (!await ensureEbayApi()) return setEbayApiStatus('Lokaler eBay-Dienst nicht erreichbar. Bitte Start.bat starten.', true);
+            if (!await ensureEbayApi()) return setEbayApiStatus(apiUnavailableMessage(), true);
             setEbayApiStatus('eBay-Kategoriebaum wird durchsucht …');
             const results = document.getElementById('ebay-category-results');
             results.innerHTML = '';
@@ -2333,7 +2520,7 @@
                 updatePrompt();
                 return setEbayApiStatus(`${standard.name} ist bereits als Standardkategorie vorhanden.`);
             }
-            if (!await ensureEbayApi()) return setEbayApiStatus('Lokaler eBay-Dienst nicht erreichbar. Bitte Start.bat starten.', true);
+            if (!await ensureEbayApi()) return setEbayApiStatus(apiUnavailableMessage(), true);
             setEbayApiStatus(`Merkmale für Kategorie ${id} werden geladen …`);
             try {
                 const name = String(categoryName || `eBay-Kategorie ${id}`).trim();
@@ -2353,9 +2540,10 @@
         }
 
         async function saveEbayApiSettings() {
+            setProxyUrl(document.getElementById('ebay-api-proxy-url').value);
             setLocalApiBase(document.getElementById('ebay-api-service-url').value);
+            await resolveEbayApiMode();
             EBAY_API_AVAILABLE = false;
-            if (!await ensureEbayApi()) return setEbayApiStatus('Lokaler eBay-Dienst nicht erreichbar. Bitte Start.bat starten.', true, 'ebay-api-settings-status');
             try {
                 await ebayApiRequest('/api/config', {
                     method: 'POST',
@@ -2368,19 +2556,21 @@
                     })
                 });
                 document.getElementById('ebay-api-secret').value = '';
-                setEbayApiStatus('API-Einstellungen lokal gespeichert.', false, 'ebay-api-settings-status');
+                EBAY_API_AVAILABLE = true;
+                setEbayApiStatus('API-Einstellungen gespeichert.', false, 'ebay-api-settings-status');
             } catch (error) {
                 setEbayApiStatus(error.message, true, 'ebay-api-settings-status');
             }
         }
 
         async function testEbayApiConnection() {
+            setProxyUrl(document.getElementById('ebay-api-proxy-url').value);
             setLocalApiBase(document.getElementById('ebay-api-service-url').value);
-            EBAY_API_AVAILABLE = false;
+            await resolveEbayApiMode();
             setEbayApiStatus('Verbindung wird getestet …', false, 'ebay-api-settings-status');
-            if (!await ensureEbayApi()) return setEbayApiStatus('Lokaler eBay-Dienst nicht erreichbar. Bitte Start.bat starten.', true, 'ebay-api-settings-status');
             try {
                 const data = await ebayApiRequest('/api/test');
+                EBAY_API_AVAILABLE = true;
                 setEbayApiStatus(`Verbindung erfolgreich · Kategoriebaum ${data.tree.categoryTreeId}`, false, 'ebay-api-settings-status');
             } catch (error) {
                 setEbayApiStatus(error.message, true, 'ebay-api-settings-status');
