@@ -1,0 +1,19 @@
+[
+  { "name": "Backofen", "file": "Backofen_71318.json" },
+  { "name": "Bügeleisen", "file": "Bügeleisen_43513.json" },
+  { "name": "Dunstabzugshauben", "file": "Dunstabzugshauben_71253.json" },
+  { "name": "Gefriergeräte", "file": "Gefriergeräte_71260.json" },
+  { "name": "Heizgeräte", "file": "Heizgeräte_20613.json" },
+  { "name": "Herd", "file": "Herd_71250.json" },
+  { "name": "Kochfeld", "file": "Kochfeld_71246.json" },
+  { "name": "Kombinationsgeräte", "file": "Kombinationsgeräte_20713.json" },
+  { "name": "Kühlschrank", "file": "Kühlschrank_71262.json" },
+  { "name": "Lampen", "file": "Lampen_112581.json" },
+  { "name": "Mikrowelle", "file": "Mikrowelle_150140.json" },
+  { "name": "Staubsauger", "file": "Staubsauger_20614.json" },
+  { "name": "Trockner", "file": "Trockner_71254.json" },
+  { "name": "TV & Fernseher", "file": "TV&Fernseher_11071.json" },
+  { "name": "Waschmaschinen", "file": "Waschmaschinen_71256.json" },
+  { "name": "Waschtrockner", "file": "Waschtrockner_71257.json" },
+  { "name": "Weinkühlschrank", "file": "Weinkühlschrank_177750.json" }
+]

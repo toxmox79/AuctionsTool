@@ -1,0 +1,5231 @@
+{
+  "categoryId": "11071",
+  "treeId": "77",
+  "marketplace": "EBAY_DE",
+  "environment": "production",
+  "fetchedAt": "2026-10-19T10:24:17Z",
+  "aspects": [
+    {
+      "localizedAspectName": "Marke",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": true,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Markenlos"
+        },
+        {
+          "localizedValue": "20th Century Fox"
+        },
+        {
+          "localizedValue": "2 Entertain"
+        },
+        {
+          "localizedValue": "3GO"
+        },
+        {
+          "localizedValue": "3M"
+        },
+        {
+          "localizedValue": "Acer"
+        },
+        {
+          "localizedValue": "Acoustic Solutions"
+        },
+        {
+          "localizedValue": "Action-Tec"
+        },
+        {
+          "localizedValue": "Adam"
+        },
+        {
+          "localizedValue": "Adam Hall"
+        },
+        {
+          "localizedValue": "ADATA"
+        },
+        {
+          "localizedValue": "Admiral"
+        },
+        {
+          "localizedValue": "AEG"
+        },
+        {
+          "localizedValue": "Aerial7"
+        },
+        {
+          "localizedValue": "Agfa"
+        },
+        {
+          "localizedValue": "AgfaPhoto"
+        },
+        {
+          "localizedValue": "AG Neovo"
+        },
+        {
+          "localizedValue": "Aiptek"
+        },
+        {
+          "localizedValue": "AIRIS"
+        },
+        {
+          "localizedValue": "Aiwa"
+        },
+        {
+          "localizedValue": "Akai"
+        },
+        {
+          "localizedValue": "Akira"
+        },
+        {
+          "localizedValue": "Akura"
+        },
+        {
+          "localizedValue": "Alba"
+        },
+        {
+          "localizedValue": "Alcatel"
+        },
+        {
+          "localizedValue": "Alienware"
+        },
+        {
+          "localizedValue": "All Star"
+        },
+        {
+          "localizedValue": "Alphacool"
+        },
+        {
+          "localizedValue": "Alphatronics"
+        },
+        {
+          "localizedValue": "Amazon"
+        },
+        {
+          "localizedValue": "American DJ"
+        },
+        {
+          "localizedValue": "AMPD"
+        },
+        {
+          "localizedValue": "amplicomms"
+        },
+        {
+          "localizedValue": "Amstrad"
+        },
+        {
+          "localizedValue": "Anker"
+        },
+        {
+          "localizedValue": "ANSMANN"
+        },
+        {
+          "localizedValue": "ANTARION"
+        },
+        {
+          "localizedValue": "Antennas Direct"
+        },
+        {
+          "localizedValue": "AOC"
+        },
+        {
+          "localizedValue": "Apex"
+        },
+        {
+          "localizedValue": "Apple"
+        },
+        {
+          "localizedValue": "Aprimatic"
+        },
+        {
+          "localizedValue": "Archer"
+        },
+        {
+          "localizedValue": "Archos"
+        },
+        {
+          "localizedValue": "Arduino"
+        },
+        {
+          "localizedValue": "Arielli"
+        },
+        {
+          "localizedValue": "Artlii"
+        },
+        {
+          "localizedValue": "ASUS"
+        },
+        {
+          "localizedValue": "Atomos"
+        },
+        {
+          "localizedValue": "ATYME"
+        },
+        {
+          "localizedValue": "Audiola"
+        },
+        {
+          "localizedValue": "Audiosonic"
+        },
+        {
+          "localizedValue": "Audio-Technica"
+        },
+        {
+          "localizedValue": "Audiovox"
+        },
+        {
+          "localizedValue": "August"
+        },
+        {
+          "localizedValue": "August International"
+        },
+        {
+          "localizedValue": "Auria"
+        },
+        {
+          "localizedValue": "Autel"
+        },
+        {
+          "localizedValue": "Auto-VOX"
+        },
+        {
+          "localizedValue": "Auvio"
+        },
+        {
+          "localizedValue": "Avanti"
+        },
+        {
+          "localizedValue": "Avera"
+        },
+        {
+          "localizedValue": "AVerMedia"
+        },
+        {
+          "localizedValue": "Avery"
+        },
+        {
+          "localizedValue": "AVGO"
+        },
+        {
+          "localizedValue": "Avtex"
+        },
+        {
+          "localizedValue": "AWA"
+        },
+        {
+          "localizedValue": "Axess"
+        },
+        {
+          "localizedValue": "Axing"
+        },
+        {
+          "localizedValue": "Axion"
+        },
+        {
+          "localizedValue": "Axis"
+        },
+        {
+          "localizedValue": "Azulle"
+        },
+        {
+          "localizedValue": "Baird"
+        },
+        {
+          "localizedValue": "Bang & Olufsen"
+        },
+        {
+          "localizedValue": "Bauhn"
+        },
+        {
+          "localizedValue": "Bausch + Lomb"
+        },
+        {
+          "localizedValue": "BBC"
+        },
+        {
+          "localizedValue": "Bea-fon"
+        },
+        {
+          "localizedValue": "Beats by Dr. Dre"
+        },
+        {
+          "localizedValue": "Beko"
+        },
+        {
+          "localizedValue": "Belkin"
+        },
+        {
+          "localizedValue": "Bellfield"
+        },
+        {
+          "localizedValue": "BenQ"
+        },
+        {
+          "localizedValue": "Bentley"
+        },
+        {
+          "localizedValue": "Berghaus"
+        },
+        {
+          "localizedValue": "BergHOFF"
+        },
+        {
+          "localizedValue": "Best Media"
+        },
+        {
+          "localizedValue": "Bigelow"
+        },
+        {
+          "localizedValue": "BLACK+DECKER"
+        },
+        {
+          "localizedValue": "BlackBerry"
+        },
+        {
+          "localizedValue": "Blackmore"
+        },
+        {
+          "localizedValue": "Blackview"
+        },
+        {
+          "localizedValue": "Blaupunkt"
+        },
+        {
+          "localizedValue": "BLU"
+        },
+        {
+          "localizedValue": "Blusens"
+        },
+        {
+          "localizedValue": "BOLVA"
+        },
+        {
+          "localizedValue": "Bosch"
+        },
+        {
+          "localizedValue": "BQ"
+        },
+        {
+          "localizedValue": "Bradford"
+        },
+        {
+          "localizedValue": "BRAVIA"
+        },
+        {
+          "localizedValue": "BrickHouse Security"
+        },
+        {
+          "localizedValue": "BRIGMTON"
+        },
+        {
+          "localizedValue": "Brionvega"
+        },
+        {
+          "localizedValue": "Broksonic"
+        },
+        {
+          "localizedValue": "Brondi"
+        },
+        {
+          "localizedValue": "Brother"
+        },
+        {
+          "localizedValue": "Bush"
+        },
+        {
+          "localizedValue": "BUSlink"
+        },
+        {
+          "localizedValue": "C2G"
+        },
+        {
+          "localizedValue": "Caliber"
+        },
+        {
+          "localizedValue": "Cambridge Audio"
+        },
+        {
+          "localizedValue": "Camelion"
+        },
+        {
+          "localizedValue": "Cameron Sino"
+        },
+        {
+          "localizedValue": "Campingaz"
+        },
+        {
+          "localizedValue": "Canon"
+        },
+        {
+          "localizedValue": "Capitol"
+        },
+        {
+          "localizedValue": "Captiva"
+        },
+        {
+          "localizedValue": "Caratec"
+        },
+        {
+          "localizedValue": "Carrera"
+        },
+        {
+          "localizedValue": "Cartier"
+        },
+        {
+          "localizedValue": "Casio"
+        },
+        {
+          "localizedValue": "CAT"
+        },
+        {
+          "localizedValue": "Celcus"
+        },
+        {
+          "localizedValue": "Cello"
+        },
+        {
+          "localizedValue": "Cellularline"
+        },
+        {
+          "localizedValue": "Changhong"
+        },
+        {
+          "localizedValue": "Channel Master"
+        },
+        {
+          "localizedValue": "Chaowei"
+        },
+        {
+          "localizedValue": "CHiQ"
+        },
+        {
+          "localizedValue": "Cisco"
+        },
+        {
+          "localizedValue": "Citizen"
+        },
+        {
+          "localizedValue": "CMX"
+        },
+        {
+          "localizedValue": "Coast"
+        },
+        {
+          "localizedValue": "Cobra"
+        },
+        {
+          "localizedValue": "Coby"
+        },
+        {
+          "localizedValue": "Comply"
+        },
+        {
+          "localizedValue": "Conceptronic"
+        },
+        {
+          "localizedValue": "CONIA"
+        },
+        {
+          "localizedValue": "Continental Edison"
+        },
+        {
+          "localizedValue": "COWON"
+        },
+        {
+          "localizedValue": "Craig"
+        },
+        {
+          "localizedValue": "Creative"
+        },
+        {
+          "localizedValue": "Crosley"
+        },
+        {
+          "localizedValue": "Crown"
+        },
+        {
+          "localizedValue": "CTL"
+        },
+        {
+          "localizedValue": "Cubot"
+        },
+        {
+          "localizedValue": "Curtis"
+        },
+        {
+          "localizedValue": "Curtis International"
+        },
+        {
+          "localizedValue": "Cyrus"
+        },
+        {
+          "localizedValue": "Daewoo"
+        },
+        {
+          "localizedValue": "Dataflex"
+        },
+        {
+          "localizedValue": "Daytek"
+        },
+        {
+          "localizedValue": "DB Power"
+        },
+        {
+          "localizedValue": "De'Longhi"
+        },
+        {
+          "localizedValue": "Delkin"
+        },
+        {
+          "localizedValue": "Dell"
+        },
+        {
+          "localizedValue": "Denon"
+        },
+        {
+          "localizedValue": "DENVER"
+        },
+        {
+          "localizedValue": "Devanti"
+        },
+        {
+          "localizedValue": "DEWALT"
+        },
+        {
+          "localizedValue": "DGM"
+        },
+        {
+          "localizedValue": "Dick Smith"
+        },
+        {
+          "localizedValue": "Dicra"
+        },
+        {
+          "localizedValue": "Dietz"
+        },
+        {
+          "localizedValue": "Digihome"
+        },
+        {
+          "localizedValue": "Digilogic"
+        },
+        {
+          "localizedValue": "Digiquest"
+        },
+        {
+          "localizedValue": "Digitalbox"
+        },
+        {
+          "localizedValue": "Digital Labs"
+        },
+        {
+          "localizedValue": "Digital Prism"
+        },
+        {
+          "localizedValue": "DigiTech"
+        },
+        {
+          "localizedValue": "Digitrex"
+        },
+        {
+          "localizedValue": "DIGITUS"
+        },
+        {
+          "localizedValue": "DIKOM"
+        },
+        {
+          "localizedValue": "Disney"
+        },
+        {
+          "localizedValue": "Divoom"
+        },
+        {
+          "localizedValue": "DMTech"
+        },
+        {
+          "localizedValue": "DOOGEE"
+        },
+        {
+          "localizedValue": "Doro"
+        },
+        {
+          "localizedValue": "Dreambox"
+        },
+        {
+          "localizedValue": "Dresselhaus"
+        },
+        {
+          "localizedValue": "Dual Electronics"
+        },
+        {
+          "localizedValue": "duMONT"
+        },
+        {
+          "localizedValue": "Durabrand"
+        },
+        {
+          "localizedValue": "Duracell"
+        },
+        {
+          "localizedValue": "Dynalink"
+        },
+        {
+          "localizedValue": "Dynex"
+        },
+        {
+          "localizedValue": "Dyon"
+        },
+        {
+          "localizedValue": "Dyson"
+        },
+        {
+          "localizedValue": "ECG"
+        },
+        {
+          "localizedValue": "ECHO"
+        },
+        {
+          "localizedValue": "Edifier"
+        },
+        {
+          "localizedValue": "EDISION"
+        },
+        {
+          "localizedValue": "Edmington"
+        },
+        {
+          "localizedValue": "Elbe"
+        },
+        {
+          "localizedValue": "ElectrIQ"
+        },
+        {
+          "localizedValue": "Electro Brand"
+        },
+        {
+          "localizedValue": "Electrograph Systems, Inc"
+        },
+        {
+          "localizedValue": "Element"
+        },
+        {
+          "localizedValue": "Elgato"
+        },
+        {
+          "localizedValue": "Elite Products"
+        },
+        {
+          "localizedValue": "Elite Screens"
+        },
+        {
+          "localizedValue": "ellen wille"
+        },
+        {
+          "localizedValue": "Elonex"
+        },
+        {
+          "localizedValue": "Elta"
+        },
+        {
+          "localizedValue": "Emerson"
+        },
+        {
+          "localizedValue": "e-motion"
+        },
+        {
+          "localizedValue": "emporia"
+        },
+        {
+          "localizedValue": "Emtec"
+        },
+        {
+          "localizedValue": "Encross"
+        },
+        {
+          "localizedValue": "Energizer"
+        },
+        {
+          "localizedValue": "Energy Sistem"
+        },
+        {
+          "localizedValue": "Engel"
+        },
+        {
+          "localizedValue": "Engel Axil"
+        },
+        {
+          "localizedValue": "Englaon"
+        },
+        {
+          "localizedValue": "Epson"
+        },
+        {
+          "localizedValue": "equip"
+        },
+        {
+          "localizedValue": "ERARD"
+        },
+        {
+          "localizedValue": "Ergobag"
+        },
+        {
+          "localizedValue": "E-Star"
+        },
+        {
+          "localizedValue": "ETec"
+        },
+        {
+          "localizedValue": "Eternity"
+        },
+        {
+          "localizedValue": "Evervue"
+        },
+        {
+          "localizedValue": "Evesham"
+        },
+        {
+          "localizedValue": "Eviant"
+        },
+        {
+          "localizedValue": "Evolveo"
+        },
+        {
+          "localizedValue": "Evotel"
+        },
+        {
+          "localizedValue": "Ewent"
+        },
+        {
+          "localizedValue": "Excelvan"
+        },
+        {
+          "localizedValue": "Eyemax"
+        },
+        {
+          "localizedValue": "Falcon"
+        },
+        {
+          "localizedValue": "Ferguson"
+        },
+        {
+          "localizedValue": "Finch"
+        },
+        {
+          "localizedValue": "Finlux"
+        },
+        {
+          "localizedValue": "Firestik"
+        },
+        {
+          "localizedValue": "Firstlight"
+        },
+        {
+          "localizedValue": "Fisher"
+        },
+        {
+          "localizedValue": "Fitbit"
+        },
+        {
+          "localizedValue": "Foehn & Hirsch"
+        },
+        {
+          "localizedValue": "Foscarini"
+        },
+        {
+          "localizedValue": "Franklin & Marshall"
+        },
+        {
+          "localizedValue": "Fresh 'n Rebel"
+        },
+        {
+          "localizedValue": "Fujitsu"
+        },
+        {
+          "localizedValue": "Funai"
+        },
+        {
+          "localizedValue": "Furrion"
+        },
+        {
+          "localizedValue": "G&BL"
+        },
+        {
+          "localizedValue": "Garmin"
+        },
+        {
+          "localizedValue": "GBC"
+        },
+        {
+          "localizedValue": "GE"
+        },
+        {
+          "localizedValue": "Gear4"
+        },
+        {
+          "localizedValue": "Geemarc"
+        },
+        {
+          "localizedValue": "Gelhard"
+        },
+        {
+          "localizedValue": "Genius"
+        },
+        {
+          "localizedValue": "Gigaset"
+        },
+        {
+          "localizedValue": "GME"
+        },
+        {
+          "localizedValue": "Goldstar"
+        },
+        {
+          "localizedValue": "Goobay"
+        },
+        {
+          "localizedValue": "Goodmans"
+        },
+        {
+          "localizedValue": "GOODRAM"
+        },
+        {
+          "localizedValue": "Google"
+        },
+        {
+          "localizedValue": "Gotech"
+        },
+        {
+          "localizedValue": "GPX"
+        },
+        {
+          "localizedValue": "Groove"
+        },
+        {
+          "localizedValue": "Grundig"
+        },
+        {
+          "localizedValue": "Grunkel"
+        },
+        {
+          "localizedValue": "GT Media"
+        },
+        {
+          "localizedValue": "GVA"
+        },
+        {
+          "localizedValue": "Haier"
+        },
+        {
+          "localizedValue": "Hallicrafters"
+        },
+        {
+          "localizedValue": "Hama"
+        },
+        {
+          "localizedValue": "Hamilton"
+        },
+        {
+          "localizedValue": "Hannspree"
+        },
+        {
+          "localizedValue": "Hanseatic"
+        },
+        {
+          "localizedValue": "Hasbro"
+        },
+        {
+          "localizedValue": "Hci"
+        },
+        {
+          "localizedValue": "Heathkit"
+        },
+        {
+          "localizedValue": "Hello Kitty"
+        },
+        {
+          "localizedValue": "Hi-Fun"
+        },
+        {
+          "localizedValue": "Hisense"
+        },
+        {
+          "localizedValue": "Hitachi"
+        },
+        {
+          "localizedValue": "Hiteker"
+        },
+        {
+          "localizedValue": "HKC"
+        },
+        {
+          "localizedValue": "Hobby Lobby"
+        },
+        {
+          "localizedValue": "HomeMatic"
+        },
+        {
+          "localizedValue": "Honor"
+        },
+        {
+          "localizedValue": "Hothair"
+        },
+        {
+          "localizedValue": "Hot Wheels"
+        },
+        {
+          "localizedValue": "House of Marley"
+        },
+        {
+          "localizedValue": "HP"
+        },
+        {
+          "localizedValue": "HTC"
+        },
+        {
+          "localizedValue": "Huawei"
+        },
+        {
+          "localizedValue": "Humax"
+        },
+        {
+          "localizedValue": "Hyundai"
+        },
+        {
+          "localizedValue": "Ibiza"
+        },
+        {
+          "localizedValue": "i-can"
+        },
+        {
+          "localizedValue": "iFrogz"
+        },
+        {
+          "localizedValue": "iHome"
+        },
+        {
+          "localizedValue": "iiyama"
+        },
+        {
+          "localizedValue": "iJoy"
+        },
+        {
+          "localizedValue": "iLive"
+        },
+        {
+          "localizedValue": "iLuv"
+        },
+        {
+          "localizedValue": "IMG Stage Line"
+        },
+        {
+          "localizedValue": "Infiniton"
+        },
+        {
+          "localizedValue": "InFocus"
+        },
+        {
+          "localizedValue": "InnJoo"
+        },
+        {
+          "localizedValue": "Inno-Hit"
+        },
+        {
+          "localizedValue": "Inov8"
+        },
+        {
+          "localizedValue": "Insignia"
+        },
+        {
+          "localizedValue": "Integral"
+        },
+        {
+          "localizedValue": "Intempo"
+        },
+        {
+          "localizedValue": "Intenso"
+        },
+        {
+          "localizedValue": "ION"
+        },
+        {
+          "localizedValue": "Irradio"
+        },
+        {
+          "localizedValue": "ISIS"
+        },
+        {
+          "localizedValue": "iSymphony"
+        },
+        {
+          "localizedValue": "ITT"
+        },
+        {
+          "localizedValue": "iTV"
+        },
+        {
+          "localizedValue": "iView"
+        },
+        {
+          "localizedValue": "J. C. Penney"
+        },
+        {
+          "localizedValue": "Jabra"
+        },
+        {
+          "localizedValue": "Jaeger"
+        },
+        {
+          "localizedValue": "Jamo"
+        },
+        {
+          "localizedValue": "Jarre Technologies"
+        },
+        {
+          "localizedValue": "Jaybird"
+        },
+        {
+          "localizedValue": "JayTech"
+        },
+        {
+          "localizedValue": "Jensen"
+        },
+        {
+          "localizedValue": "Jessica"
+        },
+        {
+          "localizedValue": "JMB"
+        },
+        {
+          "localizedValue": "JTC"
+        },
+        {
+          "localizedValue": "JVC"
+        },
+        {
+          "localizedValue": "JVL"
+        },
+        {
+          "localizedValue": "jWIN"
+        },
+        {
+          "localizedValue": "Kärcher"
+        },
+        {
+          "localizedValue": "KDS"
+        },
+        {
+          "localizedValue": "KENDO"
+        },
+        {
+          "localizedValue": "KENMARK"
+        },
+        {
+          "localizedValue": "Kensington"
+        },
+        {
+          "localizedValue": "Kenwood"
+        },
+        {
+          "localizedValue": "KENZO"
+        },
+        {
+          "localizedValue": "Keter"
+        },
+        {
+          "localizedValue": "Kingston"
+        },
+        {
+          "localizedValue": "KitSound"
+        },
+        {
+          "localizedValue": "Klipsch"
+        },
+        {
+          "localizedValue": "Kodak"
+        },
+        {
+          "localizedValue": "Kogan"
+        },
+        {
+          "localizedValue": "Konic"
+        },
+        {
+          "localizedValue": "Konig"
+        },
+        {
+          "localizedValue": "Konka"
+        },
+        {
+          "localizedValue": "Koss"
+        },
+        {
+          "localizedValue": "Krüger&Matz"
+        },
+        {
+          "localizedValue": "KTV"
+        },
+        {
+          "localizedValue": "KUNFT"
+        },
+        {
+          "localizedValue": "Kyocera"
+        },
+        {
+          "localizedValue": "Lacoste"
+        },
+        {
+          "localizedValue": "La Crosse Technology"
+        },
+        {
+          "localizedValue": "Lasonic"
+        },
+        {
+          "localizedValue": "Leadstar"
+        },
+        {
+          "localizedValue": "LEGO"
+        },
+        {
+          "localizedValue": "Legrand"
+        },
+        {
+          "localizedValue": "Lenco"
+        },
+        {
+          "localizedValue": "Lenovo"
+        },
+        {
+          "localizedValue": "Lenoxx Electronics"
+        },
+        {
+          "localizedValue": "Leshp"
+        },
+        {
+          "localizedValue": "LeTV"
+        },
+        {
+          "localizedValue": "LevelOne"
+        },
+        {
+          "localizedValue": "Lexar"
+        },
+        {
+          "localizedValue": "Lexmark"
+        },
+        {
+          "localizedValue": "LG"
+        },
+        {
+          "localizedValue": "Liberty"
+        },
+        {
+          "localizedValue": "Linden"
+        },
+        {
+          "localizedValue": "Lindy"
+        },
+        {
+          "localizedValue": "Linsar"
+        },
+        {
+          "localizedValue": "Livergy"
+        },
+        {
+          "localizedValue": "Lloyd's"
+        },
+        {
+          "localizedValue": "Loewe"
+        },
+        {
+          "localizedValue": "Logik"
+        },
+        {
+          "localizedValue": "Logitech"
+        },
+        {
+          "localizedValue": "LUNA"
+        },
+        {
+          "localizedValue": "Luxor"
+        },
+        {
+          "localizedValue": "MAGNA"
+        },
+        {
+          "localizedValue": "Magnadyne"
+        },
+        {
+          "localizedValue": "Magnat"
+        },
+        {
+          "localizedValue": "Magnavox"
+        },
+        {
+          "localizedValue": "Majestic"
+        },
+        {
+          "localizedValue": "Majestic Global"
+        },
+        {
+          "localizedValue": "Manacor"
+        },
+        {
+          "localizedValue": "Manhattan"
+        },
+        {
+          "localizedValue": "MANTA"
+        },
+        {
+          "localizedValue": "Maplin"
+        },
+        {
+          "localizedValue": "Marantz"
+        },
+        {
+          "localizedValue": "Marque"
+        },
+        {
+          "localizedValue": "Master Digital"
+        },
+        {
+          "localizedValue": "Matsui"
+        },
+        {
+          "localizedValue": "M-Audio"
+        },
+        {
+          "localizedValue": "Maxcom"
+        },
+        {
+          "localizedValue": "Maxell"
+        },
+        {
+          "localizedValue": "Maxent"
+        },
+        {
+          "localizedValue": "Maxim"
+        },
+        {
+          "localizedValue": "MB"
+        },
+        {
+          "localizedValue": "McIntosh"
+        },
+        {
+          "localizedValue": "MediaCom"
+        },
+        {
+          "localizedValue": "Medici"
+        },
+        {
+          "localizedValue": "MEDION"
+        },
+        {
+          "localizedValue": "Megasat"
+        },
+        {
+          "localizedValue": "MEIZU"
+        },
+        {
+          "localizedValue": "Meliconi"
+        },
+        {
+          "localizedValue": "Memorex"
+        },
+        {
+          "localizedValue": "Meos"
+        },
+        {
+          "localizedValue": "Metronic"
+        },
+        {
+          "localizedValue": "Metz"
+        },
+        {
+          "localizedValue": "Micron"
+        },
+        {
+          "localizedValue": "Microsoft"
+        },
+        {
+          "localizedValue": "Midland"
+        },
+        {
+          "localizedValue": "Midwest"
+        },
+        {
+          "localizedValue": "Miia"
+        },
+        {
+          "localizedValue": "Mikomi"
+        },
+        {
+          "localizedValue": "MILANIX"
+        },
+        {
+          "localizedValue": "Mirai"
+        },
+        {
+          "localizedValue": "Mitchell & Brown"
+        },
+        {
+          "localizedValue": "Mitsubishi"
+        },
+        {
+          "localizedValue": "Mivar"
+        },
+        {
+          "localizedValue": "Momentum Pictures"
+        },
+        {
+          "localizedValue": "Monster"
+        },
+        {
+          "localizedValue": "Montgomery Ward"
+        },
+        {
+          "localizedValue": "mophie"
+        },
+        {
+          "localizedValue": "Morphy Richards"
+        },
+        {
+          "localizedValue": "Motorola"
+        },
+        {
+          "localizedValue": "MSI"
+        },
+        {
+          "localizedValue": "Multibrackets"
+        },
+        {
+          "localizedValue": "Murphy"
+        },
+        {
+          "localizedValue": "Muse"
+        },
+        {
+          "localizedValue": "Mustek"
+        },
+        {
+          "localizedValue": "Mykronoz"
+        },
+        {
+          "localizedValue": "myWall"
+        },
+        {
+          "localizedValue": "NAD"
+        },
+        {
+          "localizedValue": "Namco"
+        },
+        {
+          "localizedValue": "National"
+        },
+        {
+          "localizedValue": "Natural Image"
+        },
+        {
+          "localizedValue": "NAVIGON"
+        },
+        {
+          "localizedValue": "Navilock"
+        },
+        {
+          "localizedValue": "Naxa"
+        },
+        {
+          "localizedValue": "NEC"
+        },
+        {
+          "localizedValue": "NEC Display Solutions"
+        },
+        {
+          "localizedValue": "Neffos"
+        },
+        {
+          "localizedValue": "Neoniq"
+        },
+        {
+          "localizedValue": "Net TV"
+        },
+        {
+          "localizedValue": "Neutrik"
+        },
+        {
+          "localizedValue": "Nevir"
+        },
+        {
+          "localizedValue": "New Balance"
+        },
+        {
+          "localizedValue": "Newstar"
+        },
+        {
+          "localizedValue": "NEXTBASE"
+        },
+        {
+          "localizedValue": "Nike"
+        },
+        {
+          "localizedValue": "Nikkai"
+        },
+        {
+          "localizedValue": "Nikon"
+        },
+        {
+          "localizedValue": "Nintendo"
+        },
+        {
+          "localizedValue": "Nobo"
+        },
+        {
+          "localizedValue": "Nodis"
+        },
+        {
+          "localizedValue": "Nokia"
+        },
+        {
+          "localizedValue": "NOMOS"
+        },
+        {
+          "localizedValue": "NordMende"
+        },
+        {
+          "localizedValue": "NorStone"
+        },
+        {
+          "localizedValue": "NPG"
+        },
+        {
+          "localizedValue": "nubia"
+        },
+        {
+          "localizedValue": "NUU Mobile"
+        },
+        {
+          "localizedValue": "O&K"
+        },
+        {
+          "localizedValue": "Oceanic"
+        },
+        {
+          "localizedValue": "oCOSMO"
+        },
+        {
+          "localizedValue": "Odys"
+        },
+        {
+          "localizedValue": "Okano"
+        },
+        {
+          "localizedValue": "Olevia"
+        },
+        {
+          "localizedValue": "Olympia"
+        },
+        {
+          "localizedValue": "Olympic"
+        },
+        {
+          "localizedValue": "Olympus"
+        },
+        {
+          "localizedValue": "OMEGA"
+        },
+        {
+          "localizedValue": "OmniMount"
+        },
+        {
+          "localizedValue": "Omnitronic"
+        },
+        {
+          "localizedValue": "One For All"
+        },
+        {
+          "localizedValue": "Onkyo"
+        },
+        {
+          "localizedValue": "ONN"
+        },
+        {
+          "localizedValue": "Openbox"
+        },
+        {
+          "localizedValue": "OPTICUM"
+        },
+        {
+          "localizedValue": "Optimus"
+        },
+        {
+          "localizedValue": "Optoma"
+        },
+        {
+          "localizedValue": "Oral-B"
+        },
+        {
+          "localizedValue": "Orava"
+        },
+        {
+          "localizedValue": "Oregon Scientific"
+        },
+        {
+          "localizedValue": "Orion"
+        },
+        {
+          "localizedValue": "OSRAM"
+        },
+        {
+          "localizedValue": "Pacific Technology"
+        },
+        {
+          "localizedValue": "Packard Bell"
+        },
+        {
+          "localizedValue": "Palsonic"
+        },
+        {
+          "localizedValue": "Panasonic"
+        },
+        {
+          "localizedValue": "Paramount"
+        },
+        {
+          "localizedValue": "Parrot"
+        },
+        {
+          "localizedValue": "Pathe"
+        },
+        {
+          "localizedValue": "Patton"
+        },
+        {
+          "localizedValue": "PDi"
+        },
+        {
+          "localizedValue": "Peerless"
+        },
+        {
+          "localizedValue": "Peerless-AV"
+        },
+        {
+          "localizedValue": "Pegasus"
+        },
+        {
+          "localizedValue": "Pendo"
+        },
+        {
+          "localizedValue": "PENTAFILM"
+        },
+        {
+          "localizedValue": "Peugeot"
+        },
+        {
+          "localizedValue": "Philco"
+        },
+        {
+          "localizedValue": "Philips"
+        },
+        {
+          "localizedValue": "Philips Sonicare"
+        },
+        {
+          "localizedValue": "Phocus"
+        },
+        {
+          "localizedValue": "Phonocar"
+        },
+        {
+          "localizedValue": "Pilot"
+        },
+        {
+          "localizedValue": "Pioneer"
+        },
+        {
+          "localizedValue": "Planar"
+        },
+        {
+          "localizedValue": "Plantronics"
+        },
+        {
+          "localizedValue": "Platinum"
+        },
+        {
+          "localizedValue": "PNY"
+        },
+        {
+          "localizedValue": "Polar"
+        },
+        {
+          "localizedValue": "Polaroid"
+        },
+        {
+          "localizedValue": "Polk"
+        },
+        {
+          "localizedValue": "Polk Audio"
+        },
+        {
+          "localizedValue": "Polycom"
+        },
+        {
+          "localizedValue": "Premier"
+        },
+        {
+          "localizedValue": "Presto"
+        },
+        {
+          "localizedValue": "PreTec"
+        },
+        {
+          "localizedValue": "Prima"
+        },
+        {
+          "localizedValue": "Primux"
+        },
+        {
+          "localizedValue": "Prixton"
+        },
+        {
+          "localizedValue": "Pro2"
+        },
+        {
+          "localizedValue": "Pro-Line Racing"
+        },
+        {
+          "localizedValue": "Promethean"
+        },
+        {
+          "localizedValue": "ProofVision"
+        },
+        {
+          "localizedValue": "Proper"
+        },
+        {
+          "localizedValue": "PROSCAN"
+        },
+        {
+          "localizedValue": "Proton"
+        },
+        {
+          "localizedValue": "Proxxon"
+        },
+        {
+          "localizedValue": "PUMA"
+        },
+        {
+          "localizedValue": "Pure"
+        },
+        {
+          "localizedValue": "Pure Mounts"
+        },
+        {
+          "localizedValue": "Pyle"
+        },
+        {
+          "localizedValue": "QBell"
+        },
+        {
+          "localizedValue": "QED"
+        },
+        {
+          "localizedValue": "QFX"
+        },
+        {
+          "localizedValue": "Qilive"
+        },
+        {
+          "localizedValue": "QTX Sound"
+        },
+        {
+          "localizedValue": "Quasar"
+        },
+        {
+          "localizedValue": "RadioShack"
+        },
+        {
+          "localizedValue": "Ralph Lauren"
+        },
+        {
+          "localizedValue": "Rank Arena"
+        },
+        {
+          "localizedValue": "Ravensburger"
+        },
+        {
+          "localizedValue": "Rayovac"
+        },
+        {
+          "localizedValue": "Razer"
+        },
+        {
+          "localizedValue": "RCA"
+        },
+        {
+          "localizedValue": "Realistic"
+        },
+        {
+          "localizedValue": "Reflexion"
+        },
+        {
+          "localizedValue": "Relisys"
+        },
+        {
+          "localizedValue": "Reloop"
+        },
+        {
+          "localizedValue": "Renkforce"
+        },
+        {
+          "localizedValue": "RHA"
+        },
+        {
+          "localizedValue": "Ricoh"
+        },
+        {
+          "localizedValue": "Rieber"
+        },
+        {
+          "localizedValue": "Rio"
+        },
+        {
+          "localizedValue": "Roadstar"
+        },
+        {
+          "localizedValue": "Roberts"
+        },
+        {
+          "localizedValue": "Roku"
+        },
+        {
+          "localizedValue": "Rollei"
+        },
+        {
+          "localizedValue": "Rosen"
+        },
+        {
+          "localizedValue": "Runco"
+        },
+        {
+          "localizedValue": "Saba"
+        },
+        {
+          "localizedValue": "Sagem"
+        },
+        {
+          "localizedValue": "Salora"
+        },
+        {
+          "localizedValue": "Sampo"
+        },
+        {
+          "localizedValue": "Samson"
+        },
+        {
+          "localizedValue": "Samsung"
+        },
+        {
+          "localizedValue": "SanDisk"
+        },
+        {
+          "localizedValue": "Sandstrom"
+        },
+        {
+          "localizedValue": "Sangean"
+        },
+        {
+          "localizedValue": "Sansui"
+        },
+        {
+          "localizedValue": "SANYO"
+        },
+        {
+          "localizedValue": "Sarason"
+        },
+        {
+          "localizedValue": "Savage"
+        },
+        {
+          "localizedValue": "SBS"
+        },
+        {
+          "localizedValue": "Sceptre"
+        },
+        {
+          "localizedValue": "Schneider"
+        },
+        {
+          "localizedValue": "Schwaiger"
+        },
+        {
+          "localizedValue": "SCOTT"
+        },
+        {
+          "localizedValue": "Sears"
+        },
+        {
+          "localizedValue": "SEG"
+        },
+        {
+          "localizedValue": "Seiki"
+        },
+        {
+          "localizedValue": "Seiko"
+        },
+        {
+          "localizedValue": "Seizo"
+        },
+        {
+          "localizedValue": "Sencor"
+        },
+        {
+          "localizedValue": "Sennheiser"
+        },
+        {
+          "localizedValue": "Séura"
+        },
+        {
+          "localizedValue": "Shark"
+        },
+        {
+          "localizedValue": "Sharp"
+        },
+        {
+          "localizedValue": "Sherwood"
+        },
+        {
+          "localizedValue": "Shinelco"
+        },
+        {
+          "localizedValue": "Shure"
+        },
+        {
+          "localizedValue": "Siemens"
+        },
+        {
+          "localizedValue": "SIGMA SPORT"
+        },
+        {
+          "localizedValue": "Silvercrest"
+        },
+        {
+          "localizedValue": "Silvertone"
+        },
+        {
+          "localizedValue": "Sinclair"
+        },
+        {
+          "localizedValue": "SKROSS"
+        },
+        {
+          "localizedValue": "Skullcandy"
+        },
+        {
+          "localizedValue": "Sky"
+        },
+        {
+          "localizedValue": "Skyworth"
+        },
+        {
+          "localizedValue": "Smart"
+        },
+        {
+          "localizedValue": "SmartBook"
+        },
+        {
+          "localizedValue": "Smart Tech"
+        },
+        {
+          "localizedValue": "Sogo"
+        },
+        {
+          "localizedValue": "Solarcon"
+        },
+        {
+          "localizedValue": "SONIQ"
+        },
+        {
+          "localizedValue": "Sonos"
+        },
+        {
+          "localizedValue": "Sony"
+        },
+        {
+          "localizedValue": "Sony Pictures"
+        },
+        {
+          "localizedValue": "Soundmaster"
+        },
+        {
+          "localizedValue": "Sovos"
+        },
+        {
+          "localizedValue": "SPC"
+        },
+        {
+          "localizedValue": "Spectra"
+        },
+        {
+          "localizedValue": "Speler"
+        },
+        {
+          "localizedValue": "Stancor"
+        },
+        {
+          "localizedValue": "StarTech"
+        },
+        {
+          "localizedValue": "STEELMATE"
+        },
+        {
+          "localizedValue": "Stewart"
+        },
+        {
+          "localizedValue": "STK"
+        },
+        {
+          "localizedValue": "Stratford Labs"
+        },
+        {
+          "localizedValue": "StreamSmart"
+        },
+        {
+          "localizedValue": "Stream System"
+        },
+        {
+          "localizedValue": "STRONG"
+        },
+        {
+          "localizedValue": "Strontium"
+        },
+        {
+          "localizedValue": "StudioCanal"
+        },
+        {
+          "localizedValue": "SUMEC"
+        },
+        {
+          "localizedValue": "SunBrite"
+        },
+        {
+          "localizedValue": "SunBriteTV"
+        },
+        {
+          "localizedValue": "SUNNZO"
+        },
+        {
+          "localizedValue": "SUNSTECH"
+        },
+        {
+          "localizedValue": "Supersonic"
+        },
+        {
+          "localizedValue": "SuperTooth"
+        },
+        {
+          "localizedValue": "SVA"
+        },
+        {
+          "localizedValue": "Sweex"
+        },
+        {
+          "localizedValue": "Swisstone"
+        },
+        {
+          "localizedValue": "SYLVANIA"
+        },
+        {
+          "localizedValue": "Symphonic"
+        },
+        {
+          "localizedValue": "Takara"
+        },
+        {
+          "localizedValue": "Targus"
+        },
+        {
+          "localizedValue": "TASCAM"
+        },
+        {
+          "localizedValue": "Tatung"
+        },
+        {
+          "localizedValue": "TCL"
+        },
+        {
+          "localizedValue": "TD Systems"
+        },
+        {
+          "localizedValue": "TEAC"
+        },
+        {
+          "localizedValue": "Team Group"
+        },
+        {
+          "localizedValue": "TECH2O"
+        },
+        {
+          "localizedValue": "Techlink"
+        },
+        {
+          "localizedValue": "Techly"
+        },
+        {
+          "localizedValue": "Technika"
+        },
+        {
+          "localizedValue": "TechniSat"
+        },
+        {
+          "localizedValue": "Technoline"
+        },
+        {
+          "localizedValue": "Technostar"
+        },
+        {
+          "localizedValue": "Techwood"
+        },
+        {
+          "localizedValue": "TE-CO"
+        },
+        {
+          "localizedValue": "TELECO"
+        },
+        {
+          "localizedValue": "TELEFUNKEN"
+        },
+        {
+          "localizedValue": "Telestar"
+        },
+        {
+          "localizedValue": "TELE System"
+        },
+        {
+          "localizedValue": "TELME"
+        },
+        {
+          "localizedValue": "Terris"
+        },
+        {
+          "localizedValue": "Tevion"
+        },
+        {
+          "localizedValue": "The Home Depot"
+        },
+        {
+          "localizedValue": "Thes"
+        },
+        {
+          "localizedValue": "Thomson"
+        },
+        {
+          "localizedValue": "Thorn"
+        },
+        {
+          "localizedValue": "TileVision"
+        },
+        {
+          "localizedValue": "TIM"
+        },
+        {
+          "localizedValue": "Tivax"
+        },
+        {
+          "localizedValue": "Tivoli"
+        },
+        {
+          "localizedValue": "T-Mobile"
+        },
+        {
+          "localizedValue": "TomTom"
+        },
+        {
+          "localizedValue": "TooQ"
+        },
+        {
+          "localizedValue": "Toshiba"
+        },
+        {
+          "localizedValue": "ToteVision"
+        },
+        {
+          "localizedValue": "TP-LINK"
+        },
+        {
+          "localizedValue": "Transcend"
+        },
+        {
+          "localizedValue": "TREKSTOR"
+        },
+        {
+          "localizedValue": "Trevi"
+        },
+        {
+          "localizedValue": "Trexonic"
+        },
+        {
+          "localizedValue": "Triax"
+        },
+        {
+          "localizedValue": "Tripp Lite"
+        },
+        {
+          "localizedValue": "Tristan Auron"
+        },
+        {
+          "localizedValue": "Truetone"
+        },
+        {
+          "localizedValue": "Trust"
+        },
+        {
+          "localizedValue": "Tru-Tech"
+        },
+        {
+          "localizedValue": "TTfone"
+        },
+        {
+          "localizedValue": "Tupperware"
+        },
+        {
+          "localizedValue": "Tyler"
+        },
+        {
+          "localizedValue": "Typhoon"
+        },
+        {
+          "localizedValue": "UDG"
+        },
+        {
+          "localizedValue": "Ugreen"
+        },
+        {
+          "localizedValue": "Ultimate Ears"
+        },
+        {
+          "localizedValue": "Ultra"
+        },
+        {
+          "localizedValue": "UMC"
+        },
+        {
+          "localizedValue": "Unisonic"
+        },
+        {
+          "localizedValue": "Unispectra"
+        },
+        {
+          "localizedValue": "United"
+        },
+        {
+          "localizedValue": "Universal"
+        },
+        {
+          "localizedValue": "Universum"
+        },
+        {
+          "localizedValue": "Upstar"
+        },
+        {
+          "localizedValue": "Urbanears"
+        },
+        {
+          "localizedValue": "V7"
+        },
+        {
+          "localizedValue": "Value Line"
+        },
+        {
+          "localizedValue": "VARTA"
+        },
+        {
+          "localizedValue": "Vauxhall"
+        },
+        {
+          "localizedValue": "VCM"
+        },
+        {
+          "localizedValue": "Veho"
+        },
+        {
+          "localizedValue": "Velleman"
+        },
+        {
+          "localizedValue": "Veltech"
+        },
+        {
+          "localizedValue": "Venturer"
+        },
+        {
+          "localizedValue": "Verbatim"
+        },
+        {
+          "localizedValue": "Viano"
+        },
+        {
+          "localizedValue": "Vidao"
+        },
+        {
+          "localizedValue": "Videocon"
+        },
+        {
+          "localizedValue": "ViewSonic"
+        },
+        {
+          "localizedValue": "Vimar"
+        },
+        {
+          "localizedValue": "Viore"
+        },
+        {
+          "localizedValue": "VISATON"
+        },
+        {
+          "localizedValue": "Vision"
+        },
+        {
+          "localizedValue": "VisionPLUS"
+        },
+        {
+          "localizedValue": "Visua"
+        },
+        {
+          "localizedValue": "Vivanco"
+        },
+        {
+          "localizedValue": "VIVO"
+        },
+        {
+          "localizedValue": "VIZIO"
+        },
+        {
+          "localizedValue": "V-MODA"
+        },
+        {
+          "localizedValue": "Vodafone"
+        },
+        {
+          "localizedValue": "Vogel's"
+        },
+        {
+          "localizedValue": "Voxson"
+        },
+        {
+          "localizedValue": "VTech"
+        },
+        {
+          "localizedValue": "Vu+"
+        },
+        {
+          "localizedValue": "Walimex"
+        },
+        {
+          "localizedValue": "Walker"
+        },
+        {
+          "localizedValue": "WASABI MANGO"
+        },
+        {
+          "localizedValue": "Weimei"
+        },
+        {
+          "localizedValue": "Westclox"
+        },
+        {
+          "localizedValue": "Westinghouse"
+        },
+        {
+          "localizedValue": "Wharfedale"
+        },
+        {
+          "localizedValue": "Wiko"
+        },
+        {
+          "localizedValue": "Wileyfox"
+        },
+        {
+          "localizedValue": "WinArrow"
+        },
+        {
+          "localizedValue": "Windsor"
+        },
+        {
+          "localizedValue": "Winegard"
+        },
+        {
+          "localizedValue": "Wintal"
+        },
+        {
+          "localizedValue": "Wolfpack"
+        },
+        {
+          "localizedValue": "Woxter"
+        },
+        {
+          "localizedValue": "XBMCMart"
+        },
+        {
+          "localizedValue": "Xiaomi"
+        },
+        {
+          "localizedValue": "XOMAX"
+        },
+        {
+          "localizedValue": "Xoro"
+        },
+        {
+          "localizedValue": "Xtreme"
+        },
+        {
+          "localizedValue": "Yamaha"
+        },
+        {
+          "localizedValue": "Zebra"
+        },
+        {
+          "localizedValue": "Zenith"
+        },
+        {
+          "localizedValue": "Zephir"
+        },
+        {
+          "localizedValue": "ZTE"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Anzeigetechnologie",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": true,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "CRT"
+        },
+        {
+          "localizedValue": "LCD"
+        },
+        {
+          "localizedValue": "LED"
+        },
+        {
+          "localizedValue": "OLED"
+        },
+        {
+          "localizedValue": "Plasma"
+        },
+        {
+          "localizedValue": "Rückprojektion"
+        },
+        {
+          "localizedValue": "DLP"
+        },
+        {
+          "localizedValue": "QLED"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Bildschirmgröße",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": true,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "5 Zoll"
+        },
+        {
+          "localizedValue": "5,1 Zoll"
+        },
+        {
+          "localizedValue": "5,2 Zoll"
+        },
+        {
+          "localizedValue": "5,3 Zoll"
+        },
+        {
+          "localizedValue": "5,4 Zoll"
+        },
+        {
+          "localizedValue": "5,5 Zoll"
+        },
+        {
+          "localizedValue": "5,6 Zoll"
+        },
+        {
+          "localizedValue": "5,7 Zoll"
+        },
+        {
+          "localizedValue": "5,8 Zoll"
+        },
+        {
+          "localizedValue": "5,9 Zoll"
+        },
+        {
+          "localizedValue": "6 Zoll"
+        },
+        {
+          "localizedValue": "6,1 Zoll"
+        },
+        {
+          "localizedValue": "6,2 Zoll"
+        },
+        {
+          "localizedValue": "6,3 Zoll"
+        },
+        {
+          "localizedValue": "6,4 Zoll"
+        },
+        {
+          "localizedValue": "6,5 Zoll"
+        },
+        {
+          "localizedValue": "6,8 Zoll"
+        },
+        {
+          "localizedValue": "6,9 Zoll"
+        },
+        {
+          "localizedValue": "7 Zoll"
+        },
+        {
+          "localizedValue": "7,7 Zoll"
+        },
+        {
+          "localizedValue": "7,9 Zoll"
+        },
+        {
+          "localizedValue": "8 Zoll"
+        },
+        {
+          "localizedValue": "8,1 Zoll"
+        },
+        {
+          "localizedValue": "8,2 Zoll"
+        },
+        {
+          "localizedValue": "8,3 Zoll"
+        },
+        {
+          "localizedValue": "8,4 Zoll"
+        },
+        {
+          "localizedValue": "8,5 Zoll"
+        },
+        {
+          "localizedValue": "8,9 Zoll"
+        },
+        {
+          "localizedValue": "9 Zoll"
+        },
+        {
+          "localizedValue": "9,4 Zoll"
+        },
+        {
+          "localizedValue": "9,5 Zoll"
+        },
+        {
+          "localizedValue": "9,6 Zoll"
+        },
+        {
+          "localizedValue": "9,7 Zoll"
+        },
+        {
+          "localizedValue": "10 Zoll"
+        },
+        {
+          "localizedValue": "10,1 Zoll"
+        },
+        {
+          "localizedValue": "10,2 Zoll"
+        },
+        {
+          "localizedValue": "10,4 Zoll"
+        },
+        {
+          "localizedValue": "10,5 Zoll"
+        },
+        {
+          "localizedValue": "10,6 Zoll"
+        },
+        {
+          "localizedValue": "10,8 Zoll"
+        },
+        {
+          "localizedValue": "10,9 Zoll"
+        },
+        {
+          "localizedValue": "11 Zoll"
+        },
+        {
+          "localizedValue": "11,5 Zoll"
+        },
+        {
+          "localizedValue": "11,6 Zoll"
+        },
+        {
+          "localizedValue": "11,9 Zoll"
+        },
+        {
+          "localizedValue": "12  Zoll"
+        },
+        {
+          "localizedValue": "12,1 Zoll"
+        },
+        {
+          "localizedValue": "12,2 Zoll"
+        },
+        {
+          "localizedValue": "12,3 Zoll"
+        },
+        {
+          "localizedValue": "12,5 Zoll"
+        },
+        {
+          "localizedValue": "12,9 Zoll"
+        },
+        {
+          "localizedValue": "13 Zoll"
+        },
+        {
+          "localizedValue": "13,3 Zoll"
+        },
+        {
+          "localizedValue": "13,5 Zoll"
+        },
+        {
+          "localizedValue": "13,9 Zoll"
+        },
+        {
+          "localizedValue": "14 Zoll"
+        },
+        {
+          "localizedValue": "14,1 Zoll"
+        },
+        {
+          "localizedValue": "15 Zoll"
+        },
+        {
+          "localizedValue": "15,2 Zoll"
+        },
+        {
+          "localizedValue": "15,4 Zoll"
+        },
+        {
+          "localizedValue": "15,6 Zoll"
+        },
+        {
+          "localizedValue": "16 Zoll"
+        },
+        {
+          "localizedValue": "17 Zoll"
+        },
+        {
+          "localizedValue": "17,1 Zoll"
+        },
+        {
+          "localizedValue": "18 Zoll"
+        },
+        {
+          "localizedValue": "18,4 Zoll"
+        },
+        {
+          "localizedValue": "18,5 Zoll"
+        },
+        {
+          "localizedValue": "18,9 Zoll"
+        },
+        {
+          "localizedValue": "19 Zoll"
+        },
+        {
+          "localizedValue": "19,5 Zoll"
+        },
+        {
+          "localizedValue": "20 Zoll"
+        },
+        {
+          "localizedValue": "20,1 Zoll"
+        },
+        {
+          "localizedValue": "21 Zoll"
+        },
+        {
+          "localizedValue": "21,5 Zoll"
+        },
+        {
+          "localizedValue": "21,6 Zoll"
+        },
+        {
+          "localizedValue": "22 Zoll"
+        },
+        {
+          "localizedValue": "23 Zoll"
+        },
+        {
+          "localizedValue": "23,6 Zoll"
+        },
+        {
+          "localizedValue": "23,8 Zoll"
+        },
+        {
+          "localizedValue": "24 Zoll"
+        },
+        {
+          "localizedValue": "25 Zoll"
+        },
+        {
+          "localizedValue": "25,5 Zoll"
+        },
+        {
+          "localizedValue": "26 Zoll"
+        },
+        {
+          "localizedValue": "27 Zoll"
+        },
+        {
+          "localizedValue": "27,5 Zoll"
+        },
+        {
+          "localizedValue": "28 Zoll"
+        },
+        {
+          "localizedValue": "28,5 Zoll"
+        },
+        {
+          "localizedValue": "29 Zoll"
+        },
+        {
+          "localizedValue": "30 Zoll"
+        },
+        {
+          "localizedValue": "31 Zoll"
+        },
+        {
+          "localizedValue": "31,5 Zoll"
+        },
+        {
+          "localizedValue": "31,51 Zoll"
+        },
+        {
+          "localizedValue": "32 Zoll"
+        },
+        {
+          "localizedValue": "33 Zoll"
+        },
+        {
+          "localizedValue": "34 Zoll"
+        },
+        {
+          "localizedValue": "35 Zoll"
+        },
+        {
+          "localizedValue": "36 Zoll"
+        },
+        {
+          "localizedValue": "37 Zoll"
+        },
+        {
+          "localizedValue": "38 Zoll"
+        },
+        {
+          "localizedValue": "38,5 Zoll"
+        },
+        {
+          "localizedValue": "39 Zoll"
+        },
+        {
+          "localizedValue": "40 Zoll"
+        },
+        {
+          "localizedValue": "41 Zoll"
+        },
+        {
+          "localizedValue": "42 Zoll"
+        },
+        {
+          "localizedValue": "43 Zoll"
+        },
+        {
+          "localizedValue": "44 Zoll"
+        },
+        {
+          "localizedValue": "45 Zoll"
+        },
+        {
+          "localizedValue": "46 Zoll"
+        },
+        {
+          "localizedValue": "46,9 Zoll"
+        },
+        {
+          "localizedValue": "47 Zoll"
+        },
+        {
+          "localizedValue": "47,6 Zoll"
+        },
+        {
+          "localizedValue": "48 Zoll"
+        },
+        {
+          "localizedValue": "49 Zoll"
+        },
+        {
+          "localizedValue": "50 Zoll"
+        },
+        {
+          "localizedValue": "51 Zoll"
+        },
+        {
+          "localizedValue": "52 Zoll"
+        },
+        {
+          "localizedValue": "53 Zoll"
+        },
+        {
+          "localizedValue": "54 Zoll"
+        },
+        {
+          "localizedValue": "54,6 Zoll"
+        },
+        {
+          "localizedValue": "55 Zoll"
+        },
+        {
+          "localizedValue": "56 Zoll"
+        },
+        {
+          "localizedValue": "57 Zoll"
+        },
+        {
+          "localizedValue": "58 Zoll"
+        },
+        {
+          "localizedValue": "59 Zoll"
+        },
+        {
+          "localizedValue": "60 Zoll"
+        },
+        {
+          "localizedValue": "61 Zoll"
+        },
+        {
+          "localizedValue": "62 Zoll"
+        },
+        {
+          "localizedValue": "63 Zoll"
+        },
+        {
+          "localizedValue": "64 Zoll"
+        },
+        {
+          "localizedValue": "64,5 Zoll"
+        },
+        {
+          "localizedValue": "64,8 Zoll"
+        },
+        {
+          "localizedValue": "65 Zoll"
+        },
+        {
+          "localizedValue": "66 Zoll"
+        },
+        {
+          "localizedValue": "67 Zoll"
+        },
+        {
+          "localizedValue": "68 Zoll"
+        },
+        {
+          "localizedValue": "69 Zoll"
+        },
+        {
+          "localizedValue": "70 Zoll"
+        },
+        {
+          "localizedValue": "71 Zoll"
+        },
+        {
+          "localizedValue": "72 Zoll"
+        },
+        {
+          "localizedValue": "73 Zoll"
+        },
+        {
+          "localizedValue": "74,2 Zoll"
+        },
+        {
+          "localizedValue": "75 Zoll"
+        },
+        {
+          "localizedValue": "77 Zoll"
+        },
+        {
+          "localizedValue": "78 Zoll"
+        },
+        {
+          "localizedValue": "78,6 Zoll"
+        },
+        {
+          "localizedValue": "79 Zoll"
+        },
+        {
+          "localizedValue": "80 Zoll"
+        },
+        {
+          "localizedValue": "82 Zoll"
+        },
+        {
+          "localizedValue": "83 Zoll"
+        },
+        {
+          "localizedValue": "84 Zoll"
+        },
+        {
+          "localizedValue": "85 Zoll"
+        },
+        {
+          "localizedValue": "86 Zoll"
+        },
+        {
+          "localizedValue": "88 Zoll"
+        },
+        {
+          "localizedValue": "90 Zoll"
+        },
+        {
+          "localizedValue": "92 Zoll"
+        },
+        {
+          "localizedValue": "98 Zoll"
+        },
+        {
+          "localizedValue": "100 Zoll"
+        },
+        {
+          "localizedValue": "103 Zoll"
+        },
+        {
+          "localizedValue": "105 Zoll"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Modell",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": true,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Grundig 43 VCE 220"
+        },
+        {
+          "localizedValue": "Hisense 32A4G"
+        },
+        {
+          "localizedValue": "Hisense 32A5100FT"
+        },
+        {
+          "localizedValue": "Hisense 32A5100FT"
+        },
+        {
+          "localizedValue": "Hisense 40A4DG"
+        },
+        {
+          "localizedValue": "Hisense 40A5100FT"
+        },
+        {
+          "localizedValue": "Hisense 40A5100FT"
+        },
+        {
+          "localizedValue": "Hisense 43A6BG"
+        },
+        {
+          "localizedValue": "Hisense 65A79GQ"
+        },
+        {
+          "localizedValue": "Hisense A5600F"
+        },
+        {
+          "localizedValue": "Hisense A5600F"
+        },
+        {
+          "localizedValue": "Hisense A7100F"
+        },
+        {
+          "localizedValue": "Hisense A7100F"
+        },
+        {
+          "localizedValue": "Hisense A7300F"
+        },
+        {
+          "localizedValue": "Hisense A7300F"
+        },
+        {
+          "localizedValue": "Hisense A7500F"
+        },
+        {
+          "localizedValue": "Hisense A7500F"
+        },
+        {
+          "localizedValue": "Hisense AE5500F"
+        },
+        {
+          "localizedValue": "Hisense AE5500F"
+        },
+        {
+          "localizedValue": "Hisense AE7000F"
+        },
+        {
+          "localizedValue": "Hisense AE7000F"
+        },
+        {
+          "localizedValue": "Hisense AE7010F"
+        },
+        {
+          "localizedValue": "Hisense AE7010F"
+        },
+        {
+          "localizedValue": "Hisense AE7200F"
+        },
+        {
+          "localizedValue": "Hisense AE7200F"
+        },
+        {
+          "localizedValue": "Hisense L5F-A12"
+        },
+        {
+          "localizedValue": "Hisense L5F-A12"
+        },
+        {
+          "localizedValue": "Hisense L5F-B12"
+        },
+        {
+          "localizedValue": "Hisense L5F-B12"
+        },
+        {
+          "localizedValue": "Hisense U7QF"
+        },
+        {
+          "localizedValue": "Hisense U7QF"
+        },
+        {
+          "localizedValue": "Hisense U8QF"
+        },
+        {
+          "localizedValue": "Hisense U8QF"
+        },
+        {
+          "localizedValue": "homeX UA50FT5505"
+        },
+        {
+          "localizedValue": "LG 32LQ63006LA"
+        },
+        {
+          "localizedValue": "LG 43NANO796NE"
+        },
+        {
+          "localizedValue": "LG 43NANO796NE"
+        },
+        {
+          "localizedValue": "LG 43UN70006LA"
+        },
+        {
+          "localizedValue": "LG 43UN70006LA"
+        },
+        {
+          "localizedValue": "LG 49UK6300PLB"
+        },
+        {
+          "localizedValue": "LG 50NANO796NE"
+        },
+        {
+          "localizedValue": "LG 50NANO796NE"
+        },
+        {
+          "localizedValue": "LG 50UN70006LA"
+        },
+        {
+          "localizedValue": "LG 50UN70006LA"
+        },
+        {
+          "localizedValue": "LG 55NANO796NE"
+        },
+        {
+          "localizedValue": "LG 55NANO796NE"
+        },
+        {
+          "localizedValue": "LG 55UN70006LA"
+        },
+        {
+          "localizedValue": "LG 55UN70006LA"
+        },
+        {
+          "localizedValue": "LG 65NANO796NE"
+        },
+        {
+          "localizedValue": "LG 65NANO796NE"
+        },
+        {
+          "localizedValue": "LG 65NANO999NA"
+        },
+        {
+          "localizedValue": "LG 65NANO999NA"
+        },
+        {
+          "localizedValue": "LG 65UN70006LA"
+        },
+        {
+          "localizedValue": "LG 65UN70006LA"
+        },
+        {
+          "localizedValue": "LG 75NANO796NF"
+        },
+        {
+          "localizedValue": "LG 75NANO796NF"
+        },
+        {
+          "localizedValue": "LG 86UQ80009LB"
+        },
+        {
+          "localizedValue": "LG OLED55B9SLA"
+        },
+        {
+          "localizedValue": "LG OLED55B9SLA"
+        },
+        {
+          "localizedValue": "LG OLED55BX9LB"
+        },
+        {
+          "localizedValue": "LG OLED55BX9LB"
+        },
+        {
+          "localizedValue": "LG OLED55CX6LA"
+        },
+        {
+          "localizedValue": "LG OLED55CX6LA"
+        },
+        {
+          "localizedValue": "LG OLED65B23LA"
+        },
+        {
+          "localizedValue": "LG OLED65B9SLA"
+        },
+        {
+          "localizedValue": "LG OLED65B9SLA"
+        },
+        {
+          "localizedValue": "LG OLED65BX9LB"
+        },
+        {
+          "localizedValue": "LG OLED65BX9LB"
+        },
+        {
+          "localizedValue": "LG OLED65CX6LA"
+        },
+        {
+          "localizedValue": "LG OLED65CX6LA"
+        },
+        {
+          "localizedValue": "LG OLED77C17LB"
+        },
+        {
+          "localizedValue": "LG SM8050PLC"
+        },
+        {
+          "localizedValue": "LG SM8050PLC"
+        },
+        {
+          "localizedValue": "LG UN81006LB"
+        },
+        {
+          "localizedValue": "LG UN81006LB"
+        },
+        {
+          "localizedValue": "MANTA 22LFN38L"
+        },
+        {
+          "localizedValue": "MEDION Life E11940"
+        },
+        {
+          "localizedValue": "MEDION Life E11940"
+        },
+        {
+          "localizedValue": "MEDION Life E12442"
+        },
+        {
+          "localizedValue": "MEDION Life E12442"
+        },
+        {
+          "localizedValue": "MEDION life E12836"
+        },
+        {
+          "localizedValue": "MEDION life E12836"
+        },
+        {
+          "localizedValue": "MEDION Life E12837"
+        },
+        {
+          "localizedValue": "MEDION Life E12837"
+        },
+        {
+          "localizedValue": "MEDION Life E13211"
+        },
+        {
+          "localizedValue": "MEDION Life E13211"
+        },
+        {
+          "localizedValue": "MEDION Life E13225"
+        },
+        {
+          "localizedValue": "MEDION Life E13225"
+        },
+        {
+          "localizedValue": "MEDION Life P13939"
+        },
+        {
+          "localizedValue": "MEDION Life P13939"
+        },
+        {
+          "localizedValue": "MEDION Life S15555"
+        },
+        {
+          "localizedValue": "MEDION Life S15555"
+        },
+        {
+          "localizedValue": "MEDION Life X14350"
+        },
+        {
+          "localizedValue": "MEDION Life X14350"
+        },
+        {
+          "localizedValue": "MEDION Life X15580"
+        },
+        {
+          "localizedValue": "MEDION Life X15580"
+        },
+        {
+          "localizedValue": "Panasonic HXW804"
+        },
+        {
+          "localizedValue": "Panasonic HXW804"
+        },
+        {
+          "localizedValue": "Panasonic JXW944"
+        },
+        {
+          "localizedValue": "Panasonic JZW984"
+        },
+        {
+          "localizedValue": "Panasonic TX-39JSW354"
+        },
+        {
+          "localizedValue": "Panasonic TX-42LZW984"
+        },
+        {
+          "localizedValue": "Panasonic TX-55HZW984"
+        },
+        {
+          "localizedValue": "Panasonic TX-55HZW984"
+        },
+        {
+          "localizedValue": "Panasonic TX-65HZW984"
+        },
+        {
+          "localizedValue": "Panasonic TX-65HZW984"
+        },
+        {
+          "localizedValue": "Philips 32PFS6905"
+        },
+        {
+          "localizedValue": "Philips 32PFS6905"
+        },
+        {
+          "localizedValue": "Philips 32PFS6906/12"
+        },
+        {
+          "localizedValue": "Philips 48OLED707/12"
+        },
+        {
+          "localizedValue": "Philips 48OLED935"
+        },
+        {
+          "localizedValue": "Philips 48OLED935"
+        },
+        {
+          "localizedValue": "Philips 50PUS9005"
+        },
+        {
+          "localizedValue": "Philips 50PUS9005"
+        },
+        {
+          "localizedValue": "Philips 55OLED707/12"
+        },
+        {
+          "localizedValue": "Philips 55OLED807/12"
+        },
+        {
+          "localizedValue": "Philips 55OLED935"
+        },
+        {
+          "localizedValue": "Philips 55OLED935"
+        },
+        {
+          "localizedValue": "Philips 65OLED807/12"
+        },
+        {
+          "localizedValue": "Philips 65OLED855"
+        },
+        {
+          "localizedValue": "Philips 65OLED855"
+        },
+        {
+          "localizedValue": "Philips 65OLED865"
+        },
+        {
+          "localizedValue": "Philips 65OLED865"
+        },
+        {
+          "localizedValue": "Philips 65OLED935"
+        },
+        {
+          "localizedValue": "Philips 65OLED935"
+        },
+        {
+          "localizedValue": "Philips 65OLED936/12"
+        },
+        {
+          "localizedValue": "Philips 70PUS7855"
+        },
+        {
+          "localizedValue": "Philips 70PUS7855"
+        },
+        {
+          "localizedValue": "Philips 77OLED807"
+        },
+        {
+          "localizedValue": "Philips 77OLED807/12"
+        },
+        {
+          "localizedValue": "Philips PUS7855"
+        },
+        {
+          "localizedValue": "Philips PUS7855"
+        },
+        {
+          "localizedValue": "Philips The One 55PUS8807/12"
+        },
+        {
+          "localizedValue": "Samsung AU7179"
+        },
+        {
+          "localizedValue": "Samsung AU7199"
+        },
+        {
+          "localizedValue": "Samsung AU8000"
+        },
+        {
+          "localizedValue": "Samsung Crystal AU6979 (2021)"
+        },
+        {
+          "localizedValue": "Samsung GQ43Q60B"
+        },
+        {
+          "localizedValue": "Samsung GQ55Q60BAUXZG"
+        },
+        {
+          "localizedValue": "Samsung GQ55S95BATXZG"
+        },
+        {
+          "localizedValue": "Samsung GQ65S95BATXZG"
+        },
+        {
+          "localizedValue": "Samsung GU32T5379CU"
+        },
+        {
+          "localizedValue": "Samsung GU-43TU6979"
+        },
+        {
+          "localizedValue": "Samsung Neo QN90B"
+        },
+        {
+          "localizedValue": "Samsung Neo QN92B"
+        },
+        {
+          "localizedValue": "Samsung Q50Q60B"
+        },
+        {
+          "localizedValue": "Samsung Q60B (2022)"
+        },
+        {
+          "localizedValue": "Samsung Q700T"
+        },
+        {
+          "localizedValue": "Samsung Q72B"
+        },
+        {
+          "localizedValue": "Samsung Q72B (2022)"
+        },
+        {
+          "localizedValue": "Samsung QN85B"
+        },
+        {
+          "localizedValue": "Samsung QN95B"
+        },
+        {
+          "localizedValue": "Samsung The Frame"
+        },
+        {
+          "localizedValue": "Samsung The Frame LS03A"
+        },
+        {
+          "localizedValue": "Samsung The Frame LS03B"
+        },
+        {
+          "localizedValue": "Sceptre E246BV-FC"
+        },
+        {
+          "localizedValue": "Sceptre U550CV-U"
+        },
+        {
+          "localizedValue": "Sceptre U650CV-U"
+        },
+        {
+          "localizedValue": "Sceptre X322BV-SR"
+        },
+        {
+          "localizedValue": "Sony XR50X90JAEP"
+        },
+        {
+          "localizedValue": "Sony XR50X92JAEP"
+        },
+        {
+          "localizedValue": "Sony XR50X93JAEP"
+        },
+        {
+          "localizedValue": "Sony XR50X94JAEP"
+        },
+        {
+          "localizedValue": "Sony XR55A80JAEP"
+        },
+        {
+          "localizedValue": "Sony XR55A83JAEP"
+        },
+        {
+          "localizedValue": "Sony XR55A84JAEP"
+        },
+        {
+          "localizedValue": "Sony XR55A90JAEP"
+        },
+        {
+          "localizedValue": "Sony XR55X90JAEP"
+        },
+        {
+          "localizedValue": "Sony XR55X92JAEP"
+        },
+        {
+          "localizedValue": "Sony XR55X93JAEP"
+        },
+        {
+          "localizedValue": "Sony XR55X94JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65A80JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65A83JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65A84JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65A90JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65X90JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65X92JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65X93JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65X94JAEP"
+        },
+        {
+          "localizedValue": "Sony XR65X95JAEP"
+        },
+        {
+          "localizedValue": "Sony XR75X90JAEP"
+        },
+        {
+          "localizedValue": "Sony XR75X92JAEP"
+        },
+        {
+          "localizedValue": "Sony XR75X93JAEP"
+        },
+        {
+          "localizedValue": "Sony XR75X94JAEP"
+        },
+        {
+          "localizedValue": "Sony XR75X95JAEP"
+        },
+        {
+          "localizedValue": "Sony XR75Z9JAEP"
+        },
+        {
+          "localizedValue": "Sony XR77A80JAEP"
+        },
+        {
+          "localizedValue": "Sony XR77A83JAEP"
+        },
+        {
+          "localizedValue": "Sony XR77A84JAEP"
+        },
+        {
+          "localizedValue": "Sony XR83A90JAEP"
+        },
+        {
+          "localizedValue": "Sony XR85X95JAEP"
+        },
+        {
+          "localizedValue": "Sony XR85Z9JAEP"
+        },
+        {
+          "localizedValue": "TCL C715"
+        },
+        {
+          "localizedValue": "TCL C735"
+        },
+        {
+          "localizedValue": "TCL C815"
+        },
+        {
+          "localizedValue": "TCL EC780"
+        },
+        {
+          "localizedValue": "TCL P610"
+        },
+        {
+          "localizedValue": "TCL P615"
+        },
+        {
+          "localizedValue": "TCL P715"
+        },
+        {
+          "localizedValue": "TCL P815"
+        },
+        {
+          "localizedValue": "TCL X10"
+        },
+        {
+          "localizedValue": "TCL X915"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D24H551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D24H551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D40U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D40U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D43F446A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D43F446A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D43U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D43U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D50U550B4CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D50U550B4CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D50U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D50U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D55U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D55U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D58U551N4CWH"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D58U551N4CWH"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D58U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN D58U551R1CW"
+        },
+        {
+          "localizedValue": "TELEFUNKEN E24H340A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN E24H340A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN E24H342A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN E24H342A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN E24H345A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN E24H345A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN E32F545A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN E32F545A"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XF32J511"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XF32J511"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XF32J511-W"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XF32J511-W"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH24J101"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH24J101"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH24J501VD"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH24J501VD"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH24J501VD-W"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH24J501VD-W"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH32J511"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH32J511"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH32J511-W"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XH32J511-W"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XU40J521"
+        },
+        {
+          "localizedValue": "TELEFUNKEN XU40J521"
+        },
+        {
+          "localizedValue": "Toshiba UL3063DG"
+        },
+        {
+          "localizedValue": "Toshiba UL3063DG"
+        },
+        {
+          "localizedValue": "Xiaomi Mi 4S"
+        },
+        {
+          "localizedValue": "Xiaomi Mi 4S"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Maximale Auflösung",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": true,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "4320p (8K)"
+        },
+        {
+          "localizedValue": "2160p (4K)"
+        },
+        {
+          "localizedValue": "1440p (2K)"
+        },
+        {
+          "localizedValue": "1080p (FHD)"
+        },
+        {
+          "localizedValue": "1080i (FHD)"
+        },
+        {
+          "localizedValue": "768p"
+        },
+        {
+          "localizedValue": "720p (HD)"
+        },
+        {
+          "localizedValue": "576p"
+        },
+        {
+          "localizedValue": "576i"
+        },
+        {
+          "localizedValue": "480p"
+        },
+        {
+          "localizedValue": "480i"
+        },
+        {
+          "localizedValue": "360p"
+        },
+        {
+          "localizedValue": "240p"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Besonderheiten",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "12V/240V TV"
+        },
+        {
+          "localizedValue": "12V TV"
+        },
+        {
+          "localizedValue": "12V TV DVD"
+        },
+        {
+          "localizedValue": "2160p (4K)"
+        },
+        {
+          "localizedValue": "2 Port USB Hub"
+        },
+        {
+          "localizedValue": "Ambiente-Beleuchtung"
+        },
+        {
+          "localizedValue": "Bild-im-Bild (PIP)"
+        },
+        {
+          "localizedValue": "Blendschutz"
+        },
+        {
+          "localizedValue": "Bluetooth"
+        },
+        {
+          "localizedValue": "Curved"
+        },
+        {
+          "localizedValue": "DLNA Certified"
+        },
+        {
+          "localizedValue": "Eco Mode"
+        },
+        {
+          "localizedValue": "Eingebaute Lautsprecher"
+        },
+        {
+          "localizedValue": "eingebauter Videorecorder"
+        },
+        {
+          "localizedValue": "Ethernet-Anschluss"
+        },
+        {
+          "localizedValue": "Firmware Aktualisierbar"
+        },
+        {
+          "localizedValue": "Flachbildschirm"
+        },
+        {
+          "localizedValue": "FM-Transmitter"
+        },
+        {
+          "localizedValue": "HDR Fernseher"
+        },
+        {
+          "localizedValue": "HDTV-fähig"
+        },
+        {
+          "localizedValue": "Im Auto Nutzbar"
+        },
+        {
+          "localizedValue": "Inklusive 3D-Brille"
+        },
+        {
+          "localizedValue": "Inklusive Fernbedienung"
+        },
+        {
+          "localizedValue": "Inklusive Tastaturcontroller"
+        },
+        {
+          "localizedValue": "Integrierter Blu-ray-Player"
+        },
+        {
+          "localizedValue": "Integrierter DVD-Player"
+        },
+        {
+          "localizedValue": "Integrierte Webkamera"
+        },
+        {
+          "localizedValue": "iPod Dock"
+        },
+        {
+          "localizedValue": "Kopfhörerbuchse"
+        },
+        {
+          "localizedValue": "Lichtsensor"
+        },
+        {
+          "localizedValue": "Local Dimming"
+        },
+        {
+          "localizedValue": "Outdoor-TV"
+        },
+        {
+          "localizedValue": "Personal Video Recorder (PVR)"
+        },
+        {
+          "localizedValue": "Rollbarer Bildschirm"
+        },
+        {
+          "localizedValue": "RS-232C"
+        },
+        {
+          "localizedValue": "Sleep Timer"
+        },
+        {
+          "localizedValue": "Spiegel TV"
+        },
+        {
+          "localizedValue": "Spielmodus"
+        },
+        {
+          "localizedValue": "Sportmodus"
+        },
+        {
+          "localizedValue": "Sprachsuche"
+        },
+        {
+          "localizedValue": "Standard"
+        },
+        {
+          "localizedValue": "Thin Bezel"
+        },
+        {
+          "localizedValue": "Touchscreen"
+        },
+        {
+          "localizedValue": "Tragbar & batteriebetrieben"
+        },
+        {
+          "localizedValue": "Under Cabinet TV"
+        },
+        {
+          "localizedValue": "Upscaling auf 8K"
+        },
+        {
+          "localizedValue": "USB Recording"
+        },
+        {
+          "localizedValue": "V-Chip"
+        },
+        {
+          "localizedValue": "Virtual Surround"
+        },
+        {
+          "localizedValue": "Wallpaper TV"
+        },
+        {
+          "localizedValue": "Wandhalterung"
+        },
+        {
+          "localizedValue": "Wasserfest"
+        },
+        {
+          "localizedValue": "WCG"
+        },
+        {
+          "localizedValue": "Webcam Included"
+        },
+        {
+          "localizedValue": "Weitsicht Winkel"
+        },
+        {
+          "localizedValue": "Wetterfest"
+        },
+        {
+          "localizedValue": "Widescreen (16:9)"
+        },
+        {
+          "localizedValue": "Wiederaufladbar"
+        },
+        {
+          "localizedValue": "WLAN-fähig"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Energieeffizienzklasse",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "A+++"
+        },
+        {
+          "localizedValue": "A++"
+        },
+        {
+          "localizedValue": "A+"
+        },
+        {
+          "localizedValue": "A"
+        },
+        {
+          "localizedValue": "B"
+        },
+        {
+          "localizedValue": "C"
+        },
+        {
+          "localizedValue": "D"
+        },
+        {
+          "localizedValue": "E"
+        },
+        {
+          "localizedValue": "F"
+        },
+        {
+          "localizedValue": "G"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Smart TV-Funktionen",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Android TV"
+        },
+        {
+          "localizedValue": "Appstore"
+        },
+        {
+          "localizedValue": "Bildschirmspiegelung"
+        },
+        {
+          "localizedValue": "Elektronischer Programmführer (EPG)"
+        },
+        {
+          "localizedValue": "Geschlossene Untertitel"
+        },
+        {
+          "localizedValue": "Heimnetzwerk-Streaming"
+        },
+        {
+          "localizedValue": "Herunterladbare Apps"
+        },
+        {
+          "localizedValue": "Internet-Streaming-Schnittstelle"
+        },
+        {
+          "localizedValue": "Internetzugang"
+        },
+        {
+          "localizedValue": "Netflix"
+        },
+        {
+          "localizedValue": "Nicht unterstützt"
+        },
+        {
+          "localizedValue": "Opera TV"
+        },
+        {
+          "localizedValue": "Presto"
+        },
+        {
+          "localizedValue": "Smart Home- Kompatibel"
+        },
+        {
+          "localizedValue": "Sprachinteraktion"
+        },
+        {
+          "localizedValue": "Videoanruf"
+        },
+        {
+          "localizedValue": "Zeitverschiebung"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Bildwiederholrate",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "50 Hz"
+        },
+        {
+          "localizedValue": "60 Hz"
+        },
+        {
+          "localizedValue": "100 Hz"
+        },
+        {
+          "localizedValue": "120 Hz"
+        },
+        {
+          "localizedValue": "200 Hz"
+        },
+        {
+          "localizedValue": "240 Hz"
+        },
+        {
+          "localizedValue": "400 Hz"
+        },
+        {
+          "localizedValue": "600 Hz"
+        },
+        {
+          "localizedValue": "800 Hz"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Audio-/Videoeingänge",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Audio-In Jack (3,5mm)"
+        },
+        {
+          "localizedValue": "Bluetooth"
+        },
+        {
+          "localizedValue": "Component (YPbPr) BNC"
+        },
+        {
+          "localizedValue": "Component (YPbPr) RCA"
+        },
+        {
+          "localizedValue": "Composite Video BNC"
+        },
+        {
+          "localizedValue": "Composite Video RCA"
+        },
+        {
+          "localizedValue": "Digital-Audio koaxial RCA"
+        },
+        {
+          "localizedValue": "Digital-Audio optisch TOSLINK"
+        },
+        {
+          "localizedValue": "DisplayPort"
+        },
+        {
+          "localizedValue": "DMS-59"
+        },
+        {
+          "localizedValue": "DVI"
+        },
+        {
+          "localizedValue": "Ethernet"
+        },
+        {
+          "localizedValue": "Fernsehantenne"
+        },
+        {
+          "localizedValue": "HDMI"
+        },
+        {
+          "localizedValue": "Koaxial-F"
+        },
+        {
+          "localizedValue": "Koaxial S/PDIF"
+        },
+        {
+          "localizedValue": "Mikro-DVI"
+        },
+        {
+          "localizedValue": "Mini-DIN-Video"
+        },
+        {
+          "localizedValue": "Mini-DisplayPort"
+        },
+        {
+          "localizedValue": "Mini-DVI"
+        },
+        {
+          "localizedValue": "Optisches Kabel"
+        },
+        {
+          "localizedValue": "SCART"
+        },
+        {
+          "localizedValue": "SDI BNC"
+        },
+        {
+          "localizedValue": "Speicherkartensteckplatz"
+        },
+        {
+          "localizedValue": "Stereo-3D"
+        },
+        {
+          "localizedValue": "Stereo-Audio L/R RCA"
+        },
+        {
+          "localizedValue": "S-Video"
+        },
+        {
+          "localizedValue": "USB"
+        },
+        {
+          "localizedValue": "USB 2.0"
+        },
+        {
+          "localizedValue": "USB 3.0"
+        },
+        {
+          "localizedValue": "VGA D-Sub"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Herstellernummer",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      }
+    },
+    {
+      "localizedAspectName": "Anzahl der Einheiten",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "ITEM"
+        ]
+      }
+    },
+    {
+      "localizedAspectName": "EEK Spektrum",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "A+++ - G"
+        },
+        {
+          "localizedValue": "A+++ - E"
+        },
+        {
+          "localizedValue": "A+++ - D"
+        },
+        {
+          "localizedValue": "A++ - G"
+        },
+        {
+          "localizedValue": "A++ - E"
+        },
+        {
+          "localizedValue": "A+ - G"
+        },
+        {
+          "localizedValue": "A+ - F"
+        },
+        {
+          "localizedValue": "A - G"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Maßeinheit",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "kg"
+        },
+        {
+          "localizedValue": "100g"
+        },
+        {
+          "localizedValue": "10g"
+        },
+        {
+          "localizedValue": "L"
+        },
+        {
+          "localizedValue": "100ml"
+        },
+        {
+          "localizedValue": "10ml"
+        },
+        {
+          "localizedValue": "m"
+        },
+        {
+          "localizedValue": "m²"
+        },
+        {
+          "localizedValue": "m³"
+        },
+        {
+          "localizedValue": "Einheit"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Farbe",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Beige"
+        },
+        {
+          "localizedValue": "Blau"
+        },
+        {
+          "localizedValue": "Braun"
+        },
+        {
+          "localizedValue": "Gelb"
+        },
+        {
+          "localizedValue": "Gold"
+        },
+        {
+          "localizedValue": "Grau"
+        },
+        {
+          "localizedValue": "Grün"
+        },
+        {
+          "localizedValue": "Lila"
+        },
+        {
+          "localizedValue": "Mehrfarbig"
+        },
+        {
+          "localizedValue": "Orange"
+        },
+        {
+          "localizedValue": "Rosa"
+        },
+        {
+          "localizedValue": "Rot"
+        },
+        {
+          "localizedValue": "Schwarz"
+        },
+        {
+          "localizedValue": "Silber"
+        },
+        {
+          "localizedValue": "Transparent"
+        },
+        {
+          "localizedValue": "Weiß"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Integrierter Digitalempfänger",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "ATSC"
+        },
+        {
+          "localizedValue": "ATSC / Clear QAM"
+        },
+        {
+          "localizedValue": "CI+"
+        },
+        {
+          "localizedValue": "Digitales Satellitenfernsehen (DVB-S)"
+        },
+        {
+          "localizedValue": "Digitales Satellitenfernsehen (DVB-S2)"
+        },
+        {
+          "localizedValue": "DVB-C"
+        },
+        {
+          "localizedValue": "DVB-T"
+        },
+        {
+          "localizedValue": "DVB-T2"
+        },
+        {
+          "localizedValue": "DVB-T2 HD"
+        },
+        {
+          "localizedValue": "Freesat"
+        },
+        {
+          "localizedValue": "Freesat HD"
+        },
+        {
+          "localizedValue": "Freeview"
+        },
+        {
+          "localizedValue": "Freeview HD"
+        },
+        {
+          "localizedValue": "Freeview Play"
+        },
+        {
+          "localizedValue": "Freeview Plus"
+        },
+        {
+          "localizedValue": "Nicht zutreffend"
+        },
+        {
+          "localizedValue": "NTSC"
+        },
+        {
+          "localizedValue": "QAM"
+        },
+        {
+          "localizedValue": "Saorview"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "3D-Technologie",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "2D zu 3D Konvertierung"
+        },
+        {
+          "localizedValue": "3D Zeilenentflechtung"
+        },
+        {
+          "localizedValue": "3D zu 2D Konvertierung"
+        },
+        {
+          "localizedValue": "Aktive 3D-Technologie"
+        },
+        {
+          "localizedValue": "Integrierter 3D-Transmitter"
+        },
+        {
+          "localizedValue": "Passive 3D-Technologie"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Ursprungsland",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Afghanistan"
+        },
+        {
+          "localizedValue": "Ägypten"
+        },
+        {
+          "localizedValue": "Albanien"
+        },
+        {
+          "localizedValue": "Algerien"
+        },
+        {
+          "localizedValue": "Andorra"
+        },
+        {
+          "localizedValue": "Angola"
+        },
+        {
+          "localizedValue": "Anguilla"
+        },
+        {
+          "localizedValue": "Antigua und Barbuda"
+        },
+        {
+          "localizedValue": "Äquatorialguinea"
+        },
+        {
+          "localizedValue": "Argentinien"
+        },
+        {
+          "localizedValue": "Armenien"
+        },
+        {
+          "localizedValue": "Aruba"
+        },
+        {
+          "localizedValue": "Aserbaidschan"
+        },
+        {
+          "localizedValue": "Äthiopien"
+        },
+        {
+          "localizedValue": "Australien"
+        },
+        {
+          "localizedValue": "Bahamas"
+        },
+        {
+          "localizedValue": "Bahrain"
+        },
+        {
+          "localizedValue": "Bangladesch"
+        },
+        {
+          "localizedValue": "Barbados"
+        },
+        {
+          "localizedValue": "Belarus"
+        },
+        {
+          "localizedValue": "Belgien"
+        },
+        {
+          "localizedValue": "Belize"
+        },
+        {
+          "localizedValue": "Benin"
+        },
+        {
+          "localizedValue": "Bermuda"
+        },
+        {
+          "localizedValue": "Bhutan"
+        },
+        {
+          "localizedValue": "Bolivien"
+        },
+        {
+          "localizedValue": "Bosnien und Herzegowina"
+        },
+        {
+          "localizedValue": "Botsuana"
+        },
+        {
+          "localizedValue": "Brasilien"
+        },
+        {
+          "localizedValue": "Britische Jungferninseln"
+        },
+        {
+          "localizedValue": "Britisches Territorium im Indischen Ozean"
+        },
+        {
+          "localizedValue": "Brunei Darussalam"
+        },
+        {
+          "localizedValue": "Bulgarien"
+        },
+        {
+          "localizedValue": "Burkina Faso"
+        },
+        {
+          "localizedValue": "Burundi"
+        },
+        {
+          "localizedValue": "Chile"
+        },
+        {
+          "localizedValue": "China"
+        },
+        {
+          "localizedValue": "Cookinseln"
+        },
+        {
+          "localizedValue": "Costa Rica"
+        },
+        {
+          "localizedValue": "Côte d'Ivoire"
+        },
+        {
+          "localizedValue": "Curaçao"
+        },
+        {
+          "localizedValue": "Dänemark"
+        },
+        {
+          "localizedValue": "Deutschland"
+        },
+        {
+          "localizedValue": "Dominica"
+        },
+        {
+          "localizedValue": "Dominikanische Republik"
+        },
+        {
+          "localizedValue": "Dschibuti"
+        },
+        {
+          "localizedValue": "Ecuador"
+        },
+        {
+          "localizedValue": "El Salvador"
+        },
+        {
+          "localizedValue": "Eritrea"
+        },
+        {
+          "localizedValue": "Estland"
+        },
+        {
+          "localizedValue": "Eswatini"
+        },
+        {
+          "localizedValue": "Falklandinseln"
+        },
+        {
+          "localizedValue": "Färöer-Inseln"
+        },
+        {
+          "localizedValue": "Fidschi"
+        },
+        {
+          "localizedValue": "Finnland"
+        },
+        {
+          "localizedValue": "Frankreich"
+        },
+        {
+          "localizedValue": "Französische Südgebiete und Antarktisgebiete"
+        },
+        {
+          "localizedValue": "Französisch-Guayana"
+        },
+        {
+          "localizedValue": "Französisch-Polynesien, einschließlich Tahiti"
+        },
+        {
+          "localizedValue": "Gabun"
+        },
+        {
+          "localizedValue": "Gambia"
+        },
+        {
+          "localizedValue": "Gazastreifen"
+        },
+        {
+          "localizedValue": "Georgien"
+        },
+        {
+          "localizedValue": "Ghana"
+        },
+        {
+          "localizedValue": "Gibraltar"
+        },
+        {
+          "localizedValue": "Grenada"
+        },
+        {
+          "localizedValue": "Griechenland"
+        },
+        {
+          "localizedValue": "Grönland"
+        },
+        {
+          "localizedValue": "Guadeloupe"
+        },
+        {
+          "localizedValue": "Guam"
+        },
+        {
+          "localizedValue": "Guatemala"
+        },
+        {
+          "localizedValue": "Guernsey"
+        },
+        {
+          "localizedValue": "Guinea"
+        },
+        {
+          "localizedValue": "Guinea-Bissau"
+        },
+        {
+          "localizedValue": "Guyana"
+        },
+        {
+          "localizedValue": "Haiti"
+        },
+        {
+          "localizedValue": "Heard und McDonaldinseln"
+        },
+        {
+          "localizedValue": "Honduras"
+        },
+        {
+          "localizedValue": "Hongkong"
+        },
+        {
+          "localizedValue": "Indien"
+        },
+        {
+          "localizedValue": "Indonesien"
+        },
+        {
+          "localizedValue": "Irak"
+        },
+        {
+          "localizedValue": "Iran, Islamische Republik"
+        },
+        {
+          "localizedValue": "Irland"
+        },
+        {
+          "localizedValue": "Island"
+        },
+        {
+          "localizedValue": "Israel"
+        },
+        {
+          "localizedValue": "Italien"
+        },
+        {
+          "localizedValue": "Jamaika"
+        },
+        {
+          "localizedValue": "Japan"
+        },
+        {
+          "localizedValue": "Jemen"
+        },
+        {
+          "localizedValue": "Jersey"
+        },
+        {
+          "localizedValue": "Jordanien"
+        },
+        {
+          "localizedValue": "Jungferninseln"
+        },
+        {
+          "localizedValue": "Kaimaninseln"
+        },
+        {
+          "localizedValue": "Kambodscha"
+        },
+        {
+          "localizedValue": "Kamerun"
+        },
+        {
+          "localizedValue": "Kanada"
+        },
+        {
+          "localizedValue": "Kanarische Inseln"
+        },
+        {
+          "localizedValue": "Kap Verde"
+        },
+        {
+          "localizedValue": "Kasachstan"
+        },
+        {
+          "localizedValue": "Katar"
+        },
+        {
+          "localizedValue": "Kenia"
+        },
+        {
+          "localizedValue": "Kirgisistan"
+        },
+        {
+          "localizedValue": "Kiribati"
+        },
+        {
+          "localizedValue": "Kokosinseln (Keelinginseln)"
+        },
+        {
+          "localizedValue": "Kolumbien"
+        },
+        {
+          "localizedValue": "Komoren"
+        },
+        {
+          "localizedValue": "Kongo, Demokratische Republik"
+        },
+        {
+          "localizedValue": "Kongo, Republik"
+        },
+        {
+          "localizedValue": "Kosovo"
+        },
+        {
+          "localizedValue": "Kroatien"
+        },
+        {
+          "localizedValue": "Kuba"
+        },
+        {
+          "localizedValue": "Kuwait"
+        },
+        {
+          "localizedValue": "Laos, Demokratische Volksrepublik"
+        },
+        {
+          "localizedValue": "Lesotho"
+        },
+        {
+          "localizedValue": "Lettland"
+        },
+        {
+          "localizedValue": "Libanon"
+        },
+        {
+          "localizedValue": "Liberia"
+        },
+        {
+          "localizedValue": "Libyen"
+        },
+        {
+          "localizedValue": "Liechtenstein"
+        },
+        {
+          "localizedValue": "Litauen"
+        },
+        {
+          "localizedValue": "Luxemburg"
+        },
+        {
+          "localizedValue": "Macau"
+        },
+        {
+          "localizedValue": "Madagaskar"
+        },
+        {
+          "localizedValue": "Madeira"
+        },
+        {
+          "localizedValue": "Malawi"
+        },
+        {
+          "localizedValue": "Malaysia"
+        },
+        {
+          "localizedValue": "Malediven"
+        },
+        {
+          "localizedValue": "Mali"
+        },
+        {
+          "localizedValue": "Malta"
+        },
+        {
+          "localizedValue": "Marokko"
+        },
+        {
+          "localizedValue": "Marshallinseln"
+        },
+        {
+          "localizedValue": "Martinique"
+        },
+        {
+          "localizedValue": "Mauretanien"
+        },
+        {
+          "localizedValue": "Mauritius"
+        },
+        {
+          "localizedValue": "Mayotte"
+        },
+        {
+          "localizedValue": "Mexiko"
+        },
+        {
+          "localizedValue": "Mikronesien, Föderierte Staaten von"
+        },
+        {
+          "localizedValue": "Moldau, Republik"
+        },
+        {
+          "localizedValue": "Monaco"
+        },
+        {
+          "localizedValue": "Mongolei"
+        },
+        {
+          "localizedValue": "Montenegro"
+        },
+        {
+          "localizedValue": "Montserrat"
+        },
+        {
+          "localizedValue": "Mosambik"
+        },
+        {
+          "localizedValue": "Myanmar /Birma"
+        },
+        {
+          "localizedValue": "Namibia"
+        },
+        {
+          "localizedValue": "Nauru"
+        },
+        {
+          "localizedValue": "Nepal"
+        },
+        {
+          "localizedValue": "Neukaledonien"
+        },
+        {
+          "localizedValue": "Neuseeland"
+        },
+        {
+          "localizedValue": "Nicaragua"
+        },
+        {
+          "localizedValue": "Niederlande"
+        },
+        {
+          "localizedValue": "Niger"
+        },
+        {
+          "localizedValue": "Nigeria"
+        },
+        {
+          "localizedValue": "Niue"
+        },
+        {
+          "localizedValue": "Nordkorea (Demokratische Volksrepublik Korea)"
+        },
+        {
+          "localizedValue": "Nördliche Marianen"
+        },
+        {
+          "localizedValue": "Nordmazedonien"
+        },
+        {
+          "localizedValue": "Norfolkinsel"
+        },
+        {
+          "localizedValue": "Norwegen"
+        },
+        {
+          "localizedValue": "Oman"
+        },
+        {
+          "localizedValue": "Österreich"
+        },
+        {
+          "localizedValue": "Pakistan"
+        },
+        {
+          "localizedValue": "Palau"
+        },
+        {
+          "localizedValue": "Panama"
+        },
+        {
+          "localizedValue": "Papua-Neuguinea"
+        },
+        {
+          "localizedValue": "Paraguay"
+        },
+        {
+          "localizedValue": "Peru"
+        },
+        {
+          "localizedValue": "Philippinen"
+        },
+        {
+          "localizedValue": "Polen"
+        },
+        {
+          "localizedValue": "Portugal"
+        },
+        {
+          "localizedValue": "Puerto Rico"
+        },
+        {
+          "localizedValue": "Réunion"
+        },
+        {
+          "localizedValue": "Ruanda"
+        },
+        {
+          "localizedValue": "Rumänien"
+        },
+        {
+          "localizedValue": "Russische Föderation"
+        },
+        {
+          "localizedValue": "Saint Barthélemy"
+        },
+        {
+          "localizedValue": "Saint-Martin"
+        },
+        {
+          "localizedValue": "Saint-Pierre und Miquelon"
+        },
+        {
+          "localizedValue": "Salomonen"
+        },
+        {
+          "localizedValue": "Sambia"
+        },
+        {
+          "localizedValue": "Samoa"
+        },
+        {
+          "localizedValue": "San Marino"
+        },
+        {
+          "localizedValue": "São Tomé und Príncipe"
+        },
+        {
+          "localizedValue": "Saudi-Arabien"
+        },
+        {
+          "localizedValue": "Schweden"
+        },
+        {
+          "localizedValue": "Schweiz"
+        },
+        {
+          "localizedValue": "Senegal"
+        },
+        {
+          "localizedValue": "Serbien"
+        },
+        {
+          "localizedValue": "Seychellen"
+        },
+        {
+          "localizedValue": "Sierra Leone"
+        },
+        {
+          "localizedValue": "Simbabwe"
+        },
+        {
+          "localizedValue": "Singapur"
+        },
+        {
+          "localizedValue": "Sint Eustatius"
+        },
+        {
+          "localizedValue": "Sint Maarten"
+        },
+        {
+          "localizedValue": "Slowakei"
+        },
+        {
+          "localizedValue": "Slowenien"
+        },
+        {
+          "localizedValue": "Somalia"
+        },
+        {
+          "localizedValue": "Spanien"
+        },
+        {
+          "localizedValue": "Sri Lanka"
+        },
+        {
+          "localizedValue": "St. Helena"
+        },
+        {
+          "localizedValue": "St. Kitts und Nevis"
+        },
+        {
+          "localizedValue": "St. Lucia"
+        },
+        {
+          "localizedValue": "St. Vincent und die Grenadinen"
+        },
+        {
+          "localizedValue": "Südafrika"
+        },
+        {
+          "localizedValue": "Sudan"
+        },
+        {
+          "localizedValue": "Südgeorgien und die Südlichen Sandwichinseln"
+        },
+        {
+          "localizedValue": "Südkorea (Republik Korea)"
+        },
+        {
+          "localizedValue": "Surinam"
+        },
+        {
+          "localizedValue": "Svalbard und Jan Mayen"
+        },
+        {
+          "localizedValue": "Syrien"
+        },
+        {
+          "localizedValue": "Tadschikistan"
+        },
+        {
+          "localizedValue": "Taiwan"
+        },
+        {
+          "localizedValue": "Tansania, Vereinigte Republik"
+        },
+        {
+          "localizedValue": "Thailand"
+        },
+        {
+          "localizedValue": "Togo"
+        },
+        {
+          "localizedValue": "Tokelau"
+        },
+        {
+          "localizedValue": "Tonga"
+        },
+        {
+          "localizedValue": "Trinidad und Tobago"
+        },
+        {
+          "localizedValue": "Tristan da Cunha"
+        },
+        {
+          "localizedValue": "Tschad"
+        },
+        {
+          "localizedValue": "Tschechische Republik"
+        },
+        {
+          "localizedValue": "Tunesien"
+        },
+        {
+          "localizedValue": "Türkei"
+        },
+        {
+          "localizedValue": "Turkmenistan"
+        },
+        {
+          "localizedValue": "Turks- und Caicosinseln"
+        },
+        {
+          "localizedValue": "Tuvalu"
+        },
+        {
+          "localizedValue": "Uganda"
+        },
+        {
+          "localizedValue": "Ukraine"
+        },
+        {
+          "localizedValue": "Ungarn"
+        },
+        {
+          "localizedValue": "Uruguay"
+        },
+        {
+          "localizedValue": "USA"
+        },
+        {
+          "localizedValue": "Usbekistan"
+        },
+        {
+          "localizedValue": "Vanuatu"
+        },
+        {
+          "localizedValue": "Vatikanstadt"
+        },
+        {
+          "localizedValue": "Venezuela"
+        },
+        {
+          "localizedValue": "Vereinigte Arabische Emirate"
+        },
+        {
+          "localizedValue": "Vereinigtes Königreich"
+        },
+        {
+          "localizedValue": "Vietnam"
+        },
+        {
+          "localizedValue": "Wallis und Futuna"
+        },
+        {
+          "localizedValue": "Weihnachtsinseln"
+        },
+        {
+          "localizedValue": "Westjordanland"
+        },
+        {
+          "localizedValue": "Zentralafrikanische Republik"
+        },
+        {
+          "localizedValue": "Zypern"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Herstellergarantie",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "ITEM"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "1 Monat"
+        },
+        {
+          "localizedValue": "3 Monate"
+        },
+        {
+          "localizedValue": "6 Monate"
+        },
+        {
+          "localizedValue": "9 Monate"
+        },
+        {
+          "localizedValue": "1 Jahr"
+        },
+        {
+          "localizedValue": "2 Jahre"
+        },
+        {
+          "localizedValue": "3 Jahre"
+        },
+        {
+          "localizedValue": "4 Jahre"
+        },
+        {
+          "localizedValue": "5 Jahre"
+        },
+        {
+          "localizedValue": "10 Jahre"
+        },
+        {
+          "localizedValue": "Lebenszeit"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "EPREL-Registrierungsnummer",
+      "aspectConstraint": {
+        "aspectDataType": "NUMBER",
+        "aspectFormat": "int32",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false
+      }
+    },
+    {
+      "localizedAspectName": "Haltbarkeitsgarantie",
+      "aspectConstraint": {
+        "aspectDataType": "NUMBER",
+        "aspectFormat": "int32",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false
+      }
+    },
+    {
+      "localizedAspectName": "Herstellungsjahr",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      }
+    }
+  ]
+}

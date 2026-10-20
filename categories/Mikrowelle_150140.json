@@ -1,0 +1,8482 @@
+{
+  "categoryId": "150140",
+  "treeId": "77",
+  "marketplace": "EBAY_DE",
+  "environment": "production",
+  "fetchedAt": "2026-10-19T10:25:04Z",
+  "aspects": [
+    {
+      "localizedAspectName": "Modell",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": true,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Bosch HMT72M450"
+        },
+        {
+          "localizedValue": "Mainstays EM720CGA-W"
+        },
+        {
+          "localizedValue": "Panasonic NN-E221MMEPG"
+        },
+        {
+          "localizedValue": "Siemens BF525LMS0"
+        },
+        {
+          "localizedValue": "Silvercrest SMWC 700 A4"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Set enthält",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Mikrowelle"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Marke",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Markenlos"
+        },
+        {
+          "localizedValue": "±0"
+        },
+        {
+          "localizedValue": "10 Strawberry Street"
+        },
+        {
+          "localizedValue": "3 Squares"
+        },
+        {
+          "localizedValue": "5 Star Chef"
+        },
+        {
+          "localizedValue": "Aarke"
+        },
+        {
+          "localizedValue": "Accoutrements"
+        },
+        {
+          "localizedValue": "Acme"
+        },
+        {
+          "localizedValue": "Acorn"
+        },
+        {
+          "localizedValue": "AcuRite"
+        },
+        {
+          "localizedValue": "Adagio Teas"
+        },
+        {
+          "localizedValue": "Adcraft"
+        },
+        {
+          "localizedValue": "ADDIS"
+        },
+        {
+          "localizedValue": "Adesso"
+        },
+        {
+          "localizedValue": "AdHoc"
+        },
+        {
+          "localizedValue": "Admiral"
+        },
+        {
+          "localizedValue": "AEG"
+        },
+        {
+          "localizedValue": "AEG-Electrolux"
+        },
+        {
+          "localizedValue": "aerolatte"
+        },
+        {
+          "localizedValue": "Aeternum"
+        },
+        {
+          "localizedValue": "Afina"
+        },
+        {
+          "localizedValue": "AFK"
+        },
+        {
+          "localizedValue": "AGA"
+        },
+        {
+          "localizedValue": "AG Equipment"
+        },
+        {
+          "localizedValue": "AG Neovo"
+        },
+        {
+          "localizedValue": "Aicok"
+        },
+        {
+          "localizedValue": "Aicook"
+        },
+        {
+          "localizedValue": "Aigerek"
+        },
+        {
+          "localizedValue": "Aigostar"
+        },
+        {
+          "localizedValue": "Air King"
+        },
+        {
+          "localizedValue": "Akai"
+        },
+        {
+          "localizedValue": "Alessi"
+        },
+        {
+          "localizedValue": "Alexanderwerk"
+        },
+        {
+          "localizedValue": "Alfa"
+        },
+        {
+          "localizedValue": "Alfi"
+        },
+        {
+          "localizedValue": "All American"
+        },
+        {
+          "localizedValue": "All-Clad"
+        },
+        {
+          "localizedValue": "Allison Daley"
+        },
+        {
+          "localizedValue": "Alpatec"
+        },
+        {
+          "localizedValue": "Alpha Living"
+        },
+        {
+          "localizedValue": "Alpina"
+        },
+        {
+          "localizedValue": "Alpine Cuisine"
+        },
+        {
+          "localizedValue": "Amana"
+        },
+        {
+          "localizedValue": "Amazon"
+        },
+        {
+          "localizedValue": "AmazonBasics"
+        },
+        {
+          "localizedValue": "Ambiano"
+        },
+        {
+          "localizedValue": "Ambition"
+        },
+        {
+          "localizedValue": "AMC"
+        },
+        {
+          "localizedValue": "AMCO"
+        },
+        {
+          "localizedValue": "Amefa"
+        },
+        {
+          "localizedValue": "AMERICANA"
+        },
+        {
+          "localizedValue": "American Harvest"
+        },
+        {
+          "localizedValue": "American Originals"
+        },
+        {
+          "localizedValue": "American Range"
+        },
+        {
+          "localizedValue": "AmeriHome"
+        },
+        {
+          "localizedValue": "Amerock"
+        },
+        {
+          "localizedValue": "AMFOCUS"
+        },
+        {
+          "localizedValue": "Amica"
+        },
+        {
+          "localizedValue": "AMOS"
+        },
+        {
+          "localizedValue": "Anantha"
+        },
+        {
+          "localizedValue": "Andatech"
+        },
+        {
+          "localizedValue": "Andrew James"
+        },
+        {
+          "localizedValue": "Angel"
+        },
+        {
+          "localizedValue": "Anjali"
+        },
+        {
+          "localizedValue": "Ankarsrum"
+        },
+        {
+          "localizedValue": "Ankarsrum Original"
+        },
+        {
+          "localizedValue": "ANKO"
+        },
+        {
+          "localizedValue": "Anolon"
+        },
+        {
+          "localizedValue": "Anova"
+        },
+        {
+          "localizedValue": "Anself"
+        },
+        {
+          "localizedValue": "Aobosi"
+        },
+        {
+          "localizedValue": "AOZITA"
+        },
+        {
+          "localizedValue": "Apollo"
+        },
+        {
+          "localizedValue": "Appetito"
+        },
+        {
+          "localizedValue": "Appkettle"
+        },
+        {
+          "localizedValue": "Apple"
+        },
+        {
+          "localizedValue": "Applica"
+        },
+        {
+          "localizedValue": "Apuro"
+        },
+        {
+          "localizedValue": "Aqua"
+        },
+        {
+          "localizedValue": "Aquaport"
+        },
+        {
+          "localizedValue": "Arcosteel"
+        },
+        {
+          "localizedValue": "Arendo"
+        },
+        {
+          "localizedValue": "Argos"
+        },
+        {
+          "localizedValue": "Argus Le"
+        },
+        {
+          "localizedValue": "Ariete"
+        },
+        {
+          "localizedValue": "Ariston"
+        },
+        {
+          "localizedValue": "AROMA"
+        },
+        {
+          "localizedValue": "Aroma Coffee"
+        },
+        {
+          "localizedValue": "Aroma Housewares"
+        },
+        {
+          "localizedValue": "Artence"
+        },
+        {
+          "localizedValue": "Artestia"
+        },
+        {
+          "localizedValue": "Arthur Martin"
+        },
+        {
+          "localizedValue": "Artland"
+        },
+        {
+          "localizedValue": "ARTMET"
+        },
+        {
+          "localizedValue": "Artwizz"
+        },
+        {
+          "localizedValue": "Arzum"
+        },
+        {
+          "localizedValue": "ASEL"
+        },
+        {
+          "localizedValue": "Ashdene"
+        },
+        {
+          "localizedValue": "Astra"
+        },
+        {
+          "localizedValue": "ASUS"
+        },
+        {
+          "localizedValue": "Atlas Homewares"
+        },
+        {
+          "localizedValue": "Aubecq"
+        },
+        {
+          "localizedValue": "Aucma"
+        },
+        {
+          "localizedValue": "Avalon Bay"
+        },
+        {
+          "localizedValue": "Avan-Pacific"
+        },
+        {
+          "localizedValue": "Avantco"
+        },
+        {
+          "localizedValue": "Avanti"
+        },
+        {
+          "localizedValue": "Avec"
+        },
+        {
+          "localizedValue": "Avon"
+        },
+        {
+          "localizedValue": "Babycakes"
+        },
+        {
+          "localizedValue": "BaByliss"
+        },
+        {
+          "localizedValue": "Babymoov"
+        },
+        {
+          "localizedValue": "Baccarat"
+        },
+        {
+          "localizedValue": "Back to Basics"
+        },
+        {
+          "localizedValue": "Bahco"
+        },
+        {
+          "localizedValue": "Bajaj"
+        },
+        {
+          "localizedValue": "Balay"
+        },
+        {
+          "localizedValue": "BALL"
+        },
+        {
+          "localizedValue": "BALMUDA"
+        },
+        {
+          "localizedValue": "bamix"
+        },
+        {
+          "localizedValue": "BangRui"
+        },
+        {
+          "localizedValue": "Barazzoni"
+        },
+        {
+          "localizedValue": "Barsetto"
+        },
+        {
+          "localizedValue": "Barthelme"
+        },
+        {
+          "localizedValue": "Bartscher"
+        },
+        {
+          "localizedValue": "Bauknecht"
+        },
+        {
+          "localizedValue": "Baumalu"
+        },
+        {
+          "localizedValue": "Baumatic"
+        },
+        {
+          "localizedValue": "Baylis & Harding"
+        },
+        {
+          "localizedValue": "Bayou Classic"
+        },
+        {
+          "localizedValue": "Béaba"
+        },
+        {
+          "localizedValue": "Bean Envy"
+        },
+        {
+          "localizedValue": "Bear Factory"
+        },
+        {
+          "localizedValue": "Beautyrest"
+        },
+        {
+          "localizedValue": "Bébé Confort"
+        },
+        {
+          "localizedValue": "BEECALE"
+        },
+        {
+          "localizedValue": "BEEM"
+        },
+        {
+          "localizedValue": "Beka"
+        },
+        {
+          "localizedValue": "Beko"
+        },
+        {
+          "localizedValue": "Belkin"
+        },
+        {
+          "localizedValue": "Bella"
+        },
+        {
+          "localizedValue": "Bella Cucina"
+        },
+        {
+          "localizedValue": "Bellagione"
+        },
+        {
+          "localizedValue": "Bellemain"
+        },
+        {
+          "localizedValue": "Belling"
+        },
+        {
+          "localizedValue": "Bellini"
+        },
+        {
+          "localizedValue": "Beminh"
+        },
+        {
+          "localizedValue": "Bene Casa"
+        },
+        {
+          "localizedValue": "Benjamins"
+        },
+        {
+          "localizedValue": "Benzara"
+        },
+        {
+          "localizedValue": "Benzer"
+        },
+        {
+          "localizedValue": "Beper"
+        },
+        {
+          "localizedValue": "Berg"
+        },
+        {
+          "localizedValue": "BergHOFF"
+        },
+        {
+          "localizedValue": "Bergner"
+        },
+        {
+          "localizedValue": "Berkel"
+        },
+        {
+          "localizedValue": "Bertazzoni"
+        },
+        {
+          "localizedValue": "Bertelin"
+        },
+        {
+          "localizedValue": "BESSEY"
+        },
+        {
+          "localizedValue": "Best"
+        },
+        {
+          "localizedValue": "Best Choice Products"
+        },
+        {
+          "localizedValue": "Bestek"
+        },
+        {
+          "localizedValue": "BESTOPE"
+        },
+        {
+          "localizedValue": "Bestron"
+        },
+        {
+          "localizedValue": "Betitay"
+        },
+        {
+          "localizedValue": "Better Chef"
+        },
+        {
+          "localizedValue": "Better Houseware"
+        },
+        {
+          "localizedValue": "Betty Crocker"
+        },
+        {
+          "localizedValue": "Beurer"
+        },
+        {
+          "localizedValue": "BHS"
+        },
+        {
+          "localizedValue": "Bialetti"
+        },
+        {
+          "localizedValue": "Bianco"
+        },
+        {
+          "localizedValue": "BIELMEIER"
+        },
+        {
+          "localizedValue": "Bifinett"
+        },
+        {
+          "localizedValue": "Big Boss"
+        },
+        {
+          "localizedValue": "Big Chill"
+        },
+        {
+          "localizedValue": "Big Living"
+        },
+        {
+          "localizedValue": "Billyboil"
+        },
+        {
+          "localizedValue": "BioChef"
+        },
+        {
+          "localizedValue": "Biolomix"
+        },
+        {
+          "localizedValue": "Birko"
+        },
+        {
+          "localizedValue": "black+blum"
+        },
+        {
+          "localizedValue": "BLACK+DECKER"
+        },
+        {
+          "localizedValue": "Blackstone"
+        },
+        {
+          "localizedValue": "Blagdon"
+        },
+        {
+          "localizedValue": "Blakeslee"
+        },
+        {
+          "localizedValue": "Blanco"
+        },
+        {
+          "localizedValue": "Blaupunkt"
+        },
+        {
+          "localizedValue": "Blendin"
+        },
+        {
+          "localizedValue": "Blendtec"
+        },
+        {
+          "localizedValue": "BLOCK"
+        },
+        {
+          "localizedValue": "blomus"
+        },
+        {
+          "localizedValue": "Blusmart"
+        },
+        {
+          "localizedValue": "BOB"
+        },
+        {
+          "localizedValue": "BODUM"
+        },
+        {
+          "localizedValue": "Bomann"
+        },
+        {
+          "localizedValue": "Bon Appetit"
+        },
+        {
+          "localizedValue": "Bonavita"
+        },
+        {
+          "localizedValue": "Bond"
+        },
+        {
+          "localizedValue": "BonJour"
+        },
+        {
+          "localizedValue": "Bonn"
+        },
+        {
+          "localizedValue": "Bonsenkitchen"
+        },
+        {
+          "localizedValue": "Boots"
+        },
+        {
+          "localizedValue": "Bormioli Rocco"
+        },
+        {
+          "localizedValue": "Börner"
+        },
+        {
+          "localizedValue": "Borosil"
+        },
+        {
+          "localizedValue": "BOS & SARINO"
+        },
+        {
+          "localizedValue": "Bosch"
+        },
+        {
+          "localizedValue": "Bosch Professional"
+        },
+        {
+          "localizedValue": "Bose"
+        },
+        {
+          "localizedValue": "BOSKA"
+        },
+        {
+          "localizedValue": "Boston Warehouse"
+        },
+        {
+          "localizedValue": "BRA"
+        },
+        {
+          "localizedValue": "Brabantia"
+        },
+        {
+          "localizedValue": "Brainerd"
+        },
+        {
+          "localizedValue": "Brandani"
+        },
+        {
+          "localizedValue": "Brandt"
+        },
+        {
+          "localizedValue": "BrassCraft"
+        },
+        {
+          "localizedValue": "Braun"
+        },
+        {
+          "localizedValue": "Bravetti"
+        },
+        {
+          "localizedValue": "Bravilor Bonamat"
+        },
+        {
+          "localizedValue": "BRAVIT"
+        },
+        {
+          "localizedValue": "Bravo"
+        },
+        {
+          "localizedValue": "Breadman"
+        },
+        {
+          "localizedValue": "Bredemeijer"
+        },
+        {
+          "localizedValue": "Brentwood"
+        },
+        {
+          "localizedValue": "BRESSER"
+        },
+        {
+          "localizedValue": "Breville"
+        },
+        {
+          "localizedValue": "BREVO"
+        },
+        {
+          "localizedValue": "Brewberry"
+        },
+        {
+          "localizedValue": "Brewista"
+        },
+        {
+          "localizedValue": "Bright Spark"
+        },
+        {
+          "localizedValue": "Brinkmann"
+        },
+        {
+          "localizedValue": "BRITA"
+        },
+        {
+          "localizedValue": "Broil King"
+        },
+        {
+          "localizedValue": "Brookstone"
+        },
+        {
+          "localizedValue": "Brother"
+        },
+        {
+          "localizedValue": "Brown"
+        },
+        {
+          "localizedValue": "Browning"
+        },
+        {
+          "localizedValue": "Bruno"
+        },
+        {
+          "localizedValue": "Buckingham"
+        },
+        {
+          "localizedValue": "Buffalo"
+        },
+        {
+          "localizedValue": "Bugatti"
+        },
+        {
+          "localizedValue": "BUILT"
+        },
+        {
+          "localizedValue": "Bullet"
+        },
+        {
+          "localizedValue": "BULLETMIXr"
+        },
+        {
+          "localizedValue": "BUNN"
+        },
+        {
+          "localizedValue": "Burco"
+        },
+        {
+          "localizedValue": "Bush"
+        },
+        {
+          "localizedValue": "Bushcraft"
+        },
+        {
+          "localizedValue": "Butler"
+        },
+        {
+          "localizedValue": "Butterball"
+        },
+        {
+          "localizedValue": "Butterfly"
+        },
+        {
+          "localizedValue": "BuySevenSide"
+        },
+        {
+          "localizedValue": "BWT"
+        },
+        {
+          "localizedValue": "C&C"
+        },
+        {
+          "localizedValue": "Cadco"
+        },
+        {
+          "localizedValue": "CAFE CASA"
+        },
+        {
+          "localizedValue": "Cajun Injector"
+        },
+        {
+          "localizedValue": "Calor"
+        },
+        {
+          "localizedValue": "Calphalon"
+        },
+        {
+          "localizedValue": "Camelion"
+        },
+        {
+          "localizedValue": "Camp Chef"
+        },
+        {
+          "localizedValue": "Campingaz"
+        },
+        {
+          "localizedValue": "Camry"
+        },
+        {
+          "localizedValue": "CanCooker"
+        },
+        {
+          "localizedValue": "Candy"
+        },
+        {
+          "localizedValue": "Canon"
+        },
+        {
+          "localizedValue": "Caple"
+        },
+        {
+          "localizedValue": "Capresso"
+        },
+        {
+          "localizedValue": "Carl Mertens"
+        },
+        {
+          "localizedValue": "Carson"
+        },
+        {
+          "localizedValue": "CASA"
+        },
+        {
+          "localizedValue": "CASAMODA"
+        },
+        {
+          "localizedValue": "Case"
+        },
+        {
+          "localizedValue": "Casera"
+        },
+        {
+          "localizedValue": "Casio"
+        },
+        {
+          "localizedValue": "Caso"
+        },
+        {
+          "localizedValue": "CASO Germany"
+        },
+        {
+          "localizedValue": "Caterlite"
+        },
+        {
+          "localizedValue": "Cavallo"
+        },
+        {
+          "localizedValue": "CBTL"
+        },
+        {
+          "localizedValue": "CDA"
+        },
+        {
+          "localizedValue": "CDN"
+        },
+        {
+          "localizedValue": "Cecomix"
+        },
+        {
+          "localizedValue": "Cecotec"
+        },
+        {
+          "localizedValue": "CEM Global"
+        },
+        {
+          "localizedValue": "Champion"
+        },
+        {
+          "localizedValue": "Champion"
+        },
+        {
+          "localizedValue": "Champion Juicer"
+        },
+        {
+          "localizedValue": "Chantal"
+        },
+        {
+          "localizedValue": "Char-Broil"
+        },
+        {
+          "localizedValue": "Chard"
+        },
+        {
+          "localizedValue": "Charles Bentley"
+        },
+        {
+          "localizedValue": "Charles Jacobs"
+        },
+        {
+          "localizedValue": "Charles Viancin"
+        },
+        {
+          "localizedValue": "Chasseur"
+        },
+        {
+          "localizedValue": "Chef"
+        },
+        {
+          "localizedValue": "Chef'n"
+        },
+        {
+          "localizedValue": "Chef'sChoice"
+        },
+        {
+          "localizedValue": "Chef's Design"
+        },
+        {
+          "localizedValue": "Chef's Secret"
+        },
+        {
+          "localizedValue": "Chef's Selection"
+        },
+        {
+          "localizedValue": "Chef's Star"
+        },
+        {
+          "localizedValue": "Chef Aid"
+        },
+        {
+          "localizedValue": "Chef Buddy"
+        },
+        {
+          "localizedValue": "Chef Craft"
+        },
+        {
+          "localizedValue": "Chefman"
+        },
+        {
+          "localizedValue": "ChefMaster"
+        },
+        {
+          "localizedValue": "Chefmate"
+        },
+        {
+          "localizedValue": "CHEFS"
+        },
+        {
+          "localizedValue": "Chefset"
+        },
+        {
+          "localizedValue": "ChefSteps"
+        },
+        {
+          "localizedValue": "CHEFTRONIC"
+        },
+        {
+          "localizedValue": "Chicago Food Machinery"
+        },
+        {
+          "localizedValue": "Chicco"
+        },
+        {
+          "localizedValue": "Chill Factor"
+        },
+        {
+          "localizedValue": "CHINYA"
+        },
+        {
+          "localizedValue": "CHiQ"
+        },
+        {
+          "localizedValue": "Chocomaker"
+        },
+        {
+          "localizedValue": "CHULUX"
+        },
+        {
+          "localizedValue": "Chuzy Chef"
+        },
+        {
+          "localizedValue": "cilio"
+        },
+        {
+          "localizedValue": "Cincred"
+        },
+        {
+          "localizedValue": "Circulon"
+        },
+        {
+          "localizedValue": "Cisco"
+        },
+        {
+          "localizedValue": "CKS"
+        },
+        {
+          "localizedValue": "Classica"
+        },
+        {
+          "localizedValue": "Classic Accessories"
+        },
+        {
+          "localizedValue": "Classic Cuisine"
+        },
+        {
+          "localizedValue": "Classicpine"
+        },
+        {
+          "localizedValue": "Clatronic"
+        },
+        {
+          "localizedValue": "Cleanblend"
+        },
+        {
+          "localizedValue": "Clever Cutter"
+        },
+        {
+          "localizedValue": "Cloer"
+        },
+        {
+          "localizedValue": "Clover"
+        },
+        {
+          "localizedValue": "CMI"
+        },
+        {
+          "localizedValue": "Coaster"
+        },
+        {
+          "localizedValue": "COCTIONE"
+        },
+        {
+          "localizedValue": "Codemasters"
+        },
+        {
+          "localizedValue": "Cole & Mason"
+        },
+        {
+          "localizedValue": "Coleman"
+        },
+        {
+          "localizedValue": "Columbian Home Products"
+        },
+        {
+          "localizedValue": "Comelec"
+        },
+        {
+          "localizedValue": "Comfeé"
+        },
+        {
+          "localizedValue": "Conair"
+        },
+        {
+          "localizedValue": "Contempo"
+        },
+        {
+          "localizedValue": "Continental"
+        },
+        {
+          "localizedValue": "Continental Electric"
+        },
+        {
+          "localizedValue": "Continental Refrigerator"
+        },
+        {
+          "localizedValue": "Cook's"
+        },
+        {
+          "localizedValue": "Cook's Companion"
+        },
+        {
+          "localizedValue": "Cook's Essentials"
+        },
+        {
+          "localizedValue": "Cookinex"
+        },
+        {
+          "localizedValue": "Cook N Home"
+        },
+        {
+          "localizedValue": "Cookology"
+        },
+        {
+          "localizedValue": "Cook Pro"
+        },
+        {
+          "localizedValue": "Cooks Professional"
+        },
+        {
+          "localizedValue": "Cookut"
+        },
+        {
+          "localizedValue": "Cookworks"
+        },
+        {
+          "localizedValue": "Copco"
+        },
+        {
+          "localizedValue": "Copper Chef"
+        },
+        {
+          "localizedValue": "Corelle"
+        },
+        {
+          "localizedValue": "Cornwall"
+        },
+        {
+          "localizedValue": "Corona"
+        },
+        {
+          "localizedValue": "Corsair"
+        },
+        {
+          "localizedValue": "Cosori"
+        },
+        {
+          "localizedValue": "Costway"
+        },
+        {
+          "localizedValue": "Cosvalve"
+        },
+        {
+          "localizedValue": "Cottonelle"
+        },
+        {
+          "localizedValue": "Country Living"
+        },
+        {
+          "localizedValue": "Courant"
+        },
+        {
+          "localizedValue": "CO-Z"
+        },
+        {
+          "localizedValue": "Cozyna"
+        },
+        {
+          "localizedValue": "CRAFT"
+        },
+        {
+          "localizedValue": "Crawford Kitchen"
+        },
+        {
+          "localizedValue": "Creative"
+        },
+        {
+          "localizedValue": "Creative Tops"
+        },
+        {
+          "localizedValue": "Crenova"
+        },
+        {
+          "localizedValue": "CRISTEL"
+        },
+        {
+          "localizedValue": "Crock-Pot"
+        },
+        {
+          "localizedValue": "Crofton"
+        },
+        {
+          "localizedValue": "Crucial"
+        },
+        {
+          "localizedValue": "Crux"
+        },
+        {
+          "localizedValue": "CTC"
+        },
+        {
+          "localizedValue": "CUCHEN"
+        },
+        {
+          "localizedValue": "CucinaPro"
+        },
+        {
+          "localizedValue": "Cuckoo"
+        },
+        {
+          "localizedValue": "Cuisena"
+        },
+        {
+          "localizedValue": "Cuisinart"
+        },
+        {
+          "localizedValue": "Cuisine"
+        },
+        {
+          "localizedValue": "Cuisinox"
+        },
+        {
+          "localizedValue": "Cuisipro"
+        },
+        {
+          "localizedValue": "CuiZen"
+        },
+        {
+          "localizedValue": "Culina"
+        },
+        {
+          "localizedValue": "Culinare"
+        },
+        {
+          "localizedValue": "Culinary Concepts"
+        },
+        {
+          "localizedValue": "Culinary Edge"
+        },
+        {
+          "localizedValue": "Culligan"
+        },
+        {
+          "localizedValue": "Currys"
+        },
+        {
+          "localizedValue": "Curtis"
+        },
+        {
+          "localizedValue": "CUSIBOX"
+        },
+        {
+          "localizedValue": "Cusimax"
+        },
+        {
+          "localizedValue": "Cyberlux"
+        },
+        {
+          "localizedValue": "Dacor"
+        },
+        {
+          "localizedValue": "Daewoo"
+        },
+        {
+          "localizedValue": "DAK"
+        },
+        {
+          "localizedValue": "Danby"
+        },
+        {
+          "localizedValue": "Dansk"
+        },
+        {
+          "localizedValue": "DASH"
+        },
+        {
+          "localizedValue": "Davis & Waddell"
+        },
+        {
+          "localizedValue": "Dazey"
+        },
+        {
+          "localizedValue": "DBTech"
+        },
+        {
+          "localizedValue": "DCG"
+        },
+        {
+          "localizedValue": "De'Longhi"
+        },
+        {
+          "localizedValue": "Debenhams"
+        },
+        {
+          "localizedValue": "De Buyer"
+        },
+        {
+          "localizedValue": "Deco"
+        },
+        {
+          "localizedValue": "De Dietrich"
+        },
+        {
+          "localizedValue": "Defort"
+        },
+        {
+          "localizedValue": "DELERKE"
+        },
+        {
+          "localizedValue": "Della"
+        },
+        {
+          "localizedValue": "Delta"
+        },
+        {
+          "localizedValue": "Deluxe"
+        },
+        {
+          "localizedValue": "DEMMEX"
+        },
+        {
+          "localizedValue": "Deni"
+        },
+        {
+          "localizedValue": "Deuba"
+        },
+        {
+          "localizedValue": "Devanti"
+        },
+        {
+          "localizedValue": "Devisib"
+        },
+        {
+          "localizedValue": "Dexam"
+        },
+        {
+          "localizedValue": "Dexter-Russell,Inc."
+        },
+        {
+          "localizedValue": "Dezal"
+        },
+        {
+          "localizedValue": "Diguo"
+        },
+        {
+          "localizedValue": "Dihl"
+        },
+        {
+          "localizedValue": "Dimplex"
+        },
+        {
+          "localizedValue": "Disney"
+        },
+        {
+          "localizedValue": "Dixie Electric"
+        },
+        {
+          "localizedValue": "DJI"
+        },
+        {
+          "localizedValue": "d line"
+        },
+        {
+          "localizedValue": "D-Link"
+        },
+        {
+          "localizedValue": "Doctor Hetzner"
+        },
+        {
+          "localizedValue": "Domena"
+        },
+        {
+          "localizedValue": "Dometic"
+        },
+        {
+          "localizedValue": "Dominion"
+        },
+        {
+          "localizedValue": "Domo"
+        },
+        {
+          "localizedValue": "Domoclip"
+        },
+        {
+          "localizedValue": "Donvier"
+        },
+        {
+          "localizedValue": "Dormeyer"
+        },
+        {
+          "localizedValue": "Dormont"
+        },
+        {
+          "localizedValue": "Doshisha"
+        },
+        {
+          "localizedValue": "Dpnamron"
+        },
+        {
+          "localizedValue": "Dr. Oetker"
+        },
+        {
+          "localizedValue": "Dragon Crest"
+        },
+        {
+          "localizedValue": "Dragon Tea House"
+        },
+        {
+          "localizedValue": "DreamLine"
+        },
+        {
+          "localizedValue": "Drinkmate"
+        },
+        {
+          "localizedValue": "D-STYLIST"
+        },
+        {
+          "localizedValue": "Dualetto"
+        },
+        {
+          "localizedValue": "Dualit"
+        },
+        {
+          "localizedValue": "Dunelm"
+        },
+        {
+          "localizedValue": "DURABLE"
+        },
+        {
+          "localizedValue": "Durabrand"
+        },
+        {
+          "localizedValue": "Duromatic"
+        },
+        {
+          "localizedValue": "Duronic"
+        },
+        {
+          "localizedValue": "DuxTop"
+        },
+        {
+          "localizedValue": "Dynamic"
+        },
+        {
+          "localizedValue": "Dyson"
+        },
+        {
+          "localizedValue": "EA"
+        },
+        {
+          "localizedValue": "Eagle"
+        },
+        {
+          "localizedValue": "EasiYo"
+        },
+        {
+          "localizedValue": "Eastman Outdoors"
+        },
+        {
+          "localizedValue": "Easy Cook"
+        },
+        {
+          "localizedValue": "ECG"
+        },
+        {
+          "localizedValue": "ecHome"
+        },
+        {
+          "localizedValue": "ECHOS"
+        },
+        {
+          "localizedValue": "ECM"
+        },
+        {
+          "localizedValue": "eco+"
+        },
+        {
+          "localizedValue": "Ecolution"
+        },
+        {
+          "localizedValue": "econ connect"
+        },
+        {
+          "localizedValue": "Ecosa"
+        },
+        {
+          "localizedValue": "Ecovacs"
+        },
+        {
+          "localizedValue": "Eco-worthy"
+        },
+        {
+          "localizedValue": "ECR4Kids"
+        },
+        {
+          "localizedValue": "Eddingtons"
+        },
+        {
+          "localizedValue": "Edel"
+        },
+        {
+          "localizedValue": "EdgeStar"
+        },
+        {
+          "localizedValue": "EDIMAX"
+        },
+        {
+          "localizedValue": "Efbe-Schott"
+        },
+        {
+          "localizedValue": "Egg-Tastic"
+        },
+        {
+          "localizedValue": "EGL"
+        },
+        {
+          "localizedValue": "EHOOM"
+        },
+        {
+          "localizedValue": "Einhell"
+        },
+        {
+          "localizedValue": "eismaxx"
+        },
+        {
+          "localizedValue": "EKCO"
+        },
+        {
+          "localizedValue": "Elechomes"
+        },
+        {
+          "localizedValue": "ElectriQ"
+        },
+        {
+          "localizedValue": "Electrolux"
+        },
+        {
+          "localizedValue": "ELEFOCUS"
+        },
+        {
+          "localizedValue": "Eleganceinlife"
+        },
+        {
+          "localizedValue": "Elektra"
+        },
+        {
+          "localizedValue": "Element"
+        },
+        {
+          "localizedValue": "Elementi"
+        },
+        {
+          "localizedValue": "Elgento"
+        },
+        {
+          "localizedValue": "Elica"
+        },
+        {
+          "localizedValue": "Elite by Maxi-Matic"
+        },
+        {
+          "localizedValue": "Elite Cuisine"
+        },
+        {
+          "localizedValue": "Elite Gourmet"
+        },
+        {
+          "localizedValue": "Elite Platinum"
+        },
+        {
+          "localizedValue": "Elite Products"
+        },
+        {
+          "localizedValue": "Elo"
+        },
+        {
+          "localizedValue": "Elpine"
+        },
+        {
+          "localizedValue": "Elta"
+        },
+        {
+          "localizedValue": "Eltronic"
+        },
+        {
+          "localizedValue": "Emerald"
+        },
+        {
+          "localizedValue": "Emeril Lagasse"
+        },
+        {
+          "localizedValue": "Emerilware"
+        },
+        {
+          "localizedValue": "Emerio"
+        },
+        {
+          "localizedValue": "Emerson"
+        },
+        {
+          "localizedValue": "Emile Henry"
+        },
+        {
+          "localizedValue": "Emilia"
+        },
+        {
+          "localizedValue": "Emmi"
+        },
+        {
+          "localizedValue": "Emperial"
+        },
+        {
+          "localizedValue": "EMSA"
+        },
+        {
+          "localizedValue": "Emson"
+        },
+        {
+          "localizedValue": "Energizer"
+        },
+        {
+          "localizedValue": "Epica"
+        },
+        {
+          "localizedValue": "Epicurean"
+        },
+        {
+          "localizedValue": "Eppicotispai"
+        },
+        {
+          "localizedValue": "E-PRANCE"
+        },
+        {
+          "localizedValue": "Epson"
+        },
+        {
+          "localizedValue": "Equator"
+        },
+        {
+          "localizedValue": "ESGE Zauberstab"
+        },
+        {
+          "localizedValue": "Espressione"
+        },
+        {
+          "localizedValue": "Espressotoria"
+        },
+        {
+          "localizedValue": "ESPRO"
+        },
+        {
+          "localizedValue": "Essential Home"
+        },
+        {
+          "localizedValue": "Essentials"
+        },
+        {
+          "localizedValue": "Essteele"
+        },
+        {
+          "localizedValue": "Estilo"
+        },
+        {
+          "localizedValue": "Eta"
+        },
+        {
+          "localizedValue": "Ethos"
+        },
+        {
+          "localizedValue": "Eureka"
+        },
+        {
+          "localizedValue": "Euro"
+        },
+        {
+          "localizedValue": "Eurochef"
+        },
+        {
+          "localizedValue": "Euro Cuisine"
+        },
+        {
+          "localizedValue": "Eurodib"
+        },
+        {
+          "localizedValue": "Eurolux"
+        },
+        {
+          "localizedValue": "Euromaid"
+        },
+        {
+          "localizedValue": "EUROPART"
+        },
+        {
+          "localizedValue": "Euro-Pro"
+        },
+        {
+          "localizedValue": "Eva Collection"
+        },
+        {
+          "localizedValue": "Eva Solo"
+        },
+        {
+          "localizedValue": "Evco International"
+        },
+        {
+          "localizedValue": "Evelots"
+        },
+        {
+          "localizedValue": "Ever-May"
+        },
+        {
+          "localizedValue": "Evriholder"
+        },
+        {
+          "localizedValue": "Ewant"
+        },
+        {
+          "localizedValue": "E-ware"
+        },
+        {
+          "localizedValue": "Ewave"
+        },
+        {
+          "localizedValue": "Excalibur"
+        },
+        {
+          "localizedValue": "Excelvan"
+        },
+        {
+          "localizedValue": "EYLURE"
+        },
+        {
+          "localizedValue": "Ezi Concepts"
+        },
+        {
+          "localizedValue": "Ezidri"
+        },
+        {
+          "localizedValue": "EZ Off"
+        },
+        {
+          "localizedValue": "Fackelmann"
+        },
+        {
+          "localizedValue": "Fagor"
+        },
+        {
+          "localizedValue": "Faithfull"
+        },
+        {
+          "localizedValue": "Falcon"
+        },
+        {
+          "localizedValue": "Fante's"
+        },
+        {
+          "localizedValue": "Farberware"
+        },
+        {
+          "localizedValue": "FAURE"
+        },
+        {
+          "localizedValue": "FCI"
+        },
+        {
+          "localizedValue": "Felji"
+        },
+        {
+          "localizedValue": "Fellow"
+        },
+        {
+          "localizedValue": "FERM"
+        },
+        {
+          "localizedValue": "Ferplast"
+        },
+        {
+          "localizedValue": "Ferrari"
+        },
+        {
+          "localizedValue": "Ferrari"
+        },
+        {
+          "localizedValue": "Fiesta"
+        },
+        {
+          "localizedValue": "Filter"
+        },
+        {
+          "localizedValue": "Fine Elements"
+        },
+        {
+          "localizedValue": "Finether"
+        },
+        {
+          "localizedValue": "Finnhomy"
+        },
+        {
+          "localizedValue": "FINO"
+        },
+        {
+          "localizedValue": "Fisher & Paykel"
+        },
+        {
+          "localizedValue": "Fiskars"
+        },
+        {
+          "localizedValue": "Fissler"
+        },
+        {
+          "localizedValue": "Fitbit"
+        },
+        {
+          "localizedValue": "Fixture Displays"
+        },
+        {
+          "localizedValue": "Flex"
+        },
+        {
+          "localizedValue": "Flexzion"
+        },
+        {
+          "localizedValue": "Flora"
+        },
+        {
+          "localizedValue": "Fluke"
+        },
+        {
+          "localizedValue": "Focus Foodservice"
+        },
+        {
+          "localizedValue": "Food Network"
+        },
+        {
+          "localizedValue": "FoodSaver"
+        },
+        {
+          "localizedValue": "Foppapedretti"
+        },
+        {
+          "localizedValue": "Fortune Candy"
+        },
+        {
+          "localizedValue": "Fox Air Beds"
+        },
+        {
+          "localizedValue": "Fox Run"
+        },
+        {
+          "localizedValue": "Frabosk"
+        },
+        {
+          "localizedValue": "Franke"
+        },
+        {
+          "localizedValue": "Fred"
+        },
+        {
+          "localizedValue": "Freecom"
+        },
+        {
+          "localizedValue": "FrenchMay"
+        },
+        {
+          "localizedValue": "Fresh World"
+        },
+        {
+          "localizedValue": "Frieling"
+        },
+        {
+          "localizedValue": "Frigidaire"
+        },
+        {
+          "localizedValue": "Froth Au Lait"
+        },
+        {
+          "localizedValue": "Frymaster"
+        },
+        {
+          "localizedValue": "Fujifilm"
+        },
+        {
+          "localizedValue": "Fujitsu"
+        },
+        {
+          "localizedValue": "Funko"
+        },
+        {
+          "localizedValue": "Fusion"
+        },
+        {
+          "localizedValue": "Fusionbrands"
+        },
+        {
+          "localizedValue": "Fusion Juicer"
+        },
+        {
+          "localizedValue": "Futura"
+        },
+        {
+          "localizedValue": "G3 Ferrari"
+        },
+        {
+          "localizedValue": "Gaggenau"
+        },
+        {
+          "localizedValue": "Gaggia"
+        },
+        {
+          "localizedValue": "Gain"
+        },
+        {
+          "localizedValue": "Gainward"
+        },
+        {
+          "localizedValue": "Galanz"
+        },
+        {
+          "localizedValue": "Ganesh"
+        },
+        {
+          "localizedValue": "GARDENA"
+        },
+        {
+          "localizedValue": "Gardner Bender"
+        },
+        {
+          "localizedValue": "Garmin"
+        },
+        {
+          "localizedValue": "Garnier"
+        },
+        {
+          "localizedValue": "Garrett"
+        },
+        {
+          "localizedValue": "Gastroback"
+        },
+        {
+          "localizedValue": "Gatco"
+        },
+        {
+          "localizedValue": "GE"
+        },
+        {
+          "localizedValue": "GE appliances"
+        },
+        {
+          "localizedValue": "GeekChef"
+        },
+        {
+          "localizedValue": "GEEPAS"
+        },
+        {
+          "localizedValue": "GEFU"
+        },
+        {
+          "localizedValue": "Gemco"
+        },
+        {
+          "localizedValue": "General"
+        },
+        {
+          "localizedValue": "Genius"
+        },
+        {
+          "localizedValue": "Genware"
+        },
+        {
+          "localizedValue": "George Foreman"
+        },
+        {
+          "localizedValue": "George Home"
+        },
+        {
+          "localizedValue": "Geryon"
+        },
+        {
+          "localizedValue": "Gevalia"
+        },
+        {
+          "localizedValue": "GHIDINI"
+        },
+        {
+          "localizedValue": "Giantex"
+        },
+        {
+          "localizedValue": "Gibson"
+        },
+        {
+          "localizedValue": "Gideon"
+        },
+        {
+          "localizedValue": "Gien"
+        },
+        {
+          "localizedValue": "GIGABYTE"
+        },
+        {
+          "localizedValue": "Giles & Posner"
+        },
+        {
+          "localizedValue": "Ginsu"
+        },
+        {
+          "localizedValue": "Girmi"
+        },
+        {
+          "localizedValue": "Glacio"
+        },
+        {
+          "localizedValue": "Global"
+        },
+        {
+          "localizedValue": "Global Gizmos"
+        },
+        {
+          "localizedValue": "Global Gourmet"
+        },
+        {
+          "localizedValue": "GNC"
+        },
+        {
+          "localizedValue": "Godinger"
+        },
+        {
+          "localizedValue": "Goebel"
+        },
+        {
+          "localizedValue": "Gold's Gym"
+        },
+        {
+          "localizedValue": "Goldair"
+        },
+        {
+          "localizedValue": "Good Cook"
+        },
+        {
+          "localizedValue": "Good Cooking"
+        },
+        {
+          "localizedValue": "Goodmans"
+        },
+        {
+          "localizedValue": "Google"
+        },
+        {
+          "localizedValue": "GoPlus"
+        },
+        {
+          "localizedValue": "GoPro"
+        },
+        {
+          "localizedValue": "Gordon Ramsay"
+        },
+        {
+          "localizedValue": "Gorenje"
+        },
+        {
+          "localizedValue": "Gotham Steel"
+        },
+        {
+          "localizedValue": "Gourmet"
+        },
+        {
+          "localizedValue": "Gourmet Chef"
+        },
+        {
+          "localizedValue": "Gourmet Gadgetry"
+        },
+        {
+          "localizedValue": "GOURMETmaxx"
+        },
+        {
+          "localizedValue": "Gourmet Settings"
+        },
+        {
+          "localizedValue": "Gourmet Trends"
+        },
+        {
+          "localizedValue": "Gourmia"
+        },
+        {
+          "localizedValue": "GoWISE USA"
+        },
+        {
+          "localizedValue": "GP Well"
+        },
+        {
+          "localizedValue": "Graber"
+        },
+        {
+          "localizedValue": "Graef"
+        },
+        {
+          "localizedValue": "Gramercy Kitchen Co"
+        },
+        {
+          "localizedValue": "Granite Ware"
+        },
+        {
+          "localizedValue": "Great Northern Popcorn Company"
+        },
+        {
+          "localizedValue": "Green Machine"
+        },
+        {
+          "localizedValue": "GREEN POWER"
+        },
+        {
+          "localizedValue": "Green Star"
+        },
+        {
+          "localizedValue": "GreenWorks"
+        },
+        {
+          "localizedValue": "GROHE"
+        },
+        {
+          "localizedValue": "grossag"
+        },
+        {
+          "localizedValue": "Grundig"
+        },
+        {
+          "localizedValue": "Grunwerg"
+        },
+        {
+          "localizedValue": "Gshopper"
+        },
+        {
+          "localizedValue": "Guide Gear"
+        },
+        {
+          "localizedValue": "Guide Series"
+        },
+        {
+          "localizedValue": "GUSTINO"
+        },
+        {
+          "localizedValue": "Guzzini"
+        },
+        {
+          "localizedValue": "Gvode"
+        },
+        {
+          "localizedValue": "H.Koenig"
+        },
+        {
+          "localizedValue": "H & H"
+        },
+        {
+          "localizedValue": "Habitat"
+        },
+        {
+          "localizedValue": "Hachoir"
+        },
+        {
+          "localizedValue": "Haden"
+        },
+        {
+          "localizedValue": "Haier"
+        },
+        {
+          "localizedValue": "Hailo"
+        },
+        {
+          "localizedValue": "HAIRY BIKERS"
+        },
+        {
+          "localizedValue": "Hallmark"
+        },
+        {
+          "localizedValue": "Hamilton"
+        },
+        {
+          "localizedValue": "Hamilton Beach"
+        },
+        {
+          "localizedValue": "Hancock"
+        },
+        {
+          "localizedValue": "Handgefertigt"
+        },
+        {
+          "localizedValue": "Handmade"
+        },
+        {
+          "localizedValue": "Handpresso"
+        },
+        {
+          "localizedValue": "Handy Can-Opener"
+        },
+        {
+          "localizedValue": "Handy Gourmet"
+        },
+        {
+          "localizedValue": "Handy Pantry"
+        },
+        {
+          "localizedValue": "Hanil Automotive"
+        },
+        {
+          "localizedValue": "Hanson"
+        },
+        {
+          "localizedValue": "Happycall"
+        },
+        {
+          "localizedValue": "Hario"
+        },
+        {
+          "localizedValue": "Harley Pasternak"
+        },
+        {
+          "localizedValue": "HARTING"
+        },
+        {
+          "localizedValue": "Harvest Cookware"
+        },
+        {
+          "localizedValue": "Harvest Maid"
+        },
+        {
+          "localizedValue": "Hasbro"
+        },
+        {
+          "localizedValue": "Hatco"
+        },
+        {
+          "localizedValue": "Hatrigo"
+        },
+        {
+          "localizedValue": "Hawaiian Shaved Ice"
+        },
+        {
+          "localizedValue": "Hawkins"
+        },
+        {
+          "localizedValue": "hawos"
+        },
+        {
+          "localizedValue": "HEAD"
+        },
+        {
+          "localizedValue": "Healthy Choice"
+        },
+        {
+          "localizedValue": "Heatrae Sadia"
+        },
+        {
+          "localizedValue": "Heaven Fresh"
+        },
+        {
+          "localizedValue": "Hefty"
+        },
+        {
+          "localizedValue": "Heller"
+        },
+        {
+          "localizedValue": "Hello Kitty"
+        },
+        {
+          "localizedValue": "HELUKABEL"
+        },
+        {
+          "localizedValue": "Henny Penny"
+        },
+        {
+          "localizedValue": "Hercules"
+        },
+        {
+          "localizedValue": "Hershey's"
+        },
+        {
+          "localizedValue": "Heska"
+        },
+        {
+          "localizedValue": "HIC"
+        },
+        {
+          "localizedValue": "HIC, Harold Import Co."
+        },
+        {
+          "localizedValue": "Hicon"
+        },
+        {
+          "localizedValue": "HiMARK"
+        },
+        {
+          "localizedValue": "Hinari"
+        },
+        {
+          "localizedValue": "HISEN"
+        },
+        {
+          "localizedValue": "Hisense"
+        },
+        {
+          "localizedValue": "Hitachi"
+        },
+        {
+          "localizedValue": "Hobart"
+        },
+        {
+          "localizedValue": "Hoffritz"
+        },
+        {
+          "localizedValue": "Hogri"
+        },
+        {
+          "localizedValue": "HOLSEM"
+        },
+        {
+          "localizedValue": "Holstein Housewares"
+        },
+        {
+          "localizedValue": "Homcom"
+        },
+        {
+          "localizedValue": "Homdox"
+        },
+        {
+          "localizedValue": "hOme"
+        },
+        {
+          "localizedValue": "Home & Co"
+        },
+        {
+          "localizedValue": "Homebase"
+        },
+        {
+          "localizedValue": "Home Basics"
+        },
+        {
+          "localizedValue": "HOMEIMAGE"
+        },
+        {
+          "localizedValue": "Homeland Housewares"
+        },
+        {
+          "localizedValue": "Home Leader"
+        },
+        {
+          "localizedValue": "Homemaker"
+        },
+        {
+          "localizedValue": "HOMEMAXS"
+        },
+        {
+          "localizedValue": "Home Treats"
+        },
+        {
+          "localizedValue": "Home Trends"
+        },
+        {
+          "localizedValue": "Homgeek"
+        },
+        {
+          "localizedValue": "homia"
+        },
+        {
+          "localizedValue": "Homitt"
+        },
+        {
+          "localizedValue": "HoneyBull"
+        },
+        {
+          "localizedValue": "Honey-Can-Do"
+        },
+        {
+          "localizedValue": "Hongxin"
+        },
+        {
+          "localizedValue": "Hoover"
+        },
+        {
+          "localizedValue": "Hostess"
+        },
+        {
+          "localizedValue": "Hotpoint"
+        },
+        {
+          "localizedValue": "Hotpoint-Ariston"
+        },
+        {
+          "localizedValue": "House Again"
+        },
+        {
+          "localizedValue": "Housmile"
+        },
+        {
+          "localizedValue": "Howell"
+        },
+        {
+          "localizedValue": "HP"
+        },
+        {
+          "localizedValue": "HTC"
+        },
+        {
+          "localizedValue": "HUANG YI FU"
+        },
+        {
+          "localizedValue": "Huawei"
+        },
+        {
+          "localizedValue": "Huggies"
+        },
+        {
+          "localizedValue": "HUJI"
+        },
+        {
+          "localizedValue": "HÜLLR"
+        },
+        {
+          "localizedValue": "Huntrite"
+        },
+        {
+          "localizedValue": "Huogary"
+        },
+        {
+          "localizedValue": "Hurom"
+        },
+        {
+          "localizedValue": "Husqvarna"
+        },
+        {
+          "localizedValue": "Hyde"
+        },
+        {
+          "localizedValue": "Hygiplas"
+        },
+        {
+          "localizedValue": "Ibili"
+        },
+        {
+          "localizedValue": "Igenix"
+        },
+        {
+          "localizedValue": "Igloo"
+        },
+        {
+          "localizedValue": "IGNIS"
+        },
+        {
+          "localizedValue": "Ignite"
+        },
+        {
+          "localizedValue": "Iittala"
+        },
+        {
+          "localizedValue": "iiyama"
+        },
+        {
+          "localizedValue": "IKEA"
+        },
+        {
+          "localizedValue": "iKich"
+        },
+        {
+          "localizedValue": "Illy"
+        },
+        {
+          "localizedValue": "Ilsa"
+        },
+        {
+          "localizedValue": "ILVE"
+        },
+        {
+          "localizedValue": "IMAX"
+        },
+        {
+          "localizedValue": "Imetec"
+        },
+        {
+          "localizedValue": "Impecca"
+        },
+        {
+          "localizedValue": "Imperia"
+        },
+        {
+          "localizedValue": "Imperial"
+        },
+        {
+          "localizedValue": "Imperial Home"
+        },
+        {
+          "localizedValue": "Improvements"
+        },
+        {
+          "localizedValue": "Imusa"
+        },
+        {
+          "localizedValue": "Inalto"
+        },
+        {
+          "localizedValue": "Incontro"
+        },
+        {
+          "localizedValue": "Indesit"
+        },
+        {
+          "localizedValue": "Industrial Revolution"
+        },
+        {
+          "localizedValue": "Infapower"
+        },
+        {
+          "localizedValue": "Inno"
+        },
+        {
+          "localizedValue": "Innobella"
+        },
+        {
+          "localizedValue": "Innoliving"
+        },
+        {
+          "localizedValue": "Innova"
+        },
+        {
+          "localizedValue": "Innova Imports"
+        },
+        {
+          "localizedValue": "Innovations"
+        },
+        {
+          "localizedValue": "Innovee Home"
+        },
+        {
+          "localizedValue": "INOX"
+        },
+        {
+          "localizedValue": "Insignia"
+        },
+        {
+          "localizedValue": "Instahut"
+        },
+        {
+          "localizedValue": "Instant Pot"
+        },
+        {
+          "localizedValue": "InterDesign"
+        },
+        {
+          "localizedValue": "Intermatic"
+        },
+        {
+          "localizedValue": "International"
+        },
+        {
+          "localizedValue": "Intex"
+        },
+        {
+          "localizedValue": "Inventum"
+        },
+        {
+          "localizedValue": "iRobot"
+        },
+        {
+          "localizedValue": "Isagenix"
+        },
+        {
+          "localizedValue": "iSi"
+        },
+        {
+          "localizedValue": "iSiLER"
+        },
+        {
+          "localizedValue": "iSODA"
+        },
+        {
+          "localizedValue": "ISUN"
+        },
+        {
+          "localizedValue": "Italinox"
+        },
+        {
+          "localizedValue": "Ivation"
+        },
+        {
+          "localizedValue": "Iwatani"
+        },
+        {
+          "localizedValue": "Jaccard"
+        },
+        {
+          "localizedValue": "Jack LaLanne"
+        },
+        {
+          "localizedValue": "Jacob Jensen Design"
+        },
+        {
+          "localizedValue": "JAGO"
+        },
+        {
+          "localizedValue": "Jamba"
+        },
+        {
+          "localizedValue": "James Martin"
+        },
+        {
+          "localizedValue": "Jamie Oliver"
+        },
+        {
+          "localizedValue": "JapanBargain"
+        },
+        {
+          "localizedValue": "Jata"
+        },
+        {
+          "localizedValue": "Jelly Belly"
+        },
+        {
+          "localizedValue": "Jenn-Air"
+        },
+        {
+          "localizedValue": "Jese"
+        },
+        {
+          "localizedValue": "JET"
+        },
+        {
+          "localizedValue": "J-JATI"
+        },
+        {
+          "localizedValue": "JML"
+        },
+        {
+          "localizedValue": "JM Posner"
+        },
+        {
+          "localizedValue": "Jo!e"
+        },
+        {
+          "localizedValue": "JOCCA"
+        },
+        {
+          "localizedValue": "John Lewis"
+        },
+        {
+          "localizedValue": "Johnson & Johnson"
+        },
+        {
+          "localizedValue": "Johnson Brothers"
+        },
+        {
+          "localizedValue": "Johnsonville"
+        },
+        {
+          "localizedValue": "JOIE"
+        },
+        {
+          "localizedValue": "Jokari"
+        },
+        {
+          "localizedValue": "Joseph Joseph"
+        },
+        {
+          "localizedValue": "Joyce Chen"
+        },
+        {
+          "localizedValue": "Joyoung"
+        },
+        {
+          "localizedValue": "Joytata"
+        },
+        {
+          "localizedValue": "JR Ultra"
+        },
+        {
+          "localizedValue": "JTC"
+        },
+        {
+          "localizedValue": "Judge"
+        },
+        {
+          "localizedValue": "Juiceman"
+        },
+        {
+          "localizedValue": "Jupiter"
+        },
+        {
+          "localizedValue": "JURA"
+        },
+        {
+          "localizedValue": "Juvale"
+        },
+        {
+          "localizedValue": "JVL"
+        },
+        {
+          "localizedValue": "Kabeltronik"
+        },
+        {
+          "localizedValue": "Kaiser"
+        },
+        {
+          "localizedValue": "Kaiserhoff"
+        },
+        {
+          "localizedValue": "Kalita"
+        },
+        {
+          "localizedValue": "Kalorik"
+        },
+        {
+          "localizedValue": "Kambrook"
+        },
+        {
+          "localizedValue": "Kamenstein"
+        },
+        {
+          "localizedValue": "Kamjove"
+        },
+        {
+          "localizedValue": "Kampa"
+        },
+        {
+          "localizedValue": "Kangaroo"
+        },
+        {
+          "localizedValue": "Kärcher"
+        },
+        {
+          "localizedValue": "Kasanova"
+        },
+        {
+          "localizedValue": "Kate Aspen"
+        },
+        {
+          "localizedValue": "kaviatek"
+        },
+        {
+          "localizedValue": "KAYSER"
+        },
+        {
+          "localizedValue": "Keebler"
+        },
+        {
+          "localizedValue": "Keemo"
+        },
+        {
+          "localizedValue": "Kela"
+        },
+        {
+          "localizedValue": "Kenji"
+        },
+        {
+          "localizedValue": "Kenmore"
+        },
+        {
+          "localizedValue": "Kenwood"
+        },
+        {
+          "localizedValue": "Kershaw"
+        },
+        {
+          "localizedValue": "KESPER"
+        },
+        {
+          "localizedValue": "Keurig"
+        },
+        {
+          "localizedValue": "Keystone"
+        },
+        {
+          "localizedValue": "Keyton"
+        },
+        {
+          "localizedValue": "Kichwit"
+        },
+        {
+          "localizedValue": "Kilner"
+        },
+        {
+          "localizedValue": "KINDEN"
+        },
+        {
+          "localizedValue": "King"
+        },
+        {
+          "localizedValue": "Kingavon"
+        },
+        {
+          "localizedValue": "KINGHOFF"
+        },
+        {
+          "localizedValue": "King Kooker"
+        },
+        {
+          "localizedValue": "King Kutter"
+        },
+        {
+          "localizedValue": "King of Raclette"
+        },
+        {
+          "localizedValue": "Kingston"
+        },
+        {
+          "localizedValue": "Kinto"
+        },
+        {
+          "localizedValue": "Kitchen"
+        },
+        {
+          "localizedValue": "KitchenAid"
+        },
+        {
+          "localizedValue": "Kitchen Couture"
+        },
+        {
+          "localizedValue": "Kitchen Craft"
+        },
+        {
+          "localizedValue": "Kitchen Deluxe"
+        },
+        {
+          "localizedValue": "Kitchener"
+        },
+        {
+          "localizedValue": "Kitchen Foods"
+        },
+        {
+          "localizedValue": "Kitchen Genie"
+        },
+        {
+          "localizedValue": "Kitchen Selectives"
+        },
+        {
+          "localizedValue": "KitchenWorthy"
+        },
+        {
+          "localizedValue": "Klarstein"
+        },
+        {
+          "localizedValue": "KLAUSBERG"
+        },
+        {
+          "localizedValue": "KLIM"
+        },
+        {
+          "localizedValue": "KNIPEX"
+        },
+        {
+          "localizedValue": "Kocaco"
+        },
+        {
+          "localizedValue": "Kodak"
+        },
+        {
+          "localizedValue": "Kogan"
+        },
+        {
+          "localizedValue": "Kohler"
+        },
+        {
+          "localizedValue": "KOIOS"
+        },
+        {
+          "localizedValue": "Koizumi"
+        },
+        {
+          "localizedValue": "KOMO"
+        },
+        {
+          "localizedValue": "Konami"
+        },
+        {
+          "localizedValue": "Konka"
+        },
+        {
+          "localizedValue": "Koolatron"
+        },
+        {
+          "localizedValue": "Koölle"
+        },
+        {
+          "localizedValue": "Korkmaz"
+        },
+        {
+          "localizedValue": "KORONA"
+        },
+        {
+          "localizedValue": "KOTOBUKI"
+        },
+        {
+          "localizedValue": "Koziol"
+        },
+        {
+          "localizedValue": "Krampouz"
+        },
+        {
+          "localizedValue": "Krisk"
+        },
+        {
+          "localizedValue": "Krups"
+        },
+        {
+          "localizedValue": "K-Tec"
+        },
+        {
+          "localizedValue": "Kuchef"
+        },
+        {
+          "localizedValue": "Küchenhelfer"
+        },
+        {
+          "localizedValue": "Küchenprofi"
+        },
+        {
+          "localizedValue": "Kuhn Rikon"
+        },
+        {
+          "localizedValue": "Kuissential"
+        },
+        {
+          "localizedValue": "KuKoo"
+        },
+        {
+          "localizedValue": "KUPPET"
+        },
+        {
+          "localizedValue": "KUVINGS"
+        },
+        {
+          "localizedValue": "KUWAN"
+        },
+        {
+          "localizedValue": "Kwikset"
+        },
+        {
+          "localizedValue": "Kyocera"
+        },
+        {
+          "localizedValue": "L'Equip"
+        },
+        {
+          "localizedValue": "La Cafetière"
+        },
+        {
+          "localizedValue": "LaCie"
+        },
+        {
+          "localizedValue": "Lacor"
+        },
+        {
+          "localizedValue": "Lacoste"
+        },
+        {
+          "localizedValue": "La Cucina"
+        },
+        {
+          "localizedValue": "Lagostina"
+        },
+        {
+          "localizedValue": "La Grange"
+        },
+        {
+          "localizedValue": "Lakatay"
+        },
+        {
+          "localizedValue": "Lakeland"
+        },
+        {
+          "localizedValue": "LANDMANN"
+        },
+        {
+          "localizedValue": "La Pavoni"
+        },
+        {
+          "localizedValue": "Laptronix"
+        },
+        {
+          "localizedValue": "Lava"
+        },
+        {
+          "localizedValue": "Lavazza"
+        },
+        {
+          "localizedValue": "Lazer Electrics"
+        },
+        {
+          "localizedValue": "LDR"
+        },
+        {
+          "localizedValue": "Le'Xpress"
+        },
+        {
+          "localizedValue": "Leaf and Bean"
+        },
+        {
+          "localizedValue": "Le Creuset"
+        },
+        {
+          "localizedValue": "Legend"
+        },
+        {
+          "localizedValue": "LEGO"
+        },
+        {
+          "localizedValue": "Leifheit"
+        },
+        {
+          "localizedValue": "LÉKUÉ"
+        },
+        {
+          "localizedValue": "Lello"
+        },
+        {
+          "localizedValue": "LEM"
+        },
+        {
+          "localizedValue": "Lenoxx Electronics"
+        },
+        {
+          "localizedValue": "Lentz"
+        },
+        {
+          "localizedValue": "LEONARDO"
+        },
+        {
+          "localizedValue": "Lexen"
+        },
+        {
+          "localizedValue": "LG"
+        },
+        {
+          "localizedValue": "LIANYU"
+        },
+        {
+          "localizedValue": "LiBa"
+        },
+        {
+          "localizedValue": "Libbey"
+        },
+        {
+          "localizedValue": "Liebherr"
+        },
+        {
+          "localizedValue": "LifeSpring"
+        },
+        {
+          "localizedValue": "Lifestyle"
+        },
+        {
+          "localizedValue": "Lifetime"
+        },
+        {
+          "localizedValue": "Limee"
+        },
+        {
+          "localizedValue": "Lincat"
+        },
+        {
+          "localizedValue": "LINKChef"
+        },
+        {
+          "localizedValue": "LinsnField"
+        },
+        {
+          "localizedValue": "LIQUI MOLY"
+        },
+        {
+          "localizedValue": "Litake"
+        },
+        {
+          "localizedValue": "Litchi"
+        },
+        {
+          "localizedValue": "Lite Source"
+        },
+        {
+          "localizedValue": "Litton"
+        },
+        {
+          "localizedValue": "Liven"
+        },
+        {
+          "localizedValue": "Living Well with Montel"
+        },
+        {
+          "localizedValue": "Lloytron"
+        },
+        {
+          "localizedValue": "Lodge"
+        },
+        {
+          "localizedValue": "Logik"
+        },
+        {
+          "localizedValue": "Logitech"
+        },
+        {
+          "localizedValue": "Lorena Garcia"
+        },
+        {
+          "localizedValue": "Louise Sturhling"
+        },
+        {
+          "localizedValue": "Lowry"
+        },
+        {
+          "localizedValue": "LUCOG"
+        },
+        {
+          "localizedValue": "Luma Comfort"
+        },
+        {
+          "localizedValue": "Lumina"
+        },
+        {
+          "localizedValue": "Luminarc"
+        },
+        {
+          "localizedValue": "Lungogo"
+        },
+        {
+          "localizedValue": "Lurch"
+        },
+        {
+          "localizedValue": "LUUKMONDE"
+        },
+        {
+          "localizedValue": "Luvele"
+        },
+        {
+          "localizedValue": "MACOM"
+        },
+        {
+          "localizedValue": "Maestrowave"
+        },
+        {
+          "localizedValue": "MAGEFESA"
+        },
+        {
+          "localizedValue": "Magellan"
+        },
+        {
+          "localizedValue": "Magic"
+        },
+        {
+          "localizedValue": "Magic Bullet"
+        },
+        {
+          "localizedValue": "Magic Chef"
+        },
+        {
+          "localizedValue": "Magic Mill"
+        },
+        {
+          "localizedValue": "Magicook"
+        },
+        {
+          "localizedValue": "Magimix"
+        },
+        {
+          "localizedValue": "Mainstays"
+        },
+        {
+          "localizedValue": "MAKE"
+        },
+        {
+          "localizedValue": "Makita"
+        },
+        {
+          "localizedValue": "MAM"
+        },
+        {
+          "localizedValue": "Manitowoc"
+        },
+        {
+          "localizedValue": "Manttra"
+        },
+        {
+          "localizedValue": "Marcato"
+        },
+        {
+          "localizedValue": "Margaritaville"
+        },
+        {
+          "localizedValue": "Mario Batali"
+        },
+        {
+          "localizedValue": "Marks and Spencer"
+        },
+        {
+          "localizedValue": "Martha Stewart"
+        },
+        {
+          "localizedValue": "Marvel"
+        },
+        {
+          "localizedValue": "Masahiro"
+        },
+        {
+          "localizedValue": "Masco"
+        },
+        {
+          "localizedValue": "Masha"
+        },
+        {
+          "localizedValue": "Mason Cash"
+        },
+        {
+          "localizedValue": "Master"
+        },
+        {
+          "localizedValue": "Masterbuilt"
+        },
+        {
+          "localizedValue": "Master Class"
+        },
+        {
+          "localizedValue": "Master Plumber"
+        },
+        {
+          "localizedValue": "Master Pro"
+        },
+        {
+          "localizedValue": "Mastrad"
+        },
+        {
+          "localizedValue": "Matcha DNA"
+        },
+        {
+          "localizedValue": "MATFER"
+        },
+        {
+          "localizedValue": "Matstone"
+        },
+        {
+          "localizedValue": "Matsui"
+        },
+        {
+          "localizedValue": "Mauviel"
+        },
+        {
+          "localizedValue": "Mavala"
+        },
+        {
+          "localizedValue": "Mavericks"
+        },
+        {
+          "localizedValue": "Maxam"
+        },
+        {
+          "localizedValue": "Maxim"
+        },
+        {
+          "localizedValue": "Maxi-Matic"
+        },
+        {
+          "localizedValue": "Max Italia"
+        },
+        {
+          "localizedValue": "Maxkon"
+        },
+        {
+          "localizedValue": "Maxtor"
+        },
+        {
+          "localizedValue": "Maxwell & Williams"
+        },
+        {
+          "localizedValue": "Maxx Ice"
+        },
+        {
+          "localizedValue": "Maytag"
+        },
+        {
+          "localizedValue": "McKay"
+        },
+        {
+          "localizedValue": "Meade"
+        },
+        {
+          "localizedValue": "Mealthy"
+        },
+        {
+          "localizedValue": "Meco"
+        },
+        {
+          "localizedValue": "Medelco"
+        },
+        {
+          "localizedValue": "MEDION"
+        },
+        {
+          "localizedValue": "MegaChef"
+        },
+        {
+          "localizedValue": "Meglio"
+        },
+        {
+          "localizedValue": "Melchioni"
+        },
+        {
+          "localizedValue": "Melitta"
+        },
+        {
+          "localizedValue": "Mengk"
+        },
+        {
+          "localizedValue": "Menu"
+        },
+        {
+          "localizedValue": "Mercer"
+        },
+        {
+          "localizedValue": "Mesko"
+        },
+        {
+          "localizedValue": "Metabo"
+        },
+        {
+          "localizedValue": "Metaltex"
+        },
+        {
+          "localizedValue": "Method"
+        },
+        {
+          "localizedValue": "Metro Fulfillment House"
+        },
+        {
+          "localizedValue": "Metrokane"
+        },
+        {
+          "localizedValue": "Meyer"
+        },
+        {
+          "localizedValue": "Miallegro"
+        },
+        {
+          "localizedValue": "Michael Graves"
+        },
+        {
+          "localizedValue": "Microchip"
+        },
+        {
+          "localizedValue": "Microplane"
+        },
+        {
+          "localizedValue": "Microsoft"
+        },
+        {
+          "localizedValue": "Microwave It"
+        },
+        {
+          "localizedValue": "Midea"
+        },
+        {
+          "localizedValue": "Midland"
+        },
+        {
+          "localizedValue": "Miele"
+        },
+        {
+          "localizedValue": "Migecon"
+        },
+        {
+          "localizedValue": "Mikasa"
+        },
+        {
+          "localizedValue": "Milliard"
+        },
+        {
+          "localizedValue": "MIRA"
+        },
+        {
+          "localizedValue": "Miracle"
+        },
+        {
+          "localizedValue": "Miracle Maid"
+        },
+        {
+          "localizedValue": "Miroco"
+        },
+        {
+          "localizedValue": "Mirro"
+        },
+        {
+          "localizedValue": "Mistral"
+        },
+        {
+          "localizedValue": "Mitsubishi"
+        },
+        {
+          "localizedValue": "Mitsubishi"
+        },
+        {
+          "localizedValue": "Mixi"
+        },
+        {
+          "localizedValue": "Mixpresso"
+        },
+        {
+          "localizedValue": "Mixtec"
+        },
+        {
+          "localizedValue": "MLITER"
+        },
+        {
+          "localizedValue": "MMF Industries"
+        },
+        {
+          "localizedValue": "Modern Cooker"
+        },
+        {
+          "localizedValue": "Modern Home Products (MHP)"
+        },
+        {
+          "localizedValue": "Modern life"
+        },
+        {
+          "localizedValue": "Moha"
+        },
+        {
+          "localizedValue": "Molla"
+        },
+        {
+          "localizedValue": "Momento"
+        },
+        {
+          "localizedValue": "Mondial"
+        },
+        {
+          "localizedValue": "MONDO"
+        },
+        {
+          "localizedValue": "Monier"
+        },
+        {
+          "localizedValue": "MONIX"
+        },
+        {
+          "localizedValue": "Monoprice"
+        },
+        {
+          "localizedValue": "Montel"
+        },
+        {
+          "localizedValue": "Montpellier"
+        },
+        {
+          "localizedValue": "Morex"
+        },
+        {
+          "localizedValue": "Morphy Richards"
+        },
+        {
+          "localizedValue": "Mouli"
+        },
+        {
+          "localizedValue": "Moulin"
+        },
+        {
+          "localizedValue": "Moulinex"
+        },
+        {
+          "localizedValue": "Mr. Bar-B-Q"
+        },
+        {
+          "localizedValue": "Mr. Coffee"
+        },
+        {
+          "localizedValue": "Mr. Freeze"
+        },
+        {
+          "localizedValue": "Mr. Heater"
+        },
+        {
+          "localizedValue": "Mr. Magic"
+        },
+        {
+          "localizedValue": "Muave"
+        },
+        {
+          "localizedValue": "MUJI"
+        },
+        {
+          "localizedValue": "Müller"
+        },
+        {
+          "localizedValue": "Munsey"
+        },
+        {
+          "localizedValue": "MURENKING"
+        },
+        {
+          "localizedValue": "Musso"
+        },
+        {
+          "localizedValue": "MyAppliances"
+        },
+        {
+          "localizedValue": "Nagatanien Co.,Ltd."
+        },
+        {
+          "localizedValue": "Namco"
+        },
+        {
+          "localizedValue": "Napoleon"
+        },
+        {
+          "localizedValue": "Natalie Styx"
+        },
+        {
+          "localizedValue": "National"
+        },
+        {
+          "localizedValue": "Nattork"
+        },
+        {
+          "localizedValue": "Nautor"
+        },
+        {
+          "localizedValue": "Neff"
+        },
+        {
+          "localizedValue": "Neiko"
+        },
+        {
+          "localizedValue": "Nemox"
+        },
+        {
+          "localizedValue": "NEO"
+        },
+        {
+          "localizedValue": "Nero"
+        },
+        {
+          "localizedValue": "NESCO"
+        },
+        {
+          "localizedValue": "NESCO/American Harvest"
+        },
+        {
+          "localizedValue": "Nespresso"
+        },
+        {
+          "localizedValue": "NETGEAR"
+        },
+        {
+          "localizedValue": "Nevir"
+        },
+        {
+          "localizedValue": "New Age Living"
+        },
+        {
+          "localizedValue": "Newair"
+        },
+        {
+          "localizedValue": "NewMetro Design"
+        },
+        {
+          "localizedValue": "New Star Foodservice"
+        },
+        {
+          "localizedValue": "New World"
+        },
+        {
+          "localizedValue": "NEXT"
+        },
+        {
+          "localizedValue": "Nicky Clarke"
+        },
+        {
+          "localizedValue": "Nifty"
+        },
+        {
+          "localizedValue": "Nikai"
+        },
+        {
+          "localizedValue": "Nikon"
+        },
+        {
+          "localizedValue": "Nilfisk"
+        },
+        {
+          "localizedValue": "Ninja"
+        },
+        {
+          "localizedValue": "Nintendo"
+        },
+        {
+          "localizedValue": "NIVONA"
+        },
+        {
+          "localizedValue": "Noch"
+        },
+        {
+          "localizedValue": "Nokia"
+        },
+        {
+          "localizedValue": "Nordic Ware"
+        },
+        {
+          "localizedValue": "Norelco"
+        },
+        {
+          "localizedValue": "Norpro"
+        },
+        {
+          "localizedValue": "Northair"
+        },
+        {
+          "localizedValue": "Norwalk"
+        },
+        {
+          "localizedValue": "Nostalgia"
+        },
+        {
+          "localizedValue": "Nostalgia Electrics"
+        },
+        {
+          "localizedValue": "Nouvel"
+        },
+        {
+          "localizedValue": "NOVA"
+        },
+        {
+          "localizedValue": "Novis"
+        },
+        {
+          "localizedValue": "NSA"
+        },
+        {
+          "localizedValue": "NUC"
+        },
+        {
+          "localizedValue": "NuTone"
+        },
+        {
+          "localizedValue": "NutriBullet"
+        },
+        {
+          "localizedValue": "NutriChef"
+        },
+        {
+          "localizedValue": "NUTRIHOME"
+        },
+        {
+          "localizedValue": "NUTRiINFUSION"
+        },
+        {
+          "localizedValue": "NutriMill"
+        },
+        {
+          "localizedValue": "Nutri-Stahl"
+        },
+        {
+          "localizedValue": "NuWave"
+        },
+        {
+          "localizedValue": "NuWave Technologies"
+        },
+        {
+          "localizedValue": "NVIDIA"
+        },
+        {
+          "localizedValue": "O&K"
+        },
+        {
+          "localizedValue": "Oggi"
+        },
+        {
+          "localizedValue": "ok."
+        },
+        {
+          "localizedValue": "Old Dutch"
+        },
+        {
+          "localizedValue": "Oliso"
+        },
+        {
+          "localizedValue": "Olympia"
+        },
+        {
+          "localizedValue": "OMEGA"
+        },
+        {
+          "localizedValue": "Omega Juicers"
+        },
+        {
+          "localizedValue": "Ompagrill"
+        },
+        {
+          "localizedValue": "One Concept"
+        },
+        {
+          "localizedValue": "ONEIDA"
+        },
+        {
+          "localizedValue": "OneTouch"
+        },
+        {
+          "localizedValue": "Opal"
+        },
+        {
+          "localizedValue": "Open Country"
+        },
+        {
+          "localizedValue": "Optimum"
+        },
+        {
+          "localizedValue": "Oral-B"
+        },
+        {
+          "localizedValue": "OrangeX"
+        },
+        {
+          "localizedValue": "ORANIER"
+        },
+        {
+          "localizedValue": "Orbegozo"
+        },
+        {
+          "localizedValue": "Orbit"
+        },
+        {
+          "localizedValue": "Oreck"
+        },
+        {
+          "localizedValue": "Orfeld"
+        },
+        {
+          "localizedValue": "Orien"
+        },
+        {
+          "localizedValue": "Orion"
+        },
+        {
+          "localizedValue": "Osaka"
+        },
+        {
+          "localizedValue": "Oscar"
+        },
+        {
+          "localizedValue": "Ostba"
+        },
+        {
+          "localizedValue": "Oster"
+        },
+        {
+          "localizedValue": "Otto"
+        },
+        {
+          "localizedValue": "Outdoor Gourmet"
+        },
+        {
+          "localizedValue": "Ovalware"
+        },
+        {
+          "localizedValue": "Ovation"
+        },
+        {
+          "localizedValue": "OVENTE"
+        },
+        {
+          "localizedValue": "OXA Smart"
+        },
+        {
+          "localizedValue": "OxGord"
+        },
+        {
+          "localizedValue": "OXO"
+        },
+        {
+          "localizedValue": "Oyama"
+        },
+        {
+          "localizedValue": "OYOY"
+        },
+        {
+          "localizedValue": "Oypla"
+        },
+        {
+          "localizedValue": "Ozark Trail"
+        },
+        {
+          "localizedValue": "OZAVO"
+        },
+        {
+          "localizedValue": "Ozeri"
+        },
+        {
+          "localizedValue": "Pacific Precision Metals"
+        },
+        {
+          "localizedValue": "Paderno"
+        },
+        {
+          "localizedValue": "PAKIMARK"
+        },
+        {
+          "localizedValue": "Paladone"
+        },
+        {
+          "localizedValue": "Palson"
+        },
+        {
+          "localizedValue": "Pampered Chef"
+        },
+        {
+          "localizedValue": "Panacea"
+        },
+        {
+          "localizedValue": "Panana"
+        },
+        {
+          "localizedValue": "Panasonic"
+        },
+        {
+          "localizedValue": "Parag"
+        },
+        {
+          "localizedValue": "Paragon"
+        },
+        {
+          "localizedValue": "Parlux"
+        },
+        {
+          "localizedValue": "Parry"
+        },
+        {
+          "localizedValue": "Pars"
+        },
+        {
+          "localizedValue": "Party Essentials"
+        },
+        {
+          "localizedValue": "Pasta Aid"
+        },
+        {
+          "localizedValue": "Pasta Express"
+        },
+        {
+          "localizedValue": "Patriot"
+        },
+        {
+          "localizedValue": "Paula Deen"
+        },
+        {
+          "localizedValue": "Pendeford"
+        },
+        {
+          "localizedValue": "Perfect Cooker"
+        },
+        {
+          "localizedValue": "Petra"
+        },
+        {
+          "localizedValue": "Peugeot"
+        },
+        {
+          "localizedValue": "Peugeot"
+        },
+        {
+          "localizedValue": "Pfaltzgraff"
+        },
+        {
+          "localizedValue": "Philippe Richard"
+        },
+        {
+          "localizedValue": "Philips"
+        },
+        {
+          "localizedValue": "Phoenix Contact"
+        },
+        {
+          "localizedValue": "Picnic at Ascot"
+        },
+        {
+          "localizedValue": "Picnic Time"
+        },
+        {
+          "localizedValue": "PIFCO"
+        },
+        {
+          "localizedValue": "Pillsbury"
+        },
+        {
+          "localizedValue": "Pimpernel"
+        },
+        {
+          "localizedValue": "Pinky Up"
+        },
+        {
+          "localizedValue": "Pioneer"
+        },
+        {
+          "localizedValue": "Pioneer Woman"
+        },
+        {
+          "localizedValue": "Piranha Fish Inc."
+        },
+        {
+          "localizedValue": "PITCO"
+        },
+        {
+          "localizedValue": "Pizzarette"
+        },
+        {
+          "localizedValue": "PLUS"
+        },
+        {
+          "localizedValue": "Plustek"
+        },
+        {
+          "localizedValue": "PME"
+        },
+        {
+          "localizedValue": "PN"
+        },
+        {
+          "localizedValue": "Polar"
+        },
+        {
+          "localizedValue": "Polaroid"
+        },
+        {
+          "localizedValue": "Polder"
+        },
+        {
+          "localizedValue": "Polti"
+        },
+        {
+          "localizedValue": "PolyCool"
+        },
+        {
+          "localizedValue": "PolyScience"
+        },
+        {
+          "localizedValue": "Popeil"
+        },
+        {
+          "localizedValue": "PORKERT"
+        },
+        {
+          "localizedValue": "Porsche"
+        },
+        {
+          "localizedValue": "Porsche"
+        },
+        {
+          "localizedValue": "Porsche Design"
+        },
+        {
+          "localizedValue": "POSAME"
+        },
+        {
+          "localizedValue": "Poweka"
+        },
+        {
+          "localizedValue": "Power"
+        },
+        {
+          "localizedValue": "PowerDoF"
+        },
+        {
+          "localizedValue": "PowerLix"
+        },
+        {
+          "localizedValue": "Power Pressure Cooker XL"
+        },
+        {
+          "localizedValue": "Precise Heat"
+        },
+        {
+          "localizedValue": "Precision"
+        },
+        {
+          "localizedValue": "Preethi"
+        },
+        {
+          "localizedValue": "Preferred Parts"
+        },
+        {
+          "localizedValue": "Premier"
+        },
+        {
+          "localizedValue": "Premier Housewares"
+        },
+        {
+          "localizedValue": "Premium"
+        },
+        {
+          "localizedValue": "Prepara"
+        },
+        {
+          "localizedValue": "Pressure King Pro"
+        },
+        {
+          "localizedValue": "Prestige"
+        },
+        {
+          "localizedValue": "Prestige Appliances"
+        },
+        {
+          "localizedValue": "Presto"
+        },
+        {
+          "localizedValue": "Prima"
+        },
+        {
+          "localizedValue": "Prime Pacific"
+        },
+        {
+          "localizedValue": "Primo"
+        },
+        {
+          "localizedValue": "Primula"
+        },
+        {
+          "localizedValue": "Primus"
+        },
+        {
+          "localizedValue": "Princess"
+        },
+        {
+          "localizedValue": "PRISTINE"
+        },
+        {
+          "localizedValue": "PRIVILEG"
+        },
+        {
+          "localizedValue": "Prixton"
+        },
+        {
+          "localizedValue": "ProAppliances"
+        },
+        {
+          "localizedValue": "Pro Breeze"
+        },
+        {
+          "localizedValue": "ProCook"
+        },
+        {
+          "localizedValue": "Proctor Silex"
+        },
+        {
+          "localizedValue": "Prodyne"
+        },
+        {
+          "localizedValue": "Professional"
+        },
+        {
+          "localizedValue": "ProfiCook"
+        },
+        {
+          "localizedValue": "Progress"
+        },
+        {
+          "localizedValue": "Progressive"
+        },
+        {
+          "localizedValue": "Progressive International"
+        },
+        {
+          "localizedValue": "PROlectrix"
+        },
+        {
+          "localizedValue": "Pro-Line Racing"
+        },
+        {
+          "localizedValue": "Pronti"
+        },
+        {
+          "localizedValue": "Proscenic"
+        },
+        {
+          "localizedValue": "PureMate"
+        },
+        {
+          "localizedValue": "Pursonic"
+        },
+        {
+          "localizedValue": "Pykal"
+        },
+        {
+          "localizedValue": "PYREX"
+        },
+        {
+          "localizedValue": "Pyrolux"
+        },
+        {
+          "localizedValue": "QEP"
+        },
+        {
+          "localizedValue": "QNAP"
+        },
+        {
+          "localizedValue": "Qualtex"
+        },
+        {
+          "localizedValue": "Queen Sense"
+        },
+        {
+          "localizedValue": "QueenTrade"
+        },
+        {
+          "localizedValue": "Quest"
+        },
+        {
+          "localizedValue": "Quigg"
+        },
+        {
+          "localizedValue": "Quincy"
+        },
+        {
+          "localizedValue": "Raaco"
+        },
+        {
+          "localizedValue": "Rabbit"
+        },
+        {
+          "localizedValue": "Rachael Ray"
+        },
+        {
+          "localizedValue": "Rachel Allan"
+        },
+        {
+          "localizedValue": "Rackaphile"
+        },
+        {
+          "localizedValue": "RACO"
+        },
+        {
+          "localizedValue": "Ragalta"
+        },
+        {
+          "localizedValue": "Rancilio"
+        },
+        {
+          "localizedValue": "Rangemaster"
+        },
+        {
+          "localizedValue": "Raniaco"
+        },
+        {
+          "localizedValue": "Raspberry Pi"
+        },
+        {
+          "localizedValue": "Rattleware"
+        },
+        {
+          "localizedValue": "Raw Blend"
+        },
+        {
+          "localizedValue": "Razer"
+        },
+        {
+          "localizedValue": "Razita Slyire"
+        },
+        {
+          "localizedValue": "RCA"
+        },
+        {
+          "localizedValue": "Read"
+        },
+        {
+          "localizedValue": "Reber"
+        },
+        {
+          "localizedValue": "récolte"
+        },
+        {
+          "localizedValue": "Redken"
+        },
+        {
+          "localizedValue": "Redmond"
+        },
+        {
+          "localizedValue": "Red Star"
+        },
+        {
+          "localizedValue": "Reed & Barton"
+        },
+        {
+          "localizedValue": "reflecta"
+        },
+        {
+          "localizedValue": "Regal"
+        },
+        {
+          "localizedValue": "Regal Ware"
+        },
+        {
+          "localizedValue": "Relaxdays"
+        },
+        {
+          "localizedValue": "Remedy"
+        },
+        {
+          "localizedValue": "Remington"
+        },
+        {
+          "localizedValue": "Remoska"
+        },
+        {
+          "localizedValue": "Renberg"
+        },
+        {
+          "localizedValue": "Reston Lloyd"
+        },
+        {
+          "localizedValue": "Rev-A-Shelf"
+        },
+        {
+          "localizedValue": "Revel"
+        },
+        {
+          "localizedValue": "Revere"
+        },
+        {
+          "localizedValue": "Revere Ware"
+        },
+        {
+          "localizedValue": "Revol"
+        },
+        {
+          "localizedValue": "Reynolds"
+        },
+        {
+          "localizedValue": "Rgv"
+        },
+        {
+          "localizedValue": "Ribimex"
+        },
+        {
+          "localizedValue": "Richard Bergendi"
+        },
+        {
+          "localizedValue": "Ridge Monkey"
+        },
+        {
+          "localizedValue": "RIEDEL"
+        },
+        {
+          "localizedValue": "RIESS"
+        },
+        {
+          "localizedValue": "Rinnai"
+        },
+        {
+          "localizedValue": "Ritter"
+        },
+        {
+          "localizedValue": "Ritz"
+        },
+        {
+          "localizedValue": "Rival"
+        },
+        {
+          "localizedValue": "RiverGrille"
+        },
+        {
+          "localizedValue": "Riviera & Bar"
+        },
+        {
+          "localizedValue": "Riwendell"
+        },
+        {
+          "localizedValue": "RoadPro"
+        },
+        {
+          "localizedValue": "Roborock"
+        },
+        {
+          "localizedValue": "Robot Coupe"
+        },
+        {
+          "localizedValue": "Robo Twist"
+        },
+        {
+          "localizedValue": "Rocket"
+        },
+        {
+          "localizedValue": "Roller Grill"
+        },
+        {
+          "localizedValue": "ROLLIE"
+        },
+        {
+          "localizedValue": "ROMAUNT"
+        },
+        {
+          "localizedValue": "Rome"
+        },
+        {
+          "localizedValue": "Rommelsbacher"
+        },
+        {
+          "localizedValue": "Ronco"
+        },
+        {
+          "localizedValue": "RONIC"
+        },
+        {
+          "localizedValue": "Ronson"
+        },
+        {
+          "localizedValue": "Rosenstein & Söhne"
+        },
+        {
+          "localizedValue": "Rosewill"
+        },
+        {
+          "localizedValue": "Roshco"
+        },
+        {
+          "localizedValue": "Rosières"
+        },
+        {
+          "localizedValue": "RÖSLE"
+        },
+        {
+          "localizedValue": "Rosti Mepal"
+        },
+        {
+          "localizedValue": "Rothenberger"
+        },
+        {
+          "localizedValue": "Roundup"
+        },
+        {
+          "localizedValue": "Rowenta"
+        },
+        {
+          "localizedValue": "Rowlett"
+        },
+        {
+          "localizedValue": "Rowlett Rutland"
+        },
+        {
+          "localizedValue": "Royal"
+        },
+        {
+          "localizedValue": "Royal Catering"
+        },
+        {
+          "localizedValue": "Royal Cook"
+        },
+        {
+          "localizedValue": "Royalty Line"
+        },
+        {
+          "localizedValue": "RST"
+        },
+        {
+          "localizedValue": "RSVP"
+        },
+        {
+          "localizedValue": "Rubbermaid"
+        },
+        {
+          "localizedValue": "Ruffoni"
+        },
+        {
+          "localizedValue": "Russel"
+        },
+        {
+          "localizedValue": "Russell Hobbs"
+        },
+        {
+          "localizedValue": "Ryobi"
+        },
+        {
+          "localizedValue": "Saachi"
+        },
+        {
+          "localizedValue": "Sabichi"
+        },
+        {
+          "localizedValue": "Sachi"
+        },
+        {
+          "localizedValue": "Saeco"
+        },
+        {
+          "localizedValue": "Safavieh"
+        },
+        {
+          "localizedValue": "Sagaform"
+        },
+        {
+          "localizedValue": "SAGE"
+        },
+        {
+          "localizedValue": "Sago Brothers"
+        },
+        {
+          "localizedValue": "Sakolla"
+        },
+        {
+          "localizedValue": "Saladmaster"
+        },
+        {
+          "localizedValue": "Salter"
+        },
+        {
+          "localizedValue": "Salton"
+        },
+        {
+          "localizedValue": "Sambonet"
+        },
+        {
+          "localizedValue": "Samson"
+        },
+        {
+          "localizedValue": "Samsung"
+        },
+        {
+          "localizedValue": "Sancusto"
+        },
+        {
+          "localizedValue": "SanDisk"
+        },
+        {
+          "localizedValue": "Sangean"
+        },
+        {
+          "localizedValue": "San Ignacio"
+        },
+        {
+          "localizedValue": "SaniServ"
+        },
+        {
+          "localizedValue": "Sanrio"
+        },
+        {
+          "localizedValue": "SanSai"
+        },
+        {
+          "localizedValue": "Sansaire"
+        },
+        {
+          "localizedValue": "Santa Fe"
+        },
+        {
+          "localizedValue": "Santos"
+        },
+        {
+          "localizedValue": "SANYO"
+        },
+        {
+          "localizedValue": "Saro"
+        },
+        {
+          "localizedValue": "SAUTER"
+        },
+        {
+          "localizedValue": "Savisto"
+        },
+        {
+          "localizedValue": "SCANPAN"
+        },
+        {
+          "localizedValue": "SCANPART"
+        },
+        {
+          "localizedValue": "Scarlett"
+        },
+        {
+          "localizedValue": "Scentsy"
+        },
+        {
+          "localizedValue": "Schafer"
+        },
+        {
+          "localizedValue": "scheppach"
+        },
+        {
+          "localizedValue": "Schneider"
+        },
+        {
+          "localizedValue": "Schulte-Ufer"
+        },
+        {
+          "localizedValue": "SCI"
+        },
+        {
+          "localizedValue": "Scotsman"
+        },
+        {
+          "localizedValue": "Seagate"
+        },
+        {
+          "localizedValue": "Sears"
+        },
+        {
+          "localizedValue": "SEB"
+        },
+        {
+          "localizedValue": "SECURA"
+        },
+        {
+          "localizedValue": "Sedhoom"
+        },
+        {
+          "localizedValue": "Sedona"
+        },
+        {
+          "localizedValue": "Select Brands"
+        },
+        {
+          "localizedValue": "Seltmann Weiden"
+        },
+        {
+          "localizedValue": "Sencor"
+        },
+        {
+          "localizedValue": "Senseo"
+        },
+        {
+          "localizedValue": "Sensible Needs"
+        },
+        {
+          "localizedValue": "Sensio"
+        },
+        {
+          "localizedValue": "Sensio Home"
+        },
+        {
+          "localizedValue": "Sentik"
+        },
+        {
+          "localizedValue": "Sephra"
+        },
+        {
+          "localizedValue": "Seren"
+        },
+        {
+          "localizedValue": "Severin"
+        },
+        {
+          "localizedValue": "Seville Classics"
+        },
+        {
+          "localizedValue": "SGCoffee"
+        },
+        {
+          "localizedValue": "Shark"
+        },
+        {
+          "localizedValue": "Sharp"
+        },
+        {
+          "localizedValue": "Sharper Image"
+        },
+        {
+          "localizedValue": "SHINIL"
+        },
+        {
+          "localizedValue": "SHINKO"
+        },
+        {
+          "localizedValue": "SHINKODA"
+        },
+        {
+          "localizedValue": "Shov"
+        },
+        {
+          "localizedValue": "Showtime"
+        },
+        {
+          "localizedValue": "Siemens"
+        },
+        {
+          "localizedValue": "Signature"
+        },
+        {
+          "localizedValue": "Signature Housewares"
+        },
+        {
+          "localizedValue": "Silex"
+        },
+        {
+          "localizedValue": "Silikomart"
+        },
+        {
+          "localizedValue": "Silit"
+        },
+        {
+          "localizedValue": "Silvercrest"
+        },
+        {
+          "localizedValue": "Silverstone"
+        },
+        {
+          "localizedValue": "Silver Ticket Products"
+        },
+        {
+          "localizedValue": "Simac"
+        },
+        {
+          "localizedValue": "Simple Chef"
+        },
+        {
+          "localizedValue": "Simple Living Products"
+        },
+        {
+          "localizedValue": "SimpleTaste"
+        },
+        {
+          "localizedValue": "Simposh"
+        },
+        {
+          "localizedValue": "SINGER"
+        },
+        {
+          "localizedValue": "Siqur Salute"
+        },
+        {
+          "localizedValue": "siroca"
+        },
+        {
+          "localizedValue": "Sistema"
+        },
+        {
+          "localizedValue": "Sitram"
+        },
+        {
+          "localizedValue": "SKG"
+        },
+        {
+          "localizedValue": "SKILSAW"
+        },
+        {
+          "localizedValue": "Skyline"
+        },
+        {
+          "localizedValue": "Sleep Innovations"
+        },
+        {
+          "localizedValue": "Slushy Magic"
+        },
+        {
+          "localizedValue": "SM@RTY"
+        },
+        {
+          "localizedValue": "SMAD"
+        },
+        {
+          "localizedValue": "Smart"
+        },
+        {
+          "localizedValue": "Smarter"
+        },
+        {
+          "localizedValue": "Smart Planet"
+        },
+        {
+          "localizedValue": "SMEG"
+        },
+        {
+          "localizedValue": "Snap-on"
+        },
+        {
+          "localizedValue": "Soda Buddy"
+        },
+        {
+          "localizedValue": "SodaSparkle"
+        },
+        {
+          "localizedValue": "SodaStream"
+        },
+        {
+          "localizedValue": "Soda Trend"
+        },
+        {
+          "localizedValue": "SODIAL"
+        },
+        {
+          "localizedValue": "SOGA"
+        },
+        {
+          "localizedValue": "Solac"
+        },
+        {
+          "localizedValue": "Solwave"
+        },
+        {
+          "localizedValue": "Sonifer"
+        },
+        {
+          "localizedValue": "Sony"
+        },
+        {
+          "localizedValue": "Soquali"
+        },
+        {
+          "localizedValue": "Sori Yanagi"
+        },
+        {
+          "localizedValue": "SousVide Supreme"
+        },
+        {
+          "localizedValue": "SOWTECH"
+        },
+        {
+          "localizedValue": "Spark Pod"
+        },
+        {
+          "localizedValue": "Spectrum"
+        },
+        {
+          "localizedValue": "Speed"
+        },
+        {
+          "localizedValue": "Speed Queen"
+        },
+        {
+          "localizedValue": "Sphero"
+        },
+        {
+          "localizedValue": "SPI Home"
+        },
+        {
+          "localizedValue": "Sportsman"
+        },
+        {
+          "localizedValue": "Sportsman Series"
+        },
+        {
+          "localizedValue": "Spring"
+        },
+        {
+          "localizedValue": "Springlane Kitchen"
+        },
+        {
+          "localizedValue": "SPT"
+        },
+        {
+          "localizedValue": "SQ Professional"
+        },
+        {
+          "localizedValue": "Stanley"
+        },
+        {
+          "localizedValue": "Star"
+        },
+        {
+          "localizedValue": "StarBlue"
+        },
+        {
+          "localizedValue": "Starbucks"
+        },
+        {
+          "localizedValue": "Starfrit"
+        },
+        {
+          "localizedValue": "Stariver"
+        },
+        {
+          "localizedValue": "Starmix"
+        },
+        {
+          "localizedValue": "Status"
+        },
+        {
+          "localizedValue": "Staub"
+        },
+        {
+          "localizedValue": "Steba"
+        },
+        {
+          "localizedValue": "Steca"
+        },
+        {
+          "localizedValue": "Steinborg"
+        },
+        {
+          "localizedValue": "STEINEL"
+        },
+        {
+          "localizedValue": "Stellar Labs"
+        },
+        {
+          "localizedValue": "Stelton"
+        },
+        {
+          "localizedValue": "Sterno"
+        },
+        {
+          "localizedValue": "StilGut"
+        },
+        {
+          "localizedValue": "STMicroelectronics"
+        },
+        {
+          "localizedValue": "Stöckli"
+        },
+        {
+          "localizedValue": "STORZ & BICKEL"
+        },
+        {
+          "localizedValue": "Stout"
+        },
+        {
+          "localizedValue": "Stoves"
+        },
+        {
+          "localizedValue": "Studio"
+        },
+        {
+          "localizedValue": "STX International"
+        },
+        {
+          "localizedValue": "Sugiyama Metals"
+        },
+        {
+          "localizedValue": "Sumeet"
+        },
+        {
+          "localizedValue": "Summit"
+        },
+        {
+          "localizedValue": "Sunbeam"
+        },
+        {
+          "localizedValue": "Suncast"
+        },
+        {
+          "localizedValue": "Sunkist"
+        },
+        {
+          "localizedValue": "Sunmile"
+        },
+        {
+          "localizedValue": "SunnCamp"
+        },
+        {
+          "localizedValue": "Sunnex"
+        },
+        {
+          "localizedValue": "Sunny"
+        },
+        {
+          "localizedValue": "Sunsella"
+        },
+        {
+          "localizedValue": "Surya"
+        },
+        {
+          "localizedValue": "SV Homewares"
+        },
+        {
+          "localizedValue": "Swan"
+        },
+        {
+          "localizedValue": "Sweet Treats"
+        },
+        {
+          "localizedValue": "Swift"
+        },
+        {
+          "localizedValue": "SWING"
+        },
+        {
+          "localizedValue": "Swiss"
+        },
+        {
+          "localizedValue": "Swiss Diamond"
+        },
+        {
+          "localizedValue": "Swiss Home"
+        },
+        {
+          "localizedValue": "Swiss Knight"
+        },
+        {
+          "localizedValue": "Swissmar"
+        },
+        {
+          "localizedValue": "Switol"
+        },
+        {
+          "localizedValue": "SYLVANIA"
+        },
+        {
+          "localizedValue": "Syntrox"
+        },
+        {
+          "localizedValue": "T.I.P."
+        },
+        {
+          "localizedValue": "T.O.P."
+        },
+        {
+          "localizedValue": "T&G"
+        },
+        {
+          "localizedValue": "Take2"
+        },
+        {
+          "localizedValue": "Takeya"
+        },
+        {
+          "localizedValue": "Tala"
+        },
+        {
+          "localizedValue": "Tamiya"
+        },
+        {
+          "localizedValue": "TAMUME"
+        },
+        {
+          "localizedValue": "Target"
+        },
+        {
+          "localizedValue": "TASSIMO"
+        },
+        {
+          "localizedValue": "Tatung"
+        },
+        {
+          "localizedValue": "Taurus"
+        },
+        {
+          "localizedValue": "Tayama"
+        },
+        {
+          "localizedValue": "Taylor"
+        },
+        {
+          "localizedValue": "Tchibo"
+        },
+        {
+          "localizedValue": "Team"
+        },
+        {
+          "localizedValue": "TEAM International"
+        },
+        {
+          "localizedValue": "Teavana"
+        },
+        {
+          "localizedValue": "Technika"
+        },
+        {
+          "localizedValue": "TECHNO"
+        },
+        {
+          "localizedValue": "Techwood"
+        },
+        {
+          "localizedValue": "tectake"
+        },
+        {
+          "localizedValue": "Tefal"
+        },
+        {
+          "localizedValue": "Teka"
+        },
+        {
+          "localizedValue": "TELEFUNKEN"
+        },
+        {
+          "localizedValue": "Tena"
+        },
+        {
+          "localizedValue": "Termozeta"
+        },
+        {
+          "localizedValue": "Tesco"
+        },
+        {
+          "localizedValue": "Tescoma"
+        },
+        {
+          "localizedValue": "Texsport"
+        },
+        {
+          "localizedValue": "Thane"
+        },
+        {
+          "localizedValue": "The Leonardo Collection"
+        },
+        {
+          "localizedValue": "Thermador"
+        },
+        {
+          "localizedValue": "Thermaltake"
+        },
+        {
+          "localizedValue": "Thermomix"
+        },
+        {
+          "localizedValue": "Thermos"
+        },
+        {
+          "localizedValue": "The Sausage Maker"
+        },
+        {
+          "localizedValue": "Thinkgizmos"
+        },
+        {
+          "localizedValue": "Thirstystone"
+        },
+        {
+          "localizedValue": "Thomas"
+        },
+        {
+          "localizedValue": "Thomson"
+        },
+        {
+          "localizedValue": "Thor Kitchen"
+        },
+        {
+          "localizedValue": "Thrustmaster"
+        },
+        {
+          "localizedValue": "THUNDER"
+        },
+        {
+          "localizedValue": "Thunderbird"
+        },
+        {
+          "localizedValue": "TIAMO"
+        },
+        {
+          "localizedValue": "Tiffany & Co."
+        },
+        {
+          "localizedValue": "Tiger"
+        },
+        {
+          "localizedValue": "Tisira"
+        },
+        {
+          "localizedValue": "TM Electron"
+        },
+        {
+          "localizedValue": "Toastess"
+        },
+        {
+          "localizedValue": "Toastmaster"
+        },
+        {
+          "localizedValue": "ToBox"
+        },
+        {
+          "localizedValue": "Todd English"
+        },
+        {
+          "localizedValue": "TODO"
+        },
+        {
+          "localizedValue": "TomYang"
+        },
+        {
+          "localizedValue": "TONZE"
+        },
+        {
+          "localizedValue": "TopGourmet"
+        },
+        {
+          "localizedValue": "TOPOKO"
+        },
+        {
+          "localizedValue": "Toshiba"
+        },
+        {
+          "localizedValue": "Total Chef"
+        },
+        {
+          "localizedValue": "Tovolo"
+        },
+        {
+          "localizedValue": "TOWABO"
+        },
+        {
+          "localizedValue": "Tower"
+        },
+        {
+          "localizedValue": "Town"
+        },
+        {
+          "localizedValue": "Town Food Service"
+        },
+        {
+          "localizedValue": "Town Food Service Equipment"
+        },
+        {
+          "localizedValue": "TOYO"
+        },
+        {
+          "localizedValue": "TP-LINK"
+        },
+        {
+          "localizedValue": "Tramontina"
+        },
+        {
+          "localizedValue": "Trangia"
+        },
+        {
+          "localizedValue": "Transcend"
+        },
+        {
+          "localizedValue": "Trebs"
+        },
+        {
+          "localizedValue": "Trent & Steel"
+        },
+        {
+          "localizedValue": "Trent & Steele"
+        },
+        {
+          "localizedValue": "Tre Spade"
+        },
+        {
+          "localizedValue": "Tribest"
+        },
+        {
+          "localizedValue": "Trinity"
+        },
+        {
+          "localizedValue": "Triomph"
+        },
+        {
+          "localizedValue": "Tristar"
+        },
+        {
+          "localizedValue": "TRU"
+        },
+        {
+          "localizedValue": "TRU COMPONENTS"
+        },
+        {
+          "localizedValue": "Trudeau"
+        },
+        {
+          "localizedValue": "True Craftware"
+        },
+        {
+          "localizedValue": "Trust"
+        },
+        {
+          "localizedValue": "TSM"
+        },
+        {
+          "localizedValue": "TTLIFE"
+        },
+        {
+          "localizedValue": "Tupperware"
+        },
+        {
+          "localizedValue": "Turbo Line"
+        },
+        {
+          "localizedValue": "Turkish"
+        },
+        {
+          "localizedValue": "TWINBIRD"
+        },
+        {
+          "localizedValue": "Typhoon"
+        },
+        {
+          "localizedValue": "TZS First Austria"
+        },
+        {
+          "localizedValue": "Ubiquiti Networks"
+        },
+        {
+          "localizedValue": "Ubisoft"
+        },
+        {
+          "localizedValue": "Ucio"
+        },
+        {
+          "localizedValue": "Ufesa"
+        },
+        {
+          "localizedValue": "U-Line"
+        },
+        {
+          "localizedValue": "Ultimate Chopper"
+        },
+        {
+          "localizedValue": "Ultra"
+        },
+        {
+          "localizedValue": "Ultrean"
+        },
+        {
+          "localizedValue": "Ultrex"
+        },
+        {
+          "localizedValue": "Umbra"
+        },
+        {
+          "localizedValue": "Uncanny Brands"
+        },
+        {
+          "localizedValue": "Universal"
+        },
+        {
+          "localizedValue": "Uniware"
+        },
+        {
+          "localizedValue": "UNOLD"
+        },
+        {
+          "localizedValue": "Update International"
+        },
+        {
+          "localizedValue": "USRobotics"
+        },
+        {
+          "localizedValue": "Uten"
+        },
+        {
+          "localizedValue": "uxcell"
+        },
+        {
+          "localizedValue": "Vacmaster"
+        },
+        {
+          "localizedValue": "Vacu Vin"
+        },
+        {
+          "localizedValue": "Vagnbys"
+        },
+        {
+          "localizedValue": "Vaillant"
+        },
+        {
+          "localizedValue": "Vandor"
+        },
+        {
+          "localizedValue": "Vanika"
+        },
+        {
+          "localizedValue": "Vanitek"
+        },
+        {
+          "localizedValue": "Vaporetto"
+        },
+        {
+          "localizedValue": "VAVA"
+        },
+        {
+          "localizedValue": "Vax"
+        },
+        {
+          "localizedValue": "Vedette"
+        },
+        {
+          "localizedValue": "Veggie Bullet"
+        },
+        {
+          "localizedValue": "Vektra"
+        },
+        {
+          "localizedValue": "Velata"
+        },
+        {
+          "localizedValue": "Veneto Kitchen"
+        },
+        {
+          "localizedValue": "Venini"
+        },
+        {
+          "localizedValue": "Vent-Axia"
+        },
+        {
+          "localizedValue": "Ventray"
+        },
+        {
+          "localizedValue": "Verbatim"
+        },
+        {
+          "localizedValue": "Very"
+        },
+        {
+          "localizedValue": "Vevare"
+        },
+        {
+          "localizedValue": "VEVOR"
+        },
+        {
+          "localizedValue": "Vianté"
+        },
+        {
+          "localizedValue": "Vice Versa"
+        },
+        {
+          "localizedValue": "Victorinox"
+        },
+        {
+          "localizedValue": "Victorio"
+        },
+        {
+          "localizedValue": "Victorio Kitchen Products"
+        },
+        {
+          "localizedValue": "vidaXL"
+        },
+        {
+          "localizedValue": "Viking"
+        },
+        {
+          "localizedValue": "Vileda"
+        },
+        {
+          "localizedValue": "VillaWare"
+        },
+        {
+          "localizedValue": "Villeroy & Boch"
+        },
+        {
+          "localizedValue": "Viners"
+        },
+        {
+          "localizedValue": "VINOD"
+        },
+        {
+          "localizedValue": "Vintage"
+        },
+        {
+          "localizedValue": "Vishay"
+        },
+        {
+          "localizedValue": "Visicook"
+        },
+        {
+          "localizedValue": "VitaClay"
+        },
+        {
+          "localizedValue": "Vitamix"
+        },
+        {
+          "localizedValue": "Vitantonio"
+        },
+        {
+          "localizedValue": "VIVO"
+        },
+        {
+          "localizedValue": "Vivreal"
+        },
+        {
+          "localizedValue": "Vogue"
+        },
+        {
+          "localizedValue": "Volkswagen"
+        },
+        {
+          "localizedValue": "Vollrath"
+        },
+        {
+          "localizedValue": "VonShef"
+        },
+        {
+          "localizedValue": "Vortice"
+        },
+        {
+          "localizedValue": "Vorwerk Folletto"
+        },
+        {
+          "localizedValue": "Vremi"
+        },
+        {
+          "localizedValue": "VTech"
+        },
+        {
+          "localizedValue": "Vytronix"
+        },
+        {
+          "localizedValue": "Wadoy"
+        },
+        {
+          "localizedValue": "Waechtersbach"
+        },
+        {
+          "localizedValue": "WAGO"
+        },
+        {
+          "localizedValue": "WAHEI FREIZ"
+        },
+        {
+          "localizedValue": "Wahl"
+        },
+        {
+          "localizedValue": "Wal Mart"
+        },
+        {
+          "localizedValue": "WANCLE"
+        },
+        {
+          "localizedValue": "Waring"
+        },
+        {
+          "localizedValue": "Waring Pro"
+        },
+        {
+          "localizedValue": "Warm homing"
+        },
+        {
+          "localizedValue": "Wassermaxx"
+        },
+        {
+          "localizedValue": "Waste King"
+        },
+        {
+          "localizedValue": "WearEver"
+        },
+        {
+          "localizedValue": "Weber"
+        },
+        {
+          "localizedValue": "WECK"
+        },
+        {
+          "localizedValue": "Wedgwood"
+        },
+        {
+          "localizedValue": "Wee's Beyond"
+        },
+        {
+          "localizedValue": "Weight Watchers"
+        },
+        {
+          "localizedValue": "Weis"
+        },
+        {
+          "localizedValue": "Wel-Bilt"
+        },
+        {
+          "localizedValue": "Wellco"
+        },
+        {
+          "localizedValue": "WEN"
+        },
+        {
+          "localizedValue": "WENKO"
+        },
+        {
+          "localizedValue": "Wesco"
+        },
+        {
+          "localizedValue": "West Bend"
+        },
+        {
+          "localizedValue": "Westek"
+        },
+        {
+          "localizedValue": "west elm"
+        },
+        {
+          "localizedValue": "Western"
+        },
+        {
+          "localizedValue": "Westinghouse"
+        },
+        {
+          "localizedValue": "Westmark"
+        },
+        {
+          "localizedValue": "Weston"
+        },
+        {
+          "localizedValue": "Weyipe"
+        },
+        {
+          "localizedValue": "Whirlpool"
+        },
+        {
+          "localizedValue": "White"
+        },
+        {
+          "localizedValue": "White & Brown"
+        },
+        {
+          "localizedValue": "White Mountain"
+        },
+        {
+          "localizedValue": "Whitmor"
+        },
+        {
+          "localizedValue": "Whittard of Chelsea"
+        },
+        {
+          "localizedValue": "Whynter"
+        },
+        {
+          "localizedValue": "WIK"
+        },
+        {
+          "localizedValue": "Wiko"
+        },
+        {
+          "localizedValue": "Wildkin"
+        },
+        {
+          "localizedValue": "Wilko"
+        },
+        {
+          "localizedValue": "Williams"
+        },
+        {
+          "localizedValue": "Williams-Sonoma"
+        },
+        {
+          "localizedValue": "Willsence"
+        },
+        {
+          "localizedValue": "Wilton"
+        },
+        {
+          "localizedValue": "WinCo"
+        },
+        {
+          "localizedValue": "Windmere"
+        },
+        {
+          "localizedValue": "Winsome"
+        },
+        {
+          "localizedValue": "WL Housewares"
+        },
+        {
+          "localizedValue": "WMF"
+        },
+        {
+          "localizedValue": "Wolf"
+        },
+        {
+          "localizedValue": "wolfcraft"
+        },
+        {
+          "localizedValue": "Wolfgang Puck"
+        },
+        {
+          "localizedValue": "Wolf Gourmet"
+        },
+        {
+          "localizedValue": "Wolfsblut"
+        },
+        {
+          "localizedValue": "WOLL"
+        },
+        {
+          "localizedValue": "Wonderbag"
+        },
+        {
+          "localizedValue": "Wonder Sky"
+        },
+        {
+          "localizedValue": "Woodbridge"
+        },
+        {
+          "localizedValue": "World Market"
+        },
+        {
+          "localizedValue": "Würth Elektronik"
+        },
+        {
+          "localizedValue": "WÜSTHOF"
+        },
+        {
+          "localizedValue": "X-Chef"
+        },
+        {
+          "localizedValue": "Xiaomi"
+        },
+        {
+          "localizedValue": "Xpress"
+        },
+        {
+          "localizedValue": "Xproject"
+        },
+        {
+          "localizedValue": "XtremepowerUS"
+        },
+        {
+          "localizedValue": "Xunda"
+        },
+        {
+          "localizedValue": "Yama"
+        },
+        {
+          "localizedValue": "Yamamoto"
+        },
+        {
+          "localizedValue": "YAZAWA"
+        },
+        {
+          "localizedValue": "Yedi Houseware"
+        },
+        {
+          "localizedValue": "Yescom"
+        },
+        {
+          "localizedValue": "Yogourmet"
+        },
+        {
+          "localizedValue": "Yonanas"
+        },
+        {
+          "localizedValue": "YongTong"
+        },
+        {
+          "localizedValue": "Yoshikawa"
+        },
+        {
+          "localizedValue": "Your Zone"
+        },
+        {
+          "localizedValue": "Z&Z Inc."
+        },
+        {
+          "localizedValue": "Zack"
+        },
+        {
+          "localizedValue": "Zaigle"
+        },
+        {
+          "localizedValue": "Zanussi"
+        },
+        {
+          "localizedValue": "Zassenhaus"
+        },
+        {
+          "localizedValue": "Zeal"
+        },
+        {
+          "localizedValue": "Zell"
+        },
+        {
+          "localizedValue": "Zelmer"
+        },
+        {
+          "localizedValue": "ZENY"
+        },
+        {
+          "localizedValue": "Zephir"
+        },
+        {
+          "localizedValue": "Zeppoli"
+        },
+        {
+          "localizedValue": "ZERO JAPAN"
+        },
+        {
+          "localizedValue": "Z Grills"
+        },
+        {
+          "localizedValue": "Zilan"
+        },
+        {
+          "localizedValue": "Ziploc"
+        },
+        {
+          "localizedValue": "Zodiac"
+        },
+        {
+          "localizedValue": "Zojirushi"
+        },
+        {
+          "localizedValue": "Zoku"
+        },
+        {
+          "localizedValue": "ZOTAC"
+        },
+        {
+          "localizedValue": "Zulay"
+        },
+        {
+          "localizedValue": "Zumoval"
+        },
+        {
+          "localizedValue": "ZWILLING J.A. HENCKELS"
+        },
+        {
+          "localizedValue": "Zyliss"
+        },
+        {
+          "localizedValue": "ZZ"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Besonderheiten",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "360° Schwenksockel"
+        },
+        {
+          "localizedValue": "Auftaufunktion"
+        },
+        {
+          "localizedValue": "Auto-Defrost"
+        },
+        {
+          "localizedValue": "Automatisch"
+        },
+        {
+          "localizedValue": "Automatische Sensoren"
+        },
+        {
+          "localizedValue": "CleanRelease-Innenbeschichtung"
+        },
+        {
+          "localizedValue": "Concave Reflex System"
+        },
+        {
+          "localizedValue": "Dampfgarfunktion"
+        },
+        {
+          "localizedValue": "Digitalanzeige"
+        },
+        {
+          "localizedValue": "Display"
+        },
+        {
+          "localizedValue": "Drehregler-Steuerung"
+        },
+        {
+          "localizedValue": "Flatbed"
+        },
+        {
+          "localizedValue": "Gewichtsautomatik"
+        },
+        {
+          "localizedValue": "Hintergrundbeleuchteter An-/Aus-Schalter"
+        },
+        {
+          "localizedValue": "Innenleuchte"
+        },
+        {
+          "localizedValue": "Integrierte Dunstabzugshaube"
+        },
+        {
+          "localizedValue": "Inverter"
+        },
+        {
+          "localizedValue": "Keramik-Innenraum"
+        },
+        {
+          "localizedValue": "Kindersicherung"
+        },
+        {
+          "localizedValue": "Kombinierbare Heizarten"
+        },
+        {
+          "localizedValue": "Konvektion"
+        },
+        {
+          "localizedValue": "Konvektionsofen"
+        },
+        {
+          "localizedValue": "LED-Display"
+        },
+        {
+          "localizedValue": "Memory-Funktion"
+        },
+        {
+          "localizedValue": "Mikrowellen-Halterung"
+        },
+        {
+          "localizedValue": "Mit Backofen"
+        },
+        {
+          "localizedValue": "Mit Grill"
+        },
+        {
+          "localizedValue": "Mit Heißluft"
+        },
+        {
+          "localizedValue": "Mit Uhr"
+        },
+        {
+          "localizedValue": "Programmierung"
+        },
+        {
+          "localizedValue": "Reinigungsprogramm"
+        },
+        {
+          "localizedValue": "Rezeptspeicher"
+        },
+        {
+          "localizedValue": "Schnell-Vorheizen"
+        },
+        {
+          "localizedValue": "Sicherheitsschloss"
+        },
+        {
+          "localizedValue": "Speed-Defrost"
+        },
+        {
+          "localizedValue": "Spülmaschinenfeste Teile"
+        },
+        {
+          "localizedValue": "Tastensteuerung"
+        },
+        {
+          "localizedValue": "Timerfunktion"
+        },
+        {
+          "localizedValue": "Trockengehschutz"
+        },
+        {
+          "localizedValue": "Versenkbare Drehregler"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Farbe",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Beige"
+        },
+        {
+          "localizedValue": "Blau"
+        },
+        {
+          "localizedValue": "Braun"
+        },
+        {
+          "localizedValue": "Gelb"
+        },
+        {
+          "localizedValue": "Gold"
+        },
+        {
+          "localizedValue": "Grau"
+        },
+        {
+          "localizedValue": "Grün"
+        },
+        {
+          "localizedValue": "Lila"
+        },
+        {
+          "localizedValue": "Mehrfarbig"
+        },
+        {
+          "localizedValue": "Orange"
+        },
+        {
+          "localizedValue": "Rosa"
+        },
+        {
+          "localizedValue": "Rot"
+        },
+        {
+          "localizedValue": "Schwarz"
+        },
+        {
+          "localizedValue": "Silber"
+        },
+        {
+          "localizedValue": "Transparent"
+        },
+        {
+          "localizedValue": "Weiß"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Leistung",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "100 W"
+        },
+        {
+          "localizedValue": "130 W"
+        },
+        {
+          "localizedValue": "150 W"
+        },
+        {
+          "localizedValue": "160 W"
+        },
+        {
+          "localizedValue": "200 W"
+        },
+        {
+          "localizedValue": "250 W"
+        },
+        {
+          "localizedValue": "300 W"
+        },
+        {
+          "localizedValue": "350 W"
+        },
+        {
+          "localizedValue": "400 W"
+        },
+        {
+          "localizedValue": "450 W"
+        },
+        {
+          "localizedValue": "500 W"
+        },
+        {
+          "localizedValue": "550 W"
+        },
+        {
+          "localizedValue": "600 W"
+        },
+        {
+          "localizedValue": "650 W"
+        },
+        {
+          "localizedValue": "700 W"
+        },
+        {
+          "localizedValue": "750 W"
+        },
+        {
+          "localizedValue": "800 W"
+        },
+        {
+          "localizedValue": "850 W"
+        },
+        {
+          "localizedValue": "900 W"
+        },
+        {
+          "localizedValue": "950 W"
+        },
+        {
+          "localizedValue": "1000 W"
+        },
+        {
+          "localizedValue": "1050 W"
+        },
+        {
+          "localizedValue": "1100 W"
+        },
+        {
+          "localizedValue": "1150 W"
+        },
+        {
+          "localizedValue": "1200 W"
+        },
+        {
+          "localizedValue": "1250 W"
+        },
+        {
+          "localizedValue": "1300 W"
+        },
+        {
+          "localizedValue": "1350 W"
+        },
+        {
+          "localizedValue": "1400 W"
+        },
+        {
+          "localizedValue": "1450 W"
+        },
+        {
+          "localizedValue": "1470 W"
+        },
+        {
+          "localizedValue": "1500 W"
+        },
+        {
+          "localizedValue": "1550 W"
+        },
+        {
+          "localizedValue": "1560 W"
+        },
+        {
+          "localizedValue": "1600 W"
+        },
+        {
+          "localizedValue": "1650 W"
+        },
+        {
+          "localizedValue": "1700 W"
+        },
+        {
+          "localizedValue": "1750 W"
+        },
+        {
+          "localizedValue": "1800 W"
+        },
+        {
+          "localizedValue": "1850 W"
+        },
+        {
+          "localizedValue": "1900 W"
+        },
+        {
+          "localizedValue": "1950 W"
+        },
+        {
+          "localizedValue": "2000 W"
+        },
+        {
+          "localizedValue": "2050 W"
+        },
+        {
+          "localizedValue": "2100 W"
+        },
+        {
+          "localizedValue": "2150 W"
+        },
+        {
+          "localizedValue": "2200 W"
+        },
+        {
+          "localizedValue": "2250 W"
+        },
+        {
+          "localizedValue": "2300 W"
+        },
+        {
+          "localizedValue": "2350 W"
+        },
+        {
+          "localizedValue": "2400 W"
+        },
+        {
+          "localizedValue": "2450 W"
+        },
+        {
+          "localizedValue": "2500 W"
+        },
+        {
+          "localizedValue": "2550 W"
+        },
+        {
+          "localizedValue": "2600 W"
+        },
+        {
+          "localizedValue": "2650 W"
+        },
+        {
+          "localizedValue": "2700 W"
+        },
+        {
+          "localizedValue": "2750 W"
+        },
+        {
+          "localizedValue": "2800 W"
+        },
+        {
+          "localizedValue": "2850 W"
+        },
+        {
+          "localizedValue": "2900 W"
+        },
+        {
+          "localizedValue": "2950 W"
+        },
+        {
+          "localizedValue": "3000 W"
+        },
+        {
+          "localizedValue": "3050 W"
+        },
+        {
+          "localizedValue": "3100 W"
+        },
+        {
+          "localizedValue": "3150 W"
+        },
+        {
+          "localizedValue": "3200 W"
+        },
+        {
+          "localizedValue": "3250 W"
+        },
+        {
+          "localizedValue": "3300 W"
+        },
+        {
+          "localizedValue": "6000 W"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Produktart",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "2-Scheiben-Toaster-Set"
+        },
+        {
+          "localizedValue": "4-Scheiben-Toaster-Set"
+        },
+        {
+          "localizedValue": "Airfryer"
+        },
+        {
+          "localizedValue": "Automatische Pastamaschine/-presse"
+        },
+        {
+          "localizedValue": "Automatischer Pastamaschinenaufsatz"
+        },
+        {
+          "localizedValue": "Automatische Zitruspresse"
+        },
+        {
+          "localizedValue": "Bageltoaster"
+        },
+        {
+          "localizedValue": "Behälter"
+        },
+        {
+          "localizedValue": "Belgisches Waffeleisen"
+        },
+        {
+          "localizedValue": "Brenner"
+        },
+        {
+          "localizedValue": "Brotbackautomat"
+        },
+        {
+          "localizedValue": "Brownie-Maker"
+        },
+        {
+          "localizedValue": "Bullet-Mixer"
+        },
+        {
+          "localizedValue": "Butterextraktor"
+        },
+        {
+          "localizedValue": "Cake-Pop-Maker"
+        },
+        {
+          "localizedValue": "CO2-Adapter"
+        },
+        {
+          "localizedValue": "CO2-Flasche"
+        },
+        {
+          "localizedValue": "Couscousière"
+        },
+        {
+          "localizedValue": "Crêpes Maker"
+        },
+        {
+          "localizedValue": "Cupcake/Muffin-Maker"
+        },
+        {
+          "localizedValue": "Dampfentsafter"
+        },
+        {
+          "localizedValue": "Deckelöffner"
+        },
+        {
+          "localizedValue": "Donut-Maker"
+        },
+        {
+          "localizedValue": "Dörrautomat"
+        },
+        {
+          "localizedValue": "Dosenöffner"
+        },
+        {
+          "localizedValue": "Dosenpresse"
+        },
+        {
+          "localizedValue": "Drehbares Waffeleisen"
+        },
+        {
+          "localizedValue": "Eierkocher"
+        },
+        {
+          "localizedValue": "Einbau"
+        },
+        {
+          "localizedValue": "Einkochautomat"
+        },
+        {
+          "localizedValue": "Einwegartikel"
+        },
+        {
+          "localizedValue": "Eiscreme-Formen"
+        },
+        {
+          "localizedValue": "Eiscrusher"
+        },
+        {
+          "localizedValue": "Eismaschine für die Arbeitsplatte"
+        },
+        {
+          "localizedValue": "Eismaschine mit Handkurbel"
+        },
+        {
+          "localizedValue": "Eiszerkleinerer/Eisrasierer"
+        },
+        {
+          "localizedValue": "Elektischer Mixer"
+        },
+        {
+          "localizedValue": "Elektrische Eismaschine"
+        },
+        {
+          "localizedValue": "Elektrischer Hobel"
+        },
+        {
+          "localizedValue": "Elektrischer Indoor-Grill"
+        },
+        {
+          "localizedValue": "Elektrischer Milchaufschäumer & -wärmer"
+        },
+        {
+          "localizedValue": "Elektrischer Reiskocher"
+        },
+        {
+          "localizedValue": "Elektrischer Schnellkochtopf"
+        },
+        {
+          "localizedValue": "Elektrischer Wok"
+        },
+        {
+          "localizedValue": "Elektrisches Fondue-Set"
+        },
+        {
+          "localizedValue": "Elektrisches Messer"
+        },
+        {
+          "localizedValue": "Elektrisches Wasserkocher-Set"
+        },
+        {
+          "localizedValue": "Elektro-Dampfgarer"
+        },
+        {
+          "localizedValue": "Elektropfanne"
+        },
+        {
+          "localizedValue": "Entsafter"
+        },
+        {
+          "localizedValue": "Ersatzbehälter"
+        },
+        {
+          "localizedValue": "Ersatzdeckel"
+        },
+        {
+          "localizedValue": "Ersatzklinge"
+        },
+        {
+          "localizedValue": "Fleischwolf"
+        },
+        {
+          "localizedValue": "Folienschweißgerät"
+        },
+        {
+          "localizedValue": "Fonduebrunnen"
+        },
+        {
+          "localizedValue": "Fonduegabel"
+        },
+        {
+          "localizedValue": "Fondue-Rechaud"
+        },
+        {
+          "localizedValue": "Fondue-Set"
+        },
+        {
+          "localizedValue": "Fonduetopf"
+        },
+        {
+          "localizedValue": "Freistehend"
+        },
+        {
+          "localizedValue": "Freistehender Ofen"
+        },
+        {
+          "localizedValue": "Freistehender Pizzaofen"
+        },
+        {
+          "localizedValue": "Fritteuse"
+        },
+        {
+          "localizedValue": "Frozen-Joghurt-Maschine"
+        },
+        {
+          "localizedValue": "Frühstücksstation"
+        },
+        {
+          "localizedValue": "Getreidemühle"
+        },
+        {
+          "localizedValue": "Gewürze"
+        },
+        {
+          "localizedValue": "Gieß- & Backformen"
+        },
+        {
+          "localizedValue": "Grillpfannen & -bleche"
+        },
+        {
+          "localizedValue": "Grillplatte"
+        },
+        {
+          "localizedValue": "Große Küchenmaschine"
+        },
+        {
+          "localizedValue": "Große Rotisserie"
+        },
+        {
+          "localizedValue": "Handmixer"
+        },
+        {
+          "localizedValue": "Handmixer-Set"
+        },
+        {
+          "localizedValue": "Handpresse"
+        },
+        {
+          "localizedValue": "Heißwasserspender"
+        },
+        {
+          "localizedValue": "Heizplatte"
+        },
+        {
+          "localizedValue": "Herdplatten-Dampfgarer"
+        },
+        {
+          "localizedValue": "Herdplatten-Schnellkochtopf"
+        },
+        {
+          "localizedValue": "Herd-Wasserkocher-Set"
+        },
+        {
+          "localizedValue": "Hörncheneisen"
+        },
+        {
+          "localizedValue": "Hot Dog Maker"
+        },
+        {
+          "localizedValue": "Induktionskochplatte"
+        },
+        {
+          "localizedValue": "Induktions-Milchaufschäumer"
+        },
+        {
+          "localizedValue": "Infrarot-Ofen"
+        },
+        {
+          "localizedValue": "Joghurtbereiter"
+        },
+        {
+          "localizedValue": "Kabelgebundener Wasserkocher"
+        },
+        {
+          "localizedValue": "Kabelloser elektrischer Wasserkocher"
+        },
+        {
+          "localizedValue": "Kaffeekanne mit Schwanenhals"
+        },
+        {
+          "localizedValue": "Kältepresse-Entsafter"
+        },
+        {
+          "localizedValue": "Klinge"
+        },
+        {
+          "localizedValue": "Kompakte Küchenmaschine"
+        },
+        {
+          "localizedValue": "Kompakte Rotisserie"
+        },
+        {
+          "localizedValue": "Kontaktgrills"
+        },
+        {
+          "localizedValue": "Konvektionsofen"
+        },
+        {
+          "localizedValue": "Kühlbehälter"
+        },
+        {
+          "localizedValue": "Langschlitztoaster"
+        },
+        {
+          "localizedValue": "Lebensmittel-Mühle"
+        },
+        {
+          "localizedValue": "Manueller Milchaufschäumer"
+        },
+        {
+          "localizedValue": "Manuelle Zitruspresse"
+        },
+        {
+          "localizedValue": "Milchshakemixer"
+        },
+        {
+          "localizedValue": "Mini-Backofen"
+        },
+        {
+          "localizedValue": "Mini-Backofen mit Rotisserie"
+        },
+        {
+          "localizedValue": "Mini-Mixer"
+        },
+        {
+          "localizedValue": "Multifunktional"
+        },
+        {
+          "localizedValue": "Nudelmaschine"
+        },
+        {
+          "localizedValue": "Nudelroller"
+        },
+        {
+          "localizedValue": "Nudelschneidegerät"
+        },
+        {
+          "localizedValue": "Nudeltrocknergestell"
+        },
+        {
+          "localizedValue": "Omelett-Maker"
+        },
+        {
+          "localizedValue": "Outdoor-Spießbratengrill"
+        },
+        {
+          "localizedValue": "Panini-Presse"
+        },
+        {
+          "localizedValue": "Pastascheiben & Matrizen"
+        },
+        {
+          "localizedValue": "Pastastempel & -ausstecher"
+        },
+        {
+          "localizedValue": "Persönlicher Mixer"
+        },
+        {
+          "localizedValue": "Pfannkuchen-Macher"
+        },
+        {
+          "localizedValue": "Pie-Maker"
+        },
+        {
+          "localizedValue": "Pizzelle-Waffeleisen"
+        },
+        {
+          "localizedValue": "Professioneller Mixer"
+        },
+        {
+          "localizedValue": "Quesadilla-Maker"
+        },
+        {
+          "localizedValue": "Raclettegrill"
+        },
+        {
+          "localizedValue": "Reisewasserkocher"
+        },
+        {
+          "localizedValue": "Reiskocher & -dämpfer"
+        },
+        {
+          "localizedValue": "Saftbehälter"
+        },
+        {
+          "localizedValue": "Saftpresse"
+        },
+        {
+          "localizedValue": "Sandwich-Maker"
+        },
+        {
+          "localizedValue": "Schokobrunnen"
+        },
+        {
+          "localizedValue": "Schongarer"
+        },
+        {
+          "localizedValue": "Slow Juicer"
+        },
+        {
+          "localizedValue": "Slush-Eismaschine"
+        },
+        {
+          "localizedValue": "Smoothie-Maker"
+        },
+        {
+          "localizedValue": "Softeismaschine"
+        },
+        {
+          "localizedValue": "Sous-Vide-Garer"
+        },
+        {
+          "localizedValue": "Stab-Milchaufschäumer"
+        },
+        {
+          "localizedValue": "Stabmixer"
+        },
+        {
+          "localizedValue": "Stabmixer-Set"
+        },
+        {
+          "localizedValue": "Standardmixer"
+        },
+        {
+          "localizedValue": "Standard-Toaster"
+        },
+        {
+          "localizedValue": "Standard-Waffeleisen"
+        },
+        {
+          "localizedValue": "Standfuß mit Elektromotor"
+        },
+        {
+          "localizedValue": "Standmixer"
+        },
+        {
+          "localizedValue": "Suppenbereiter"
+        },
+        {
+          "localizedValue": "Tauchsieder"
+        },
+        {
+          "localizedValue": "Teekessel & Pfeifkessel"
+        },
+        {
+          "localizedValue": "Temperiergerät"
+        },
+        {
+          "localizedValue": "Tischgrills"
+        },
+        {
+          "localizedValue": "Trinkwassersprudler"
+        },
+        {
+          "localizedValue": "Truthahn-Fritteuse"
+        },
+        {
+          "localizedValue": "Unterbau-Dosenöffner"
+        },
+        {
+          "localizedValue": "Unterbaufähig"
+        },
+        {
+          "localizedValue": "Vakuumbeutel"
+        },
+        {
+          "localizedValue": "Vakuumiergerät"
+        },
+        {
+          "localizedValue": "Vakuumrollen"
+        },
+        {
+          "localizedValue": "Vertikale Rotisserie"
+        },
+        {
+          "localizedValue": "Waffelschaleneisen"
+        },
+        {
+          "localizedValue": "Wasserkessel"
+        },
+        {
+          "localizedValue": "Wasserkocher"
+        },
+        {
+          "localizedValue": "Wasserkocher & Toaster Set"
+        },
+        {
+          "localizedValue": "Wurstfüller"
+        },
+        {
+          "localizedValue": "XL-Dosenöffner"
+        },
+        {
+          "localizedValue": "Zentrifugaler Entsafter"
+        },
+        {
+          "localizedValue": "Zuckerwattemaschine"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Bestandteile inbegriffen",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Adapter"
+        },
+        {
+          "localizedValue": "Adapterschlauch"
+        },
+        {
+          "localizedValue": "Anleitung"
+        },
+        {
+          "localizedValue": "Antihaft-beschichtete Pfännchen"
+        },
+        {
+          "localizedValue": "Aufbewahrungsbehälter"
+        },
+        {
+          "localizedValue": "Auffangwanne"
+        },
+        {
+          "localizedValue": "Aufschnittmesser"
+        },
+        {
+          "localizedValue": "Ausstechformen"
+        },
+        {
+          "localizedValue": "Ausziehbare Auffangschale"
+        },
+        {
+          "localizedValue": "Becher"
+        },
+        {
+          "localizedValue": "Bedienungsanleitung"
+        },
+        {
+          "localizedValue": "Behälter"
+        },
+        {
+          "localizedValue": "Block"
+        },
+        {
+          "localizedValue": "Brenner"
+        },
+        {
+          "localizedValue": "Co2-Austauschzylinder"
+        },
+        {
+          "localizedValue": "Crusher"
+        },
+        {
+          "localizedValue": "Dämpfer"
+        },
+        {
+          "localizedValue": "Dampfgareinsatz"
+        },
+        {
+          "localizedValue": "Deckel"
+        },
+        {
+          "localizedValue": "Deckelhalter"
+        },
+        {
+          "localizedValue": "Deckel mit Nachfüllöffnung"
+        },
+        {
+          "localizedValue": "Dichtung"
+        },
+        {
+          "localizedValue": "Edelstahlschüssel"
+        },
+        {
+          "localizedValue": "Eimer"
+        },
+        {
+          "localizedValue": "Einheit"
+        },
+        {
+          "localizedValue": "Eisbehälter"
+        },
+        {
+          "localizedValue": "Emulsionsscheibe"
+        },
+        {
+          "localizedValue": "Erweiterungsring"
+        },
+        {
+          "localizedValue": "Flaschen"
+        },
+        {
+          "localizedValue": "Fleischwolf"
+        },
+        {
+          "localizedValue": "Folienbeutel"
+        },
+        {
+          "localizedValue": "Fonduegabel"
+        },
+        {
+          "localizedValue": "Fruchtfleischbehälter"
+        },
+        {
+          "localizedValue": "Gabel"
+        },
+        {
+          "localizedValue": "Getränke-Sirup"
+        },
+        {
+          "localizedValue": "Getriebe"
+        },
+        {
+          "localizedValue": "Gießschutz"
+        },
+        {
+          "localizedValue": "Glasdeckel"
+        },
+        {
+          "localizedValue": "Gläser"
+        },
+        {
+          "localizedValue": "Glasschüssel"
+        },
+        {
+          "localizedValue": "Grillplatte"
+        },
+        {
+          "localizedValue": "Heizplatten"
+        },
+        {
+          "localizedValue": "Hülle"
+        },
+        {
+          "localizedValue": "Innentopf"
+        },
+        {
+          "localizedValue": "Karbonisierungsaufsatz"
+        },
+        {
+          "localizedValue": "Kegel"
+        },
+        {
+          "localizedValue": "Klemme"
+        },
+        {
+          "localizedValue": "Klingen"
+        },
+        {
+          "localizedValue": "Knethaken"
+        },
+        {
+          "localizedValue": "Korb"
+        },
+        {
+          "localizedValue": "Krug"
+        },
+        {
+          "localizedValue": "Kühlbehälter"
+        },
+        {
+          "localizedValue": "Kurbel"
+        },
+        {
+          "localizedValue": "Lern-DVD"
+        },
+        {
+          "localizedValue": "Löffel"
+        },
+        {
+          "localizedValue": "Mahlscheibe"
+        },
+        {
+          "localizedValue": "Messbecher"
+        },
+        {
+          "localizedValue": "Messerschleifer"
+        },
+        {
+          "localizedValue": "Messinstrument"
+        },
+        {
+          "localizedValue": "Mischer"
+        },
+        {
+          "localizedValue": "Mischstange"
+        },
+        {
+          "localizedValue": "Mixer"
+        },
+        {
+          "localizedValue": "Motorsockel"
+        },
+        {
+          "localizedValue": "Mühle"
+        },
+        {
+          "localizedValue": "Nassmühle"
+        },
+        {
+          "localizedValue": "Nudelroller"
+        },
+        {
+          "localizedValue": "Nudeltrockner"
+        },
+        {
+          "localizedValue": "Ofenständer"
+        },
+        {
+          "localizedValue": "Plastikschüssel"
+        },
+        {
+          "localizedValue": "Rechaud"
+        },
+        {
+          "localizedValue": "Regal"
+        },
+        {
+          "localizedValue": "Reibe"
+        },
+        {
+          "localizedValue": "Reibschnitzler"
+        },
+        {
+          "localizedValue": "Reinigungsbürste"
+        },
+        {
+          "localizedValue": "Rezeptbuch"
+        },
+        {
+          "localizedValue": "Rezepte"
+        },
+        {
+          "localizedValue": "Rezeptheft"
+        },
+        {
+          "localizedValue": "Rolle"
+        },
+        {
+          "localizedValue": "Rollkegel"
+        },
+        {
+          "localizedValue": "Rührbesen"
+        },
+        {
+          "localizedValue": "Rührgerät"
+        },
+        {
+          "localizedValue": "Rührstab"
+        },
+        {
+          "localizedValue": "Scheiben-Set"
+        },
+        {
+          "localizedValue": "Schlagbesen"
+        },
+        {
+          "localizedValue": "Schneebesen"
+        },
+        {
+          "localizedValue": "Schokoladenform"
+        },
+        {
+          "localizedValue": "Schraubzwinge"
+        },
+        {
+          "localizedValue": "Schüssel"
+        },
+        {
+          "localizedValue": "Shaker"
+        },
+        {
+          "localizedValue": "Sieb"
+        },
+        {
+          "localizedValue": "S-Klinge"
+        },
+        {
+          "localizedValue": "Spachtel"
+        },
+        {
+          "localizedValue": "Speiseschieber"
+        },
+        {
+          "localizedValue": "Spritzschutz"
+        },
+        {
+          "localizedValue": "Stabmixer"
+        },
+        {
+          "localizedValue": "Standfuß"
+        },
+        {
+          "localizedValue": "Stapelpodest"
+        },
+        {
+          "localizedValue": "Steingrill"
+        },
+        {
+          "localizedValue": "Tamper"
+        },
+        {
+          "localizedValue": "Teigstreicher"
+        },
+        {
+          "localizedValue": "Textmarker"
+        },
+        {
+          "localizedValue": "Topf"
+        },
+        {
+          "localizedValue": "Trichter"
+        },
+        {
+          "localizedValue": "Turm"
+        },
+        {
+          "localizedValue": "Wurstfüller-Aufsatz"
+        },
+        {
+          "localizedValue": "Zangen"
+        },
+        {
+          "localizedValue": "Zerhacker"
+        },
+        {
+          "localizedValue": "Zitruspresse"
+        },
+        {
+          "localizedValue": "Zusätzliche Klingen"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Kapazität",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "60 ml"
+        },
+        {
+          "localizedValue": "0,15 L"
+        },
+        {
+          "localizedValue": "10 L"
+        },
+        {
+          "localizedValue": "0,25 L"
+        },
+        {
+          "localizedValue": "9 qt"
+        },
+        {
+          "localizedValue": "10 qt"
+        },
+        {
+          "localizedValue": "11 qt"
+        },
+        {
+          "localizedValue": "12 qt"
+        },
+        {
+          "localizedValue": "12 L"
+        },
+        {
+          "localizedValue": "13 qt"
+        },
+        {
+          "localizedValue": "14 qt"
+        },
+        {
+          "localizedValue": "15 qt"
+        },
+        {
+          "localizedValue": "16 qt"
+        },
+        {
+          "localizedValue": "18 qt"
+        },
+        {
+          "localizedValue": "20 qt"
+        },
+        {
+          "localizedValue": "20 L"
+        },
+        {
+          "localizedValue": "22 qt"
+        },
+        {
+          "localizedValue": "23 qt"
+        },
+        {
+          "localizedValue": "8 qt"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Stromquelle",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Batterie"
+        },
+        {
+          "localizedValue": "Manuell"
+        },
+        {
+          "localizedValue": "Netzstrom"
+        },
+        {
+          "localizedValue": "Stecker"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Herstellergarantie",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "ITEM"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "1 Monat"
+        },
+        {
+          "localizedValue": "3 Monate"
+        },
+        {
+          "localizedValue": "6 Monate"
+        },
+        {
+          "localizedValue": "9 Monate"
+        },
+        {
+          "localizedValue": "1 Jahr"
+        },
+        {
+          "localizedValue": "2 Jahre"
+        },
+        {
+          "localizedValue": "3 Jahre"
+        },
+        {
+          "localizedValue": "4 Jahre"
+        },
+        {
+          "localizedValue": "5 Jahre"
+        },
+        {
+          "localizedValue": "10 Jahre"
+        },
+        {
+          "localizedValue": "Lebenslang"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Herstellernummer",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      }
+    },
+    {
+      "localizedAspectName": "Material",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Edelstahl"
+        },
+        {
+          "localizedValue": "Glas"
+        },
+        {
+          "localizedValue": "Gusseisen"
+        },
+        {
+          "localizedValue": "Holz"
+        },
+        {
+          "localizedValue": "Keramik"
+        },
+        {
+          "localizedValue": "Kunststoff"
+        },
+        {
+          "localizedValue": "Kupfer"
+        },
+        {
+          "localizedValue": "Metall"
+        },
+        {
+          "localizedValue": "Stahl"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Anzahl der Einstellungen/Programme",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "1"
+        },
+        {
+          "localizedValue": "2"
+        },
+        {
+          "localizedValue": "3"
+        },
+        {
+          "localizedValue": "4"
+        },
+        {
+          "localizedValue": "5"
+        },
+        {
+          "localizedValue": "6"
+        },
+        {
+          "localizedValue": "7"
+        },
+        {
+          "localizedValue": "8"
+        },
+        {
+          "localizedValue": "9"
+        },
+        {
+          "localizedValue": "10"
+        },
+        {
+          "localizedValue": "11"
+        },
+        {
+          "localizedValue": "12"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Finish",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Bemalt"
+        },
+        {
+          "localizedValue": "Chrom"
+        },
+        {
+          "localizedValue": "Edelstahl"
+        },
+        {
+          "localizedValue": "Edelstahl & Glas"
+        },
+        {
+          "localizedValue": "Emaille"
+        },
+        {
+          "localizedValue": "Glänzend"
+        },
+        {
+          "localizedValue": "Glas"
+        },
+        {
+          "localizedValue": "Nickel"
+        },
+        {
+          "localizedValue": "Panel-Bereit"
+        },
+        {
+          "localizedValue": "Schiefer"
+        },
+        {
+          "localizedValue": "Schwarzer Edelstahl"
+        },
+        {
+          "localizedValue": "Schwarzes Glas"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Anzahl der Scheiben",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "1"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Breite",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "15,0 cm"
+        },
+        {
+          "localizedValue": "18 cm"
+        },
+        {
+          "localizedValue": "20,0 cm"
+        },
+        {
+          "localizedValue": "22 cm"
+        },
+        {
+          "localizedValue": "28 cm"
+        },
+        {
+          "localizedValue": "30,0 cm"
+        },
+        {
+          "localizedValue": "35,0 cm"
+        },
+        {
+          "localizedValue": "40,0 cm"
+        },
+        {
+          "localizedValue": "45,0 cm"
+        },
+        {
+          "localizedValue": "34 cm"
+        },
+        {
+          "localizedValue": "55,0 cm"
+        },
+        {
+          "localizedValue": "70,0 cm"
+        },
+        {
+          "localizedValue": "75,0 cm"
+        },
+        {
+          "localizedValue": "85,0 cm"
+        },
+        {
+          "localizedValue": "90,0 cm"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Spannung",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "12 V"
+        },
+        {
+          "localizedValue": "18 V"
+        },
+        {
+          "localizedValue": "25 V"
+        },
+        {
+          "localizedValue": "45 V"
+        },
+        {
+          "localizedValue": "110 V"
+        },
+        {
+          "localizedValue": "120 V"
+        },
+        {
+          "localizedValue": "130 V"
+        },
+        {
+          "localizedValue": "140 V"
+        },
+        {
+          "localizedValue": "150 V"
+        },
+        {
+          "localizedValue": "160 V"
+        },
+        {
+          "localizedValue": "240 V"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Ursprungsland",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Afghanistan"
+        },
+        {
+          "localizedValue": "Ägypten"
+        },
+        {
+          "localizedValue": "Albanien"
+        },
+        {
+          "localizedValue": "Algerien"
+        },
+        {
+          "localizedValue": "Andorra"
+        },
+        {
+          "localizedValue": "Angola"
+        },
+        {
+          "localizedValue": "Anguilla"
+        },
+        {
+          "localizedValue": "Antigua und Barbuda"
+        },
+        {
+          "localizedValue": "Äquatorialguinea"
+        },
+        {
+          "localizedValue": "Argentinien"
+        },
+        {
+          "localizedValue": "Armenien"
+        },
+        {
+          "localizedValue": "Aruba"
+        },
+        {
+          "localizedValue": "Aserbaidschan"
+        },
+        {
+          "localizedValue": "Äthiopien"
+        },
+        {
+          "localizedValue": "Australien"
+        },
+        {
+          "localizedValue": "Bahamas"
+        },
+        {
+          "localizedValue": "Bahrain"
+        },
+        {
+          "localizedValue": "Bangladesch"
+        },
+        {
+          "localizedValue": "Barbados"
+        },
+        {
+          "localizedValue": "Belarus"
+        },
+        {
+          "localizedValue": "Belgien"
+        },
+        {
+          "localizedValue": "Belize"
+        },
+        {
+          "localizedValue": "Benin"
+        },
+        {
+          "localizedValue": "Bermuda"
+        },
+        {
+          "localizedValue": "Bhutan"
+        },
+        {
+          "localizedValue": "Bolivien"
+        },
+        {
+          "localizedValue": "Bosnien und Herzegowina"
+        },
+        {
+          "localizedValue": "Botsuana"
+        },
+        {
+          "localizedValue": "Brasilien"
+        },
+        {
+          "localizedValue": "Britische Jungferninseln"
+        },
+        {
+          "localizedValue": "Britisches Territorium im Indischen Ozean"
+        },
+        {
+          "localizedValue": "Brunei Darussalam"
+        },
+        {
+          "localizedValue": "Bulgarien"
+        },
+        {
+          "localizedValue": "Burkina Faso"
+        },
+        {
+          "localizedValue": "Burundi"
+        },
+        {
+          "localizedValue": "Chile"
+        },
+        {
+          "localizedValue": "China"
+        },
+        {
+          "localizedValue": "Cookinseln"
+        },
+        {
+          "localizedValue": "Costa Rica"
+        },
+        {
+          "localizedValue": "Côte d'Ivoire"
+        },
+        {
+          "localizedValue": "Curaçao"
+        },
+        {
+          "localizedValue": "Dänemark"
+        },
+        {
+          "localizedValue": "Deutschland"
+        },
+        {
+          "localizedValue": "Dominica"
+        },
+        {
+          "localizedValue": "Dominikanische Republik"
+        },
+        {
+          "localizedValue": "Dschibuti"
+        },
+        {
+          "localizedValue": "Ecuador"
+        },
+        {
+          "localizedValue": "El Salvador"
+        },
+        {
+          "localizedValue": "Eritrea"
+        },
+        {
+          "localizedValue": "Estland"
+        },
+        {
+          "localizedValue": "Eswatini"
+        },
+        {
+          "localizedValue": "Falklandinseln"
+        },
+        {
+          "localizedValue": "Färöer-Inseln"
+        },
+        {
+          "localizedValue": "Fidschi"
+        },
+        {
+          "localizedValue": "Finnland"
+        },
+        {
+          "localizedValue": "Frankreich"
+        },
+        {
+          "localizedValue": "Französische Südgebiete und Antarktisgebiete"
+        },
+        {
+          "localizedValue": "Französisch-Guayana"
+        },
+        {
+          "localizedValue": "Französisch-Polynesien, einschließlich Tahiti"
+        },
+        {
+          "localizedValue": "Gabun"
+        },
+        {
+          "localizedValue": "Gambia"
+        },
+        {
+          "localizedValue": "Gazastreifen"
+        },
+        {
+          "localizedValue": "Georgien"
+        },
+        {
+          "localizedValue": "Ghana"
+        },
+        {
+          "localizedValue": "Gibraltar"
+        },
+        {
+          "localizedValue": "Grenada"
+        },
+        {
+          "localizedValue": "Griechenland"
+        },
+        {
+          "localizedValue": "Grönland"
+        },
+        {
+          "localizedValue": "Guadeloupe"
+        },
+        {
+          "localizedValue": "Guam"
+        },
+        {
+          "localizedValue": "Guatemala"
+        },
+        {
+          "localizedValue": "Guernsey"
+        },
+        {
+          "localizedValue": "Guinea"
+        },
+        {
+          "localizedValue": "Guinea-Bissau"
+        },
+        {
+          "localizedValue": "Guyana"
+        },
+        {
+          "localizedValue": "Haiti"
+        },
+        {
+          "localizedValue": "Heard und McDonaldinseln"
+        },
+        {
+          "localizedValue": "Honduras"
+        },
+        {
+          "localizedValue": "Hongkong"
+        },
+        {
+          "localizedValue": "Indien"
+        },
+        {
+          "localizedValue": "Indonesien"
+        },
+        {
+          "localizedValue": "Irak"
+        },
+        {
+          "localizedValue": "Iran, Islamische Republik"
+        },
+        {
+          "localizedValue": "Irland"
+        },
+        {
+          "localizedValue": "Island"
+        },
+        {
+          "localizedValue": "Israel"
+        },
+        {
+          "localizedValue": "Italien"
+        },
+        {
+          "localizedValue": "Jamaika"
+        },
+        {
+          "localizedValue": "Japan"
+        },
+        {
+          "localizedValue": "Jemen"
+        },
+        {
+          "localizedValue": "Jersey"
+        },
+        {
+          "localizedValue": "Jordanien"
+        },
+        {
+          "localizedValue": "Jungferninseln"
+        },
+        {
+          "localizedValue": "Kaimaninseln"
+        },
+        {
+          "localizedValue": "Kambodscha"
+        },
+        {
+          "localizedValue": "Kamerun"
+        },
+        {
+          "localizedValue": "Kanada"
+        },
+        {
+          "localizedValue": "Kanarische Inseln"
+        },
+        {
+          "localizedValue": "Kap Verde"
+        },
+        {
+          "localizedValue": "Kasachstan"
+        },
+        {
+          "localizedValue": "Katar"
+        },
+        {
+          "localizedValue": "Kenia"
+        },
+        {
+          "localizedValue": "Kirgisistan"
+        },
+        {
+          "localizedValue": "Kiribati"
+        },
+        {
+          "localizedValue": "Kokosinseln (Keelinginseln)"
+        },
+        {
+          "localizedValue": "Kolumbien"
+        },
+        {
+          "localizedValue": "Komoren"
+        },
+        {
+          "localizedValue": "Kongo, Demokratische Republik"
+        },
+        {
+          "localizedValue": "Kongo, Republik"
+        },
+        {
+          "localizedValue": "Kosovo"
+        },
+        {
+          "localizedValue": "Kroatien"
+        },
+        {
+          "localizedValue": "Kuba"
+        },
+        {
+          "localizedValue": "Kuwait"
+        },
+        {
+          "localizedValue": "Laos, Demokratische Volksrepublik"
+        },
+        {
+          "localizedValue": "Lesotho"
+        },
+        {
+          "localizedValue": "Lettland"
+        },
+        {
+          "localizedValue": "Libanon"
+        },
+        {
+          "localizedValue": "Liberia"
+        },
+        {
+          "localizedValue": "Libyen"
+        },
+        {
+          "localizedValue": "Liechtenstein"
+        },
+        {
+          "localizedValue": "Litauen"
+        },
+        {
+          "localizedValue": "Luxemburg"
+        },
+        {
+          "localizedValue": "Macau"
+        },
+        {
+          "localizedValue": "Madagaskar"
+        },
+        {
+          "localizedValue": "Madeira"
+        },
+        {
+          "localizedValue": "Malawi"
+        },
+        {
+          "localizedValue": "Malaysia"
+        },
+        {
+          "localizedValue": "Malediven"
+        },
+        {
+          "localizedValue": "Mali"
+        },
+        {
+          "localizedValue": "Malta"
+        },
+        {
+          "localizedValue": "Marokko"
+        },
+        {
+          "localizedValue": "Marshallinseln"
+        },
+        {
+          "localizedValue": "Martinique"
+        },
+        {
+          "localizedValue": "Mauretanien"
+        },
+        {
+          "localizedValue": "Mauritius"
+        },
+        {
+          "localizedValue": "Mayotte"
+        },
+        {
+          "localizedValue": "Mexiko"
+        },
+        {
+          "localizedValue": "Mikronesien, Föderierte Staaten von"
+        },
+        {
+          "localizedValue": "Moldau, Republik"
+        },
+        {
+          "localizedValue": "Monaco"
+        },
+        {
+          "localizedValue": "Mongolei"
+        },
+        {
+          "localizedValue": "Montenegro"
+        },
+        {
+          "localizedValue": "Montserrat"
+        },
+        {
+          "localizedValue": "Mosambik"
+        },
+        {
+          "localizedValue": "Myanmar /Birma"
+        },
+        {
+          "localizedValue": "Namibia"
+        },
+        {
+          "localizedValue": "Nauru"
+        },
+        {
+          "localizedValue": "Nepal"
+        },
+        {
+          "localizedValue": "Neukaledonien"
+        },
+        {
+          "localizedValue": "Neuseeland"
+        },
+        {
+          "localizedValue": "Nicaragua"
+        },
+        {
+          "localizedValue": "Niederlande"
+        },
+        {
+          "localizedValue": "Niger"
+        },
+        {
+          "localizedValue": "Nigeria"
+        },
+        {
+          "localizedValue": "Niue"
+        },
+        {
+          "localizedValue": "Nordkorea (Demokratische Volksrepublik Korea)"
+        },
+        {
+          "localizedValue": "Nördliche Marianen"
+        },
+        {
+          "localizedValue": "Nordmazedonien"
+        },
+        {
+          "localizedValue": "Norfolkinsel"
+        },
+        {
+          "localizedValue": "Norwegen"
+        },
+        {
+          "localizedValue": "Oman"
+        },
+        {
+          "localizedValue": "Österreich"
+        },
+        {
+          "localizedValue": "Pakistan"
+        },
+        {
+          "localizedValue": "Palau"
+        },
+        {
+          "localizedValue": "Panama"
+        },
+        {
+          "localizedValue": "Papua-Neuguinea"
+        },
+        {
+          "localizedValue": "Paraguay"
+        },
+        {
+          "localizedValue": "Peru"
+        },
+        {
+          "localizedValue": "Philippinen"
+        },
+        {
+          "localizedValue": "Polen"
+        },
+        {
+          "localizedValue": "Portugal"
+        },
+        {
+          "localizedValue": "Puerto Rico"
+        },
+        {
+          "localizedValue": "Réunion"
+        },
+        {
+          "localizedValue": "Ruanda"
+        },
+        {
+          "localizedValue": "Rumänien"
+        },
+        {
+          "localizedValue": "Russische Föderation"
+        },
+        {
+          "localizedValue": "Saint Barthélemy"
+        },
+        {
+          "localizedValue": "Saint-Martin"
+        },
+        {
+          "localizedValue": "Saint-Pierre und Miquelon"
+        },
+        {
+          "localizedValue": "Salomonen"
+        },
+        {
+          "localizedValue": "Sambia"
+        },
+        {
+          "localizedValue": "Samoa"
+        },
+        {
+          "localizedValue": "San Marino"
+        },
+        {
+          "localizedValue": "São Tomé und Príncipe"
+        },
+        {
+          "localizedValue": "Saudi-Arabien"
+        },
+        {
+          "localizedValue": "Schweden"
+        },
+        {
+          "localizedValue": "Schweiz"
+        },
+        {
+          "localizedValue": "Senegal"
+        },
+        {
+          "localizedValue": "Serbien"
+        },
+        {
+          "localizedValue": "Seychellen"
+        },
+        {
+          "localizedValue": "Sierra Leone"
+        },
+        {
+          "localizedValue": "Simbabwe"
+        },
+        {
+          "localizedValue": "Singapur"
+        },
+        {
+          "localizedValue": "Sint Eustatius"
+        },
+        {
+          "localizedValue": "Sint Maarten"
+        },
+        {
+          "localizedValue": "Slowakei"
+        },
+        {
+          "localizedValue": "Slowenien"
+        },
+        {
+          "localizedValue": "Somalia"
+        },
+        {
+          "localizedValue": "Spanien"
+        },
+        {
+          "localizedValue": "Sri Lanka"
+        },
+        {
+          "localizedValue": "St. Helena"
+        },
+        {
+          "localizedValue": "St. Kitts und Nevis"
+        },
+        {
+          "localizedValue": "St. Lucia"
+        },
+        {
+          "localizedValue": "St. Vincent und die Grenadinen"
+        },
+        {
+          "localizedValue": "Südafrika"
+        },
+        {
+          "localizedValue": "Sudan"
+        },
+        {
+          "localizedValue": "Südgeorgien und die Südlichen Sandwichinseln"
+        },
+        {
+          "localizedValue": "Südkorea (Republik Korea)"
+        },
+        {
+          "localizedValue": "Surinam"
+        },
+        {
+          "localizedValue": "Svalbard und Jan Mayen"
+        },
+        {
+          "localizedValue": "Syrien"
+        },
+        {
+          "localizedValue": "Tadschikistan"
+        },
+        {
+          "localizedValue": "Taiwan"
+        },
+        {
+          "localizedValue": "Tansania, Vereinigte Republik"
+        },
+        {
+          "localizedValue": "Thailand"
+        },
+        {
+          "localizedValue": "Togo"
+        },
+        {
+          "localizedValue": "Tokelau"
+        },
+        {
+          "localizedValue": "Tonga"
+        },
+        {
+          "localizedValue": "Trinidad und Tobago"
+        },
+        {
+          "localizedValue": "Tristan da Cunha"
+        },
+        {
+          "localizedValue": "Tschad"
+        },
+        {
+          "localizedValue": "Tschechische Republik"
+        },
+        {
+          "localizedValue": "Tunesien"
+        },
+        {
+          "localizedValue": "Türkei"
+        },
+        {
+          "localizedValue": "Turkmenistan"
+        },
+        {
+          "localizedValue": "Turks- und Caicosinseln"
+        },
+        {
+          "localizedValue": "Tuvalu"
+        },
+        {
+          "localizedValue": "Uganda"
+        },
+        {
+          "localizedValue": "Ukraine"
+        },
+        {
+          "localizedValue": "Ungarn"
+        },
+        {
+          "localizedValue": "Uruguay"
+        },
+        {
+          "localizedValue": "USA"
+        },
+        {
+          "localizedValue": "Usbekistan"
+        },
+        {
+          "localizedValue": "Vanuatu"
+        },
+        {
+          "localizedValue": "Vatikanstadt"
+        },
+        {
+          "localizedValue": "Venezuela"
+        },
+        {
+          "localizedValue": "Vereinigte Arabische Emirate"
+        },
+        {
+          "localizedValue": "Vereinigtes Königreich"
+        },
+        {
+          "localizedValue": "Vietnam"
+        },
+        {
+          "localizedValue": "Wallis und Futuna"
+        },
+        {
+          "localizedValue": "Weihnachtsinseln"
+        },
+        {
+          "localizedValue": "Westjordanland"
+        },
+        {
+          "localizedValue": "Zentralafrikanische Republik"
+        },
+        {
+          "localizedValue": "Zypern"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Höhe",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "5,08 cm"
+        },
+        {
+          "localizedValue": "10,2 cm"
+        },
+        {
+          "localizedValue": "11,4 cm"
+        },
+        {
+          "localizedValue": "12,7 cm"
+        },
+        {
+          "localizedValue": "15,2 cm"
+        },
+        {
+          "localizedValue": "17,7 cm"
+        },
+        {
+          "localizedValue": "19,0 cm"
+        },
+        {
+          "localizedValue": "20,3 cm"
+        },
+        {
+          "localizedValue": "21,5 cm"
+        },
+        {
+          "localizedValue": "22,8 cm"
+        },
+        {
+          "localizedValue": "24,1 cm"
+        },
+        {
+          "localizedValue": "25,4 cm"
+        },
+        {
+          "localizedValue": "30,4 cm"
+        },
+        {
+          "localizedValue": "28 cm"
+        },
+        {
+          "localizedValue": "33,02 cm"
+        },
+        {
+          "localizedValue": "35,6 cm"
+        },
+        {
+          "localizedValue": "38,1 cm"
+        },
+        {
+          "localizedValue": "40,6 cm"
+        },
+        {
+          "localizedValue": "43,1 cm"
+        },
+        {
+          "localizedValue": "45,7 cm"
+        },
+        {
+          "localizedValue": "60,9 cm"
+        },
+        {
+          "localizedValue": "48,2 cm"
+        },
+        {
+          "localizedValue": "50,8 cm"
+        },
+        {
+          "localizedValue": "91,4 cm"
+        },
+        {
+          "localizedValue": "71 cm"
+        },
+        {
+          "localizedValue": "121,9 cm"
+        },
+        {
+          "localizedValue": "81,3 cm"
+        },
+        {
+          "localizedValue": "101,6 cm"
+        },
+        {
+          "localizedValue": "111,8 cm"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Anzahl der Bleche",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      }
+    },
+    {
+      "localizedAspectName": "Gedeck für",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      }
+    },
+    {
+      "localizedAspectName": "Länge",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "15,0 cm"
+        },
+        {
+          "localizedValue": "20,0 cm"
+        },
+        {
+          "localizedValue": "30,0 cm"
+        },
+        {
+          "localizedValue": "35,0 cm"
+        },
+        {
+          "localizedValue": "40,0 cm"
+        },
+        {
+          "localizedValue": "45,0 cm"
+        },
+        {
+          "localizedValue": "34 cm"
+        },
+        {
+          "localizedValue": "55,0 cm"
+        },
+        {
+          "localizedValue": "85,0 cm"
+        },
+        {
+          "localizedValue": "90,0 cm"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Gewicht",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "1.9 kg"
+        },
+        {
+          "localizedValue": "5,5 kg"
+        },
+        {
+          "localizedValue": "6 kg"
+        },
+        {
+          "localizedValue": "10 kg"
+        },
+        {
+          "localizedValue": "14 kg"
+        },
+        {
+          "localizedValue": "18 kg"
+        },
+        {
+          "localizedValue": "21 kg"
+        },
+        {
+          "localizedValue": "4,53 kg"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Kabellänge",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "155 cm"
+        },
+        {
+          "localizedValue": "160 cm"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Anzahl der Einheiten",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "ITEM"
+        ]
+      }
+    },
+    {
+      "localizedAspectName": "Maßeinheit",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "kg"
+        },
+        {
+          "localizedValue": "100g"
+        },
+        {
+          "localizedValue": "10g"
+        },
+        {
+          "localizedValue": "L"
+        },
+        {
+          "localizedValue": "100ml"
+        },
+        {
+          "localizedValue": "10ml"
+        },
+        {
+          "localizedValue": "m"
+        },
+        {
+          "localizedValue": "m²"
+        },
+        {
+          "localizedValue": "m³"
+        },
+        {
+          "localizedValue": "Einheit"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Haltbarkeitsgarantie",
+      "aspectConstraint": {
+        "aspectDataType": "NUMBER",
+        "aspectFormat": "int32",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false
+      }
+    }
+  ]
+}

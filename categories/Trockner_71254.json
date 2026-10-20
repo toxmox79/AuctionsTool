@@ -1,0 +1,2903 @@
+{
+  "categoryId": "71254",
+  "treeId": "77",
+  "marketplace": "EBAY_DE",
+  "environment": "production",
+  "fetchedAt": "2026-10-19T08:18:35Z",
+  "aspects": [
+    {
+      "localizedAspectName": "Modell",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": true,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "AEG Lavatherm T500"
+        },
+        {
+          "localizedValue": "Beko B3T22491"
+        },
+        {
+          "localizedValue": "Beko DH8534GX0"
+        },
+        {
+          "localizedValue": "Beko DH85T6GXV"
+        },
+        {
+          "localizedValue": "Beko DS7512PA"
+        },
+        {
+          "localizedValue": "Bosch WTW875ECO"
+        },
+        {
+          "localizedValue": "Bosch WTW875W0"
+        },
+        {
+          "localizedValue": "Hoover H-DRY 500 NDPEH10A2TCBEXSS"
+        },
+        {
+          "localizedValue": "Magic Chef MCSDRY15W"
+        },
+        {
+          "localizedValue": "Siemens iQ700 WT47XMA1"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Installationsart",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": true,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Arbeitsplatte"
+        },
+        {
+          "localizedValue": "Freistehend/Nebeneinander"
+        },
+        {
+          "localizedValue": "Integriert"
+        },
+        {
+          "localizedValue": "Stapelbar"
+        },
+        {
+          "localizedValue": "Teilintegriert"
+        },
+        {
+          "localizedValue": "Tragbar"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Produktart",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Ablufttrockner"
+        },
+        {
+          "localizedValue": "Gestapelte Waschmaschine & Trockner"
+        },
+        {
+          "localizedValue": "Hochleistungs-/Impeller-Waschmaschine"
+        },
+        {
+          "localizedValue": "Kodenstrockner"
+        },
+        {
+          "localizedValue": "Rührwerkswaschmaschine"
+        },
+        {
+          "localizedValue": "Schleudertrockner"
+        },
+        {
+          "localizedValue": "Wärmepumpentrockner"
+        },
+        {
+          "localizedValue": "Waschmaschine & Trockner Set"
+        },
+        {
+          "localizedValue": "Waschtrockner"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Marke",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Markenlos"
+        },
+        {
+          "localizedValue": "Adidas"
+        },
+        {
+          "localizedValue": "Admiral"
+        },
+        {
+          "localizedValue": "AEG"
+        },
+        {
+          "localizedValue": "AEG-Electrolux"
+        },
+        {
+          "localizedValue": "Air-O-Dry"
+        },
+        {
+          "localizedValue": "Alfa"
+        },
+        {
+          "localizedValue": "Alliance"
+        },
+        {
+          "localizedValue": "Amana"
+        },
+        {
+          "localizedValue": "Amica"
+        },
+        {
+          "localizedValue": "Aqua"
+        },
+        {
+          "localizedValue": "Ariston"
+        },
+        {
+          "localizedValue": "Arthur Martin"
+        },
+        {
+          "localizedValue": "ASKO"
+        },
+        {
+          "localizedValue": "ASUS"
+        },
+        {
+          "localizedValue": "Avalon Bay"
+        },
+        {
+          "localizedValue": "Avanti"
+        },
+        {
+          "localizedValue": "B-Air"
+        },
+        {
+          "localizedValue": "Balay"
+        },
+        {
+          "localizedValue": "Bauknecht"
+        },
+        {
+          "localizedValue": "Baumatic"
+        },
+        {
+          "localizedValue": "Beco"
+        },
+        {
+          "localizedValue": "Beko"
+        },
+        {
+          "localizedValue": "Belling"
+        },
+        {
+          "localizedValue": "Best Choice Products"
+        },
+        {
+          "localizedValue": "Blomberg"
+        },
+        {
+          "localizedValue": "Bomann"
+        },
+        {
+          "localizedValue": "Bosch"
+        },
+        {
+          "localizedValue": "Brandt"
+        },
+        {
+          "localizedValue": "Braun"
+        },
+        {
+          "localizedValue": "Bush"
+        },
+        {
+          "localizedValue": "Calor"
+        },
+        {
+          "localizedValue": "Candy"
+        },
+        {
+          "localizedValue": "Canon"
+        },
+        {
+          "localizedValue": "Caple"
+        },
+        {
+          "localizedValue": "Carson"
+        },
+        {
+          "localizedValue": "CDA"
+        },
+        {
+          "localizedValue": "Clatronic"
+        },
+        {
+          "localizedValue": "Constructa"
+        },
+        {
+          "localizedValue": "Creative"
+        },
+        {
+          "localizedValue": "Creda"
+        },
+        {
+          "localizedValue": "Crosley"
+        },
+        {
+          "localizedValue": "Crosslee"
+        },
+        {
+          "localizedValue": "Currys"
+        },
+        {
+          "localizedValue": "Cyberlux"
+        },
+        {
+          "localizedValue": "Daewoo"
+        },
+        {
+          "localizedValue": "Danby"
+        },
+        {
+          "localizedValue": "De'Longhi"
+        },
+        {
+          "localizedValue": "De Dietrich"
+        },
+        {
+          "localizedValue": "Della"
+        },
+        {
+          "localizedValue": "Devanti"
+        },
+        {
+          "localizedValue": "Display4top"
+        },
+        {
+          "localizedValue": "Dometic"
+        },
+        {
+          "localizedValue": "Dyson"
+        },
+        {
+          "localizedValue": "EasyGo Products"
+        },
+        {
+          "localizedValue": "easy Maxx"
+        },
+        {
+          "localizedValue": "Ebac"
+        },
+        {
+          "localizedValue": "EBD"
+        },
+        {
+          "localizedValue": "ECHOS"
+        },
+        {
+          "localizedValue": "Ecosa"
+        },
+        {
+          "localizedValue": "Electra"
+        },
+        {
+          "localizedValue": "ElectriQ"
+        },
+        {
+          "localizedValue": "Electrolux"
+        },
+        {
+          "localizedValue": "Ensue"
+        },
+        {
+          "localizedValue": "Epson"
+        },
+        {
+          "localizedValue": "Equator"
+        },
+        {
+          "localizedValue": "Esatto"
+        },
+        {
+          "localizedValue": "Essentials"
+        },
+        {
+          "localizedValue": "Eumenia"
+        },
+        {
+          "localizedValue": "Euro"
+        },
+        {
+          "localizedValue": "Euromaid"
+        },
+        {
+          "localizedValue": "EUROPART"
+        },
+        {
+          "localizedValue": "Exquisit"
+        },
+        {
+          "localizedValue": "Fagor"
+        },
+        {
+          "localizedValue": "FAR"
+        },
+        {
+          "localizedValue": "Farberware"
+        },
+        {
+          "localizedValue": "FAURE"
+        },
+        {
+          "localizedValue": "Finether"
+        },
+        {
+          "localizedValue": "Fisher & Paykel"
+        },
+        {
+          "localizedValue": "Flavel"
+        },
+        {
+          "localizedValue": "FORON"
+        },
+        {
+          "localizedValue": "Frigidaire"
+        },
+        {
+          "localizedValue": "Fujifilm"
+        },
+        {
+          "localizedValue": "GE"
+        },
+        {
+          "localizedValue": "Gecko"
+        },
+        {
+          "localizedValue": "Giantex"
+        },
+        {
+          "localizedValue": "Good Ideas"
+        },
+        {
+          "localizedValue": "GoPlus"
+        },
+        {
+          "localizedValue": "Gorenje"
+        },
+        {
+          "localizedValue": "Grundig"
+        },
+        {
+          "localizedValue": "Haier"
+        },
+        {
+          "localizedValue": "Handmade"
+        },
+        {
+          "localizedValue": "Hanseatic"
+        },
+        {
+          "localizedValue": "HEC"
+        },
+        {
+          "localizedValue": "Heller"
+        },
+        {
+          "localizedValue": "Hisense"
+        },
+        {
+          "localizedValue": "Hitachi"
+        },
+        {
+          "localizedValue": "Holme"
+        },
+        {
+          "localizedValue": "Homcom"
+        },
+        {
+          "localizedValue": "Hoover"
+        },
+        {
+          "localizedValue": "Hotpoint"
+        },
+        {
+          "localizedValue": "Hotpoint-Ariston"
+        },
+        {
+          "localizedValue": "Household Essentials"
+        },
+        {
+          "localizedValue": "HP"
+        },
+        {
+          "localizedValue": "HQRP"
+        },
+        {
+          "localizedValue": "IGNIS"
+        },
+        {
+          "localizedValue": "Indesit"
+        },
+        {
+          "localizedValue": "IPSO"
+        },
+        {
+          "localizedValue": "Ivation"
+        },
+        {
+          "localizedValue": "John Lewis"
+        },
+        {
+          "localizedValue": "Joy"
+        },
+        {
+          "localizedValue": "Juno"
+        },
+        {
+          "localizedValue": "Kelvinator"
+        },
+        {
+          "localizedValue": "Kenmore"
+        },
+        {
+          "localizedValue": "Kenwood"
+        },
+        {
+          "localizedValue": "King"
+        },
+        {
+          "localizedValue": "KitchenAid"
+        },
+        {
+          "localizedValue": "Kleenmaid"
+        },
+        {
+          "localizedValue": "Koenic"
+        },
+        {
+          "localizedValue": "Krups"
+        },
+        {
+          "localizedValue": "Küppersbusch"
+        },
+        {
+          "localizedValue": "KUPPET"
+        },
+        {
+          "localizedValue": "Laden"
+        },
+        {
+          "localizedValue": "Leifheit"
+        },
+        {
+          "localizedValue": "Leisure Direct"
+        },
+        {
+          "localizedValue": "Leisurewize"
+        },
+        {
+          "localizedValue": "Lemair"
+        },
+        {
+          "localizedValue": "LG"
+        },
+        {
+          "localizedValue": "Logik"
+        },
+        {
+          "localizedValue": "Magic Chef"
+        },
+        {
+          "localizedValue": "Magimix"
+        },
+        {
+          "localizedValue": "Maytag"
+        },
+        {
+          "localizedValue": "Meco"
+        },
+        {
+          "localizedValue": "Merax"
+        },
+        {
+          "localizedValue": "Microsoft"
+        },
+        {
+          "localizedValue": "Midea"
+        },
+        {
+          "localizedValue": "Midwest Timer Service"
+        },
+        {
+          "localizedValue": "Miele"
+        },
+        {
+          "localizedValue": "Montpellier"
+        },
+        {
+          "localizedValue": "Moulinex"
+        },
+        {
+          "localizedValue": "MSI"
+        },
+        {
+          "localizedValue": "NEC"
+        },
+        {
+          "localizedValue": "Neff"
+        },
+        {
+          "localizedValue": "O&K"
+        },
+        {
+          "localizedValue": "Oatey"
+        },
+        {
+          "localizedValue": "ok."
+        },
+        {
+          "localizedValue": "OMEGA"
+        },
+        {
+          "localizedValue": "One Concept"
+        },
+        {
+          "localizedValue": "Panasonic"
+        },
+        {
+          "localizedValue": "Panda"
+        },
+        {
+          "localizedValue": "Peet"
+        },
+        {
+          "localizedValue": "Philips"
+        },
+        {
+          "localizedValue": "PKM"
+        },
+        {
+          "localizedValue": "Plumb Pak"
+        },
+        {
+          "localizedValue": "Prima"
+        },
+        {
+          "localizedValue": "Primus"
+        },
+        {
+          "localizedValue": "PRIVILEG"
+        },
+        {
+          "localizedValue": "ProAction"
+        },
+        {
+          "localizedValue": "Pyle"
+        },
+        {
+          "localizedValue": "RCA"
+        },
+        {
+          "localizedValue": "Rex"
+        },
+        {
+          "localizedValue": "Rosières"
+        },
+        {
+          "localizedValue": "RST"
+        },
+        {
+          "localizedValue": "Russell Hobbs"
+        },
+        {
+          "localizedValue": "Samsung"
+        },
+        {
+          "localizedValue": "SanDisk"
+        },
+        {
+          "localizedValue": "Schneider"
+        },
+        {
+          "localizedValue": "Scholtès"
+        },
+        {
+          "localizedValue": "SEB"
+        },
+        {
+          "localizedValue": "SEG"
+        },
+        {
+          "localizedValue": "Segawe"
+        },
+        {
+          "localizedValue": "Sekom"
+        },
+        {
+          "localizedValue": "Servis"
+        },
+        {
+          "localizedValue": "Severin"
+        },
+        {
+          "localizedValue": "Sharp"
+        },
+        {
+          "localizedValue": "Siemens"
+        },
+        {
+          "localizedValue": "Simpson"
+        },
+        {
+          "localizedValue": "SMEG"
+        },
+        {
+          "localizedValue": "Speed Queen"
+        },
+        {
+          "localizedValue": "Splendide"
+        },
+        {
+          "localizedValue": "Starrett"
+        },
+        {
+          "localizedValue": "Statesman"
+        },
+        {
+          "localizedValue": "Steinborg"
+        },
+        {
+          "localizedValue": "Stirling"
+        },
+        {
+          "localizedValue": "Stoves"
+        },
+        {
+          "localizedValue": "Streetwize"
+        },
+        {
+          "localizedValue": "Summit"
+        },
+        {
+          "localizedValue": "Surya"
+        },
+        {
+          "localizedValue": "Swan"
+        },
+        {
+          "localizedValue": "Team"
+        },
+        {
+          "localizedValue": "Techwood"
+        },
+        {
+          "localizedValue": "TE-CO"
+        },
+        {
+          "localizedValue": "tectake"
+        },
+        {
+          "localizedValue": "Tefal"
+        },
+        {
+          "localizedValue": "Teka"
+        },
+        {
+          "localizedValue": "TESCOM"
+        },
+        {
+          "localizedValue": "The Laundry Alternative"
+        },
+        {
+          "localizedValue": "The Laundry POD"
+        },
+        {
+          "localizedValue": "Thinkgizmos"
+        },
+        {
+          "localizedValue": "Thompson"
+        },
+        {
+          "localizedValue": "Thomson"
+        },
+        {
+          "localizedValue": "Thrustmaster"
+        },
+        {
+          "localizedValue": "Tisira"
+        },
+        {
+          "localizedValue": "Toshiba"
+        },
+        {
+          "localizedValue": "Tricity Bendix"
+        },
+        {
+          "localizedValue": "Uenjoy"
+        },
+        {
+          "localizedValue": "Vedette"
+        },
+        {
+          "localizedValue": "Venus"
+        },
+        {
+          "localizedValue": "Vestel"
+        },
+        {
+          "localizedValue": "Vestfrost"
+        },
+        {
+          "localizedValue": "vidaXL"
+        },
+        {
+          "localizedValue": "Vogue"
+        },
+        {
+          "localizedValue": "Vorwerk Folletto"
+        },
+        {
+          "localizedValue": "WASHWOW"
+        },
+        {
+          "localizedValue": "Waxman"
+        },
+        {
+          "localizedValue": "Westinghouse"
+        },
+        {
+          "localizedValue": "Whirlpool"
+        },
+        {
+          "localizedValue": "White"
+        },
+        {
+          "localizedValue": "White Knight"
+        },
+        {
+          "localizedValue": "Wonder Washer"
+        },
+        {
+          "localizedValue": "XtremepowerUS"
+        },
+        {
+          "localizedValue": "YongTong"
+        },
+        {
+          "localizedValue": "Zanker"
+        },
+        {
+          "localizedValue": "Zanussi"
+        },
+        {
+          "localizedValue": "ZAZ"
+        },
+        {
+          "localizedValue": "ZENY"
+        },
+        {
+          "localizedValue": "Zilan"
+        },
+        {
+          "localizedValue": "ZOKOP"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Füllmenge des Trockners",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "3 kg"
+        },
+        {
+          "localizedValue": "5 kg"
+        },
+        {
+          "localizedValue": "7 kg"
+        },
+        {
+          "localizedValue": "9 kg"
+        },
+        {
+          "localizedValue": "10 kg"
+        },
+        {
+          "localizedValue": "11 kg"
+        },
+        {
+          "localizedValue": "12 kg"
+        },
+        {
+          "localizedValue": "13 kg"
+        },
+        {
+          "localizedValue": "14 kg"
+        },
+        {
+          "localizedValue": "4 kg"
+        },
+        {
+          "localizedValue": "6 kg"
+        },
+        {
+          "localizedValue": "8 kg"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Energieeffizienzklasse",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "A+++"
+        },
+        {
+          "localizedValue": "A++"
+        },
+        {
+          "localizedValue": "A+"
+        },
+        {
+          "localizedValue": "A"
+        },
+        {
+          "localizedValue": "B"
+        },
+        {
+          "localizedValue": "C"
+        },
+        {
+          "localizedValue": "D"
+        },
+        {
+          "localizedValue": "E"
+        },
+        {
+          "localizedValue": "F"
+        },
+        {
+          "localizedValue": "G"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Farbe",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Beige"
+        },
+        {
+          "localizedValue": "Blau"
+        },
+        {
+          "localizedValue": "Braun"
+        },
+        {
+          "localizedValue": "Gelb"
+        },
+        {
+          "localizedValue": "Gold"
+        },
+        {
+          "localizedValue": "Grau"
+        },
+        {
+          "localizedValue": "Grün"
+        },
+        {
+          "localizedValue": "Lila"
+        },
+        {
+          "localizedValue": "Mehrfarbig"
+        },
+        {
+          "localizedValue": "Orange"
+        },
+        {
+          "localizedValue": "Rosa"
+        },
+        {
+          "localizedValue": "Rot"
+        },
+        {
+          "localizedValue": "Schwarz"
+        },
+        {
+          "localizedValue": "Silber"
+        },
+        {
+          "localizedValue": "Transparent"
+        },
+        {
+          "localizedValue": "Weiß"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Beladungstyp",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Dual-Lader"
+        },
+        {
+          "localizedValue": "Frontlader"
+        },
+        {
+          "localizedValue": "Toplader"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Schallleistung",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "40 dB oder weniger"
+        },
+        {
+          "localizedValue": "41-50 dB"
+        },
+        {
+          "localizedValue": "51-60 dB"
+        },
+        {
+          "localizedValue": "61-70 dB"
+        },
+        {
+          "localizedValue": "64 dB"
+        },
+        {
+          "localizedValue": "71-80 dB"
+        },
+        {
+          "localizedValue": "79 dB"
+        },
+        {
+          "localizedValue": "81-90 dB"
+        },
+        {
+          "localizedValue": "91 dB oder mehr"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Stromquelle",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Erdgas"
+        },
+        {
+          "localizedValue": "LPG/Propan"
+        },
+        {
+          "localizedValue": "Netzstrom"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Herstellernummer",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      }
+    },
+    {
+      "localizedAspectName": "Smart Home Kompatibilität",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Amazon Alexa"
+        },
+        {
+          "localizedValue": "Apple HomeKit"
+        },
+        {
+          "localizedValue": "Google Home"
+        },
+        {
+          "localizedValue": "IFTTT"
+        },
+        {
+          "localizedValue": "Logitech Harmony"
+        },
+        {
+          "localizedValue": "Nest"
+        },
+        {
+          "localizedValue": "Philips Hue"
+        },
+        {
+          "localizedValue": "Samsung SmartThings"
+        },
+        {
+          "localizedValue": "WeMo"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Wasserverbrauch pro Jahr",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "8000 L/Jahr oder weniger"
+        },
+        {
+          "localizedValue": "8001-11000 L/Jahr"
+        },
+        {
+          "localizedValue": "11001-15000 L/Jahr"
+        },
+        {
+          "localizedValue": "15001-19000 L/Jahr"
+        },
+        {
+          "localizedValue": "19001-22500 L/Jahr"
+        },
+        {
+          "localizedValue": "22501-26500 L/Jahr"
+        },
+        {
+          "localizedValue": "26501-30000 L/Jahr"
+        },
+        {
+          "localizedValue": "30001-34000 L/Jahr"
+        },
+        {
+          "localizedValue": "34001-38000 L/Jahr"
+        },
+        {
+          "localizedValue": "38001-41500 L/Jahr"
+        },
+        {
+          "localizedValue": "41501-45500 L/Jahr"
+        },
+        {
+          "localizedValue": "45501-49000 L/Jahr"
+        },
+        {
+          "localizedValue": "49001-53000 L/Jahr"
+        },
+        {
+          "localizedValue": "53001 L/Jahr oder mehr"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "EEK Spektrum",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "RECOMMENDED",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "A+++ - G"
+        },
+        {
+          "localizedValue": "A+++ - E"
+        },
+        {
+          "localizedValue": "A+++ - D"
+        },
+        {
+          "localizedValue": "A++ - G"
+        },
+        {
+          "localizedValue": "A++ - E"
+        },
+        {
+          "localizedValue": "A+ - G"
+        },
+        {
+          "localizedValue": "A+ - F"
+        },
+        {
+          "localizedValue": "A - G"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Besonderheiten",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Automatischer Spender"
+        },
+        {
+          "localizedValue": "Automatische Temperaturregelung"
+        },
+        {
+          "localizedValue": "Direktantrieb"
+        },
+        {
+          "localizedValue": "Edelstahlwanne"
+        },
+        {
+          "localizedValue": "Ferngesteuerter Start"
+        },
+        {
+          "localizedValue": "Feuchtigkeitssensor"
+        },
+        {
+          "localizedValue": "Innen-/Trommelbeleuchtung"
+        },
+        {
+          "localizedValue": "Lastverteilung"
+        },
+        {
+          "localizedValue": "Load Sensing"
+        },
+        {
+          "localizedValue": "Podest Aufbewahrungsschublade"
+        },
+        {
+          "localizedValue": "Schallunterdrückung/Vibrationskontrolle"
+        },
+        {
+          "localizedValue": "Selbstreinigung"
+        },
+        {
+          "localizedValue": "Soft-Close-Deckel"
+        },
+        {
+          "localizedValue": "Startzeitvorwahl"
+        },
+        {
+          "localizedValue": "Türfenster"
+        },
+        {
+          "localizedValue": "Umgekehrte Trommel"
+        },
+        {
+          "localizedValue": "Verbleibende Zeitanzeige"
+        },
+        {
+          "localizedValue": "Verstellbare Füße"
+        },
+        {
+          "localizedValue": "Wäscheständer"
+        },
+        {
+          "localizedValue": "Wasserfilter"
+        },
+        {
+          "localizedValue": "Wendetür"
+        },
+        {
+          "localizedValue": "WLAN-Konnektivität"
+        },
+        {
+          "localizedValue": "Zifferblatt"
+        },
+        {
+          "localizedValue": "Zyklusende-Alarm"
+        },
+        {
+          "localizedValue": "Zyklusstatusanzeige"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Energieverbrauch pro Zyklus",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "0,20 kWh/Zyklus oder weniger"
+        },
+        {
+          "localizedValue": "0,21-0,40 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "0,41-0,60 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "0,61-0,80 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "0,81-1,00 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "1,01-1,50 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "1,51-2,00 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "2,01-2,50 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "2,51-3,00 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "3,01-3,50 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "3,51-4,00 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "4,01-4,50 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "4,51-5,00 kWh/Zyklus"
+        },
+        {
+          "localizedValue": "5,01 kWh/Zyklus oder mehr"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Energieverbrauch pro Jahr",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "50 kWh/Jahr oder weniger"
+        },
+        {
+          "localizedValue": "101-150 kWh/Jahr"
+        },
+        {
+          "localizedValue": "51-100 kWh/Jahr"
+        },
+        {
+          "localizedValue": "151-200 kWh/Jahr"
+        },
+        {
+          "localizedValue": "201-250 kWh/Jahr"
+        },
+        {
+          "localizedValue": "251-300 kWh/Jahr"
+        },
+        {
+          "localizedValue": "301-400 kWh/Jahr"
+        },
+        {
+          "localizedValue": "401-500 kWh/Jahr"
+        },
+        {
+          "localizedValue": "501-600 kWh/Jahr"
+        },
+        {
+          "localizedValue": "601-700 kWh/Jahr"
+        },
+        {
+          "localizedValue": "701-800 kWh/Jahr"
+        },
+        {
+          "localizedValue": "801-900 kWh/Jahr"
+        },
+        {
+          "localizedValue": "901-1000 kWh/Jahr"
+        },
+        {
+          "localizedValue": "1001-1500 kWh/Jahr"
+        },
+        {
+          "localizedValue": "1501-2000 kWh/Jahr"
+        },
+        {
+          "localizedValue": "2001-2500 kWh/Jahr"
+        },
+        {
+          "localizedValue": "2501-3000 kWh/Jahr"
+        },
+        {
+          "localizedValue": "3001-3500 kWh/Jahr"
+        },
+        {
+          "localizedValue": "3501-4000 kWh/Jahr"
+        },
+        {
+          "localizedValue": "4001-4500 kWh/Jahr"
+        },
+        {
+          "localizedValue": "4501-5000 kWh/Jahr"
+        },
+        {
+          "localizedValue": "5001-5500 kWh/Jahr"
+        },
+        {
+          "localizedValue": "5501-6000 kWh/Jahr"
+        },
+        {
+          "localizedValue": "6001-6500 kWh/Jahr"
+        },
+        {
+          "localizedValue": "6501-7000 kWh/Jahr"
+        },
+        {
+          "localizedValue": "7001-7500 kWh/Jahr"
+        },
+        {
+          "localizedValue": "7501 kWh/Jahr oder mehr"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Größenkategorie",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Gewerblich"
+        },
+        {
+          "localizedValue": "Groß"
+        },
+        {
+          "localizedValue": "Kompakt/Mini"
+        },
+        {
+          "localizedValue": "Standard"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Ursprungsland",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Afghanistan"
+        },
+        {
+          "localizedValue": "Ägypten"
+        },
+        {
+          "localizedValue": "Albanien"
+        },
+        {
+          "localizedValue": "Algerien"
+        },
+        {
+          "localizedValue": "Andorra"
+        },
+        {
+          "localizedValue": "Angola"
+        },
+        {
+          "localizedValue": "Anguilla"
+        },
+        {
+          "localizedValue": "Antigua und Barbuda"
+        },
+        {
+          "localizedValue": "Äquatorialguinea"
+        },
+        {
+          "localizedValue": "Argentinien"
+        },
+        {
+          "localizedValue": "Armenien"
+        },
+        {
+          "localizedValue": "Aruba"
+        },
+        {
+          "localizedValue": "Aserbaidschan"
+        },
+        {
+          "localizedValue": "Äthiopien"
+        },
+        {
+          "localizedValue": "Australien"
+        },
+        {
+          "localizedValue": "Bahamas"
+        },
+        {
+          "localizedValue": "Bahrain"
+        },
+        {
+          "localizedValue": "Bangladesch"
+        },
+        {
+          "localizedValue": "Barbados"
+        },
+        {
+          "localizedValue": "Belarus"
+        },
+        {
+          "localizedValue": "Belgien"
+        },
+        {
+          "localizedValue": "Belize"
+        },
+        {
+          "localizedValue": "Benin"
+        },
+        {
+          "localizedValue": "Bermuda"
+        },
+        {
+          "localizedValue": "Bhutan"
+        },
+        {
+          "localizedValue": "Bolivien"
+        },
+        {
+          "localizedValue": "Bosnien und Herzegowina"
+        },
+        {
+          "localizedValue": "Botsuana"
+        },
+        {
+          "localizedValue": "Brasilien"
+        },
+        {
+          "localizedValue": "Britische Jungferninseln"
+        },
+        {
+          "localizedValue": "Britisches Territorium im Indischen Ozean"
+        },
+        {
+          "localizedValue": "Brunei Darussalam"
+        },
+        {
+          "localizedValue": "Bulgarien"
+        },
+        {
+          "localizedValue": "Burkina Faso"
+        },
+        {
+          "localizedValue": "Burundi"
+        },
+        {
+          "localizedValue": "Chile"
+        },
+        {
+          "localizedValue": "China"
+        },
+        {
+          "localizedValue": "Cookinseln"
+        },
+        {
+          "localizedValue": "Costa Rica"
+        },
+        {
+          "localizedValue": "Côte d'Ivoire"
+        },
+        {
+          "localizedValue": "Curaçao"
+        },
+        {
+          "localizedValue": "Dänemark"
+        },
+        {
+          "localizedValue": "Deutschland"
+        },
+        {
+          "localizedValue": "Dominica"
+        },
+        {
+          "localizedValue": "Dominikanische Republik"
+        },
+        {
+          "localizedValue": "Dschibuti"
+        },
+        {
+          "localizedValue": "Ecuador"
+        },
+        {
+          "localizedValue": "El Salvador"
+        },
+        {
+          "localizedValue": "Eritrea"
+        },
+        {
+          "localizedValue": "Estland"
+        },
+        {
+          "localizedValue": "Eswatini"
+        },
+        {
+          "localizedValue": "Falklandinseln"
+        },
+        {
+          "localizedValue": "Färöer-Inseln"
+        },
+        {
+          "localizedValue": "Fidschi"
+        },
+        {
+          "localizedValue": "Finnland"
+        },
+        {
+          "localizedValue": "Frankreich"
+        },
+        {
+          "localizedValue": "Französische Südgebiete und Antarktisgebiete"
+        },
+        {
+          "localizedValue": "Französisch-Guayana"
+        },
+        {
+          "localizedValue": "Französisch-Polynesien, einschließlich Tahiti"
+        },
+        {
+          "localizedValue": "Gabun"
+        },
+        {
+          "localizedValue": "Gambia"
+        },
+        {
+          "localizedValue": "Gazastreifen"
+        },
+        {
+          "localizedValue": "Georgien"
+        },
+        {
+          "localizedValue": "Ghana"
+        },
+        {
+          "localizedValue": "Gibraltar"
+        },
+        {
+          "localizedValue": "Grenada"
+        },
+        {
+          "localizedValue": "Griechenland"
+        },
+        {
+          "localizedValue": "Grönland"
+        },
+        {
+          "localizedValue": "Guadeloupe"
+        },
+        {
+          "localizedValue": "Guam"
+        },
+        {
+          "localizedValue": "Guatemala"
+        },
+        {
+          "localizedValue": "Guernsey"
+        },
+        {
+          "localizedValue": "Guinea"
+        },
+        {
+          "localizedValue": "Guinea-Bissau"
+        },
+        {
+          "localizedValue": "Guyana"
+        },
+        {
+          "localizedValue": "Haiti"
+        },
+        {
+          "localizedValue": "Heard und McDonaldinseln"
+        },
+        {
+          "localizedValue": "Honduras"
+        },
+        {
+          "localizedValue": "Hongkong"
+        },
+        {
+          "localizedValue": "Indien"
+        },
+        {
+          "localizedValue": "Indonesien"
+        },
+        {
+          "localizedValue": "Irak"
+        },
+        {
+          "localizedValue": "Iran, Islamische Republik"
+        },
+        {
+          "localizedValue": "Irland"
+        },
+        {
+          "localizedValue": "Island"
+        },
+        {
+          "localizedValue": "Israel"
+        },
+        {
+          "localizedValue": "Italien"
+        },
+        {
+          "localizedValue": "Jamaika"
+        },
+        {
+          "localizedValue": "Japan"
+        },
+        {
+          "localizedValue": "Jemen"
+        },
+        {
+          "localizedValue": "Jersey"
+        },
+        {
+          "localizedValue": "Jordanien"
+        },
+        {
+          "localizedValue": "Jungferninseln"
+        },
+        {
+          "localizedValue": "Kaimaninseln"
+        },
+        {
+          "localizedValue": "Kambodscha"
+        },
+        {
+          "localizedValue": "Kamerun"
+        },
+        {
+          "localizedValue": "Kanada"
+        },
+        {
+          "localizedValue": "Kanarische Inseln"
+        },
+        {
+          "localizedValue": "Kap Verde"
+        },
+        {
+          "localizedValue": "Kasachstan"
+        },
+        {
+          "localizedValue": "Katar"
+        },
+        {
+          "localizedValue": "Kenia"
+        },
+        {
+          "localizedValue": "Kirgisistan"
+        },
+        {
+          "localizedValue": "Kiribati"
+        },
+        {
+          "localizedValue": "Kokosinseln (Keelinginseln)"
+        },
+        {
+          "localizedValue": "Kolumbien"
+        },
+        {
+          "localizedValue": "Komoren"
+        },
+        {
+          "localizedValue": "Kongo, Demokratische Republik"
+        },
+        {
+          "localizedValue": "Kongo, Republik"
+        },
+        {
+          "localizedValue": "Kosovo"
+        },
+        {
+          "localizedValue": "Kroatien"
+        },
+        {
+          "localizedValue": "Kuba"
+        },
+        {
+          "localizedValue": "Kuwait"
+        },
+        {
+          "localizedValue": "Laos, Demokratische Volksrepublik"
+        },
+        {
+          "localizedValue": "Lesotho"
+        },
+        {
+          "localizedValue": "Lettland"
+        },
+        {
+          "localizedValue": "Libanon"
+        },
+        {
+          "localizedValue": "Liberia"
+        },
+        {
+          "localizedValue": "Libyen"
+        },
+        {
+          "localizedValue": "Liechtenstein"
+        },
+        {
+          "localizedValue": "Litauen"
+        },
+        {
+          "localizedValue": "Luxemburg"
+        },
+        {
+          "localizedValue": "Macau"
+        },
+        {
+          "localizedValue": "Madagaskar"
+        },
+        {
+          "localizedValue": "Madeira"
+        },
+        {
+          "localizedValue": "Malawi"
+        },
+        {
+          "localizedValue": "Malaysia"
+        },
+        {
+          "localizedValue": "Malediven"
+        },
+        {
+          "localizedValue": "Mali"
+        },
+        {
+          "localizedValue": "Malta"
+        },
+        {
+          "localizedValue": "Marokko"
+        },
+        {
+          "localizedValue": "Marshallinseln"
+        },
+        {
+          "localizedValue": "Martinique"
+        },
+        {
+          "localizedValue": "Mauretanien"
+        },
+        {
+          "localizedValue": "Mauritius"
+        },
+        {
+          "localizedValue": "Mayotte"
+        },
+        {
+          "localizedValue": "Mexiko"
+        },
+        {
+          "localizedValue": "Mikronesien, Föderierte Staaten von"
+        },
+        {
+          "localizedValue": "Moldau, Republik"
+        },
+        {
+          "localizedValue": "Monaco"
+        },
+        {
+          "localizedValue": "Mongolei"
+        },
+        {
+          "localizedValue": "Montenegro"
+        },
+        {
+          "localizedValue": "Montserrat"
+        },
+        {
+          "localizedValue": "Mosambik"
+        },
+        {
+          "localizedValue": "Myanmar /Birma"
+        },
+        {
+          "localizedValue": "Namibia"
+        },
+        {
+          "localizedValue": "Nauru"
+        },
+        {
+          "localizedValue": "Nepal"
+        },
+        {
+          "localizedValue": "Neukaledonien"
+        },
+        {
+          "localizedValue": "Neuseeland"
+        },
+        {
+          "localizedValue": "Nicaragua"
+        },
+        {
+          "localizedValue": "Niederlande"
+        },
+        {
+          "localizedValue": "Niger"
+        },
+        {
+          "localizedValue": "Nigeria"
+        },
+        {
+          "localizedValue": "Niue"
+        },
+        {
+          "localizedValue": "Nordkorea (Demokratische Volksrepublik Korea)"
+        },
+        {
+          "localizedValue": "Nördliche Marianen"
+        },
+        {
+          "localizedValue": "Nordmazedonien"
+        },
+        {
+          "localizedValue": "Norfolkinsel"
+        },
+        {
+          "localizedValue": "Norwegen"
+        },
+        {
+          "localizedValue": "Oman"
+        },
+        {
+          "localizedValue": "Österreich"
+        },
+        {
+          "localizedValue": "Pakistan"
+        },
+        {
+          "localizedValue": "Palau"
+        },
+        {
+          "localizedValue": "Panama"
+        },
+        {
+          "localizedValue": "Papua-Neuguinea"
+        },
+        {
+          "localizedValue": "Paraguay"
+        },
+        {
+          "localizedValue": "Peru"
+        },
+        {
+          "localizedValue": "Philippinen"
+        },
+        {
+          "localizedValue": "Polen"
+        },
+        {
+          "localizedValue": "Portugal"
+        },
+        {
+          "localizedValue": "Puerto Rico"
+        },
+        {
+          "localizedValue": "Réunion"
+        },
+        {
+          "localizedValue": "Ruanda"
+        },
+        {
+          "localizedValue": "Rumänien"
+        },
+        {
+          "localizedValue": "Russische Föderation"
+        },
+        {
+          "localizedValue": "Saint Barthélemy"
+        },
+        {
+          "localizedValue": "Saint-Martin"
+        },
+        {
+          "localizedValue": "Saint-Pierre und Miquelon"
+        },
+        {
+          "localizedValue": "Salomonen"
+        },
+        {
+          "localizedValue": "Sambia"
+        },
+        {
+          "localizedValue": "Samoa"
+        },
+        {
+          "localizedValue": "San Marino"
+        },
+        {
+          "localizedValue": "São Tomé und Príncipe"
+        },
+        {
+          "localizedValue": "Saudi-Arabien"
+        },
+        {
+          "localizedValue": "Schweden"
+        },
+        {
+          "localizedValue": "Schweiz"
+        },
+        {
+          "localizedValue": "Senegal"
+        },
+        {
+          "localizedValue": "Serbien"
+        },
+        {
+          "localizedValue": "Seychellen"
+        },
+        {
+          "localizedValue": "Sierra Leone"
+        },
+        {
+          "localizedValue": "Simbabwe"
+        },
+        {
+          "localizedValue": "Singapur"
+        },
+        {
+          "localizedValue": "Sint Eustatius"
+        },
+        {
+          "localizedValue": "Sint Maarten"
+        },
+        {
+          "localizedValue": "Slowakei"
+        },
+        {
+          "localizedValue": "Slowenien"
+        },
+        {
+          "localizedValue": "Somalia"
+        },
+        {
+          "localizedValue": "Spanien"
+        },
+        {
+          "localizedValue": "Sri Lanka"
+        },
+        {
+          "localizedValue": "St. Helena"
+        },
+        {
+          "localizedValue": "St. Kitts und Nevis"
+        },
+        {
+          "localizedValue": "St. Lucia"
+        },
+        {
+          "localizedValue": "St. Vincent und die Grenadinen"
+        },
+        {
+          "localizedValue": "Südafrika"
+        },
+        {
+          "localizedValue": "Sudan"
+        },
+        {
+          "localizedValue": "Südgeorgien und die Südlichen Sandwichinseln"
+        },
+        {
+          "localizedValue": "Südkorea (Republik Korea)"
+        },
+        {
+          "localizedValue": "Surinam"
+        },
+        {
+          "localizedValue": "Svalbard und Jan Mayen"
+        },
+        {
+          "localizedValue": "Syrien"
+        },
+        {
+          "localizedValue": "Tadschikistan"
+        },
+        {
+          "localizedValue": "Taiwan"
+        },
+        {
+          "localizedValue": "Tansania, Vereinigte Republik"
+        },
+        {
+          "localizedValue": "Thailand"
+        },
+        {
+          "localizedValue": "Togo"
+        },
+        {
+          "localizedValue": "Tokelau"
+        },
+        {
+          "localizedValue": "Tonga"
+        },
+        {
+          "localizedValue": "Trinidad und Tobago"
+        },
+        {
+          "localizedValue": "Tristan da Cunha"
+        },
+        {
+          "localizedValue": "Tschad"
+        },
+        {
+          "localizedValue": "Tschechische Republik"
+        },
+        {
+          "localizedValue": "Tunesien"
+        },
+        {
+          "localizedValue": "Türkei"
+        },
+        {
+          "localizedValue": "Turkmenistan"
+        },
+        {
+          "localizedValue": "Turks- und Caicosinseln"
+        },
+        {
+          "localizedValue": "Tuvalu"
+        },
+        {
+          "localizedValue": "Uganda"
+        },
+        {
+          "localizedValue": "Ukraine"
+        },
+        {
+          "localizedValue": "Ungarn"
+        },
+        {
+          "localizedValue": "Uruguay"
+        },
+        {
+          "localizedValue": "USA"
+        },
+        {
+          "localizedValue": "Usbekistan"
+        },
+        {
+          "localizedValue": "Vanuatu"
+        },
+        {
+          "localizedValue": "Vatikanstadt"
+        },
+        {
+          "localizedValue": "Venezuela"
+        },
+        {
+          "localizedValue": "Vereinigte Arabische Emirate"
+        },
+        {
+          "localizedValue": "Vereinigtes Königreich"
+        },
+        {
+          "localizedValue": "Vietnam"
+        },
+        {
+          "localizedValue": "Wallis und Futuna"
+        },
+        {
+          "localizedValue": "Weihnachtsinseln"
+        },
+        {
+          "localizedValue": "Westjordanland"
+        },
+        {
+          "localizedValue": "Zentralafrikanische Republik"
+        },
+        {
+          "localizedValue": "Zypern"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Smart Home Kommunikationsprotokoll",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "MULTI",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Bluetooth"
+        },
+        {
+          "localizedValue": "Insteon"
+        },
+        {
+          "localizedValue": "NFC"
+        },
+        {
+          "localizedValue": "Powerline/UPB"
+        },
+        {
+          "localizedValue": "Thread"
+        },
+        {
+          "localizedValue": "WLAN"
+        },
+        {
+          "localizedValue": "X10"
+        },
+        {
+          "localizedValue": "ZigBee"
+        },
+        {
+          "localizedValue": "Z-Wave"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Trockner-Programme",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Anti-Allergie-Programm"
+        },
+        {
+          "localizedValue": "Baumwolle"
+        },
+        {
+          "localizedValue": "Benutzerdefiniert"
+        },
+        {
+          "localizedValue": "Bettwäsche"
+        },
+        {
+          "localizedValue": "Bügeltrocken"
+        },
+        {
+          "localizedValue": "Buntwäsche"
+        },
+        {
+          "localizedValue": "Dampfdesinfizierung"
+        },
+        {
+          "localizedValue": "Dampferfrischung"
+        },
+        {
+          "localizedValue": "Dampffunktion"
+        },
+        {
+          "localizedValue": "Dampfknitterfrei"
+        },
+        {
+          "localizedValue": "Daune"
+        },
+        {
+          "localizedValue": "Desinfizieren"
+        },
+        {
+          "localizedValue": "Energiesparmodus"
+        },
+        {
+          "localizedValue": "Extratocken"
+        },
+        {
+          "localizedValue": "Feinwäsche/Dessous"
+        },
+        {
+          "localizedValue": "Fleckenschutz"
+        },
+        {
+          "localizedValue": "Handtuch"
+        },
+        {
+          "localizedValue": "Hemd"
+        },
+        {
+          "localizedValue": "Jeans"
+        },
+        {
+          "localizedValue": "Knittfrei"
+        },
+        {
+          "localizedValue": "Lufttrocknent"
+        },
+        {
+          "localizedValue": "Niedrigtemperatur"
+        },
+        {
+          "localizedValue": "Permanent Press"
+        },
+        {
+          "localizedValue": "Pflegeleicht"
+        },
+        {
+          "localizedValue": "Plüschtiere"
+        },
+        {
+          "localizedValue": "Schnell-Programm"
+        },
+        {
+          "localizedValue": "Schranktrocken"
+        },
+        {
+          "localizedValue": "Schwerlast"
+        },
+        {
+          "localizedValue": "Seide"
+        },
+        {
+          "localizedValue": "Sperrige Güter"
+        },
+        {
+          "localizedValue": "Sport-/Aktivbekleidung"
+        },
+        {
+          "localizedValue": "Synthetik/Acryl"
+        },
+        {
+          "localizedValue": "Über Nacht"
+        },
+        {
+          "localizedValue": "Weißtöne"
+        },
+        {
+          "localizedValue": "Wolle/Strick"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Finish",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Anthrazit"
+        },
+        {
+          "localizedValue": "Bemalt"
+        },
+        {
+          "localizedValue": "Chrom"
+        },
+        {
+          "localizedValue": "Emaille"
+        },
+        {
+          "localizedValue": "Glänzend"
+        },
+        {
+          "localizedValue": "Glas"
+        },
+        {
+          "localizedValue": "Nickel"
+        },
+        {
+          "localizedValue": "Panel-Bereit"
+        },
+        {
+          "localizedValue": "Schiefer"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Tiefe",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Kleiner als 50 cm"
+        },
+        {
+          "localizedValue": "53 cm"
+        },
+        {
+          "localizedValue": "55,0 cm"
+        },
+        {
+          "localizedValue": "58,5 cm"
+        },
+        {
+          "localizedValue": "66,0 cm"
+        },
+        {
+          "localizedValue": "70,0 cm"
+        },
+        {
+          "localizedValue": "75,0 cm"
+        },
+        {
+          "localizedValue": "85,0 cm"
+        },
+        {
+          "localizedValue": "89 cm"
+        },
+        {
+          "localizedValue": "Größer als 90 cm"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Leistung",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "400 W oder weniger"
+        },
+        {
+          "localizedValue": "401-600 W"
+        },
+        {
+          "localizedValue": "601-800 W"
+        },
+        {
+          "localizedValue": "801-1000 W"
+        },
+        {
+          "localizedValue": "1000 W"
+        },
+        {
+          "localizedValue": "1001-1200 W"
+        },
+        {
+          "localizedValue": "1201-1400 W"
+        },
+        {
+          "localizedValue": "1401-1600 W"
+        },
+        {
+          "localizedValue": "1601-1800 W"
+        },
+        {
+          "localizedValue": "1801-2000 W"
+        },
+        {
+          "localizedValue": "2001-2500 W"
+        },
+        {
+          "localizedValue": "2501-3000 W"
+        },
+        {
+          "localizedValue": "3001-3500 W"
+        },
+        {
+          "localizedValue": "3501-4000 W"
+        },
+        {
+          "localizedValue": "4001-4500 W"
+        },
+        {
+          "localizedValue": "4501-5000 W"
+        },
+        {
+          "localizedValue": "5001 W oder mehr"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Kabellänge",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "0,3 m"
+        },
+        {
+          "localizedValue": "0,5 m"
+        },
+        {
+          "localizedValue": "0,6 m"
+        },
+        {
+          "localizedValue": "0,91 m"
+        },
+        {
+          "localizedValue": "3.3 ft"
+        },
+        {
+          "localizedValue": "1,2 m"
+        },
+        {
+          "localizedValue": "1,50 m"
+        },
+        {
+          "localizedValue": "1,80 m"
+        },
+        {
+          "localizedValue": "6.6 ft"
+        },
+        {
+          "localizedValue": "2,10 m"
+        },
+        {
+          "localizedValue": "2,4 m"
+        },
+        {
+          "localizedValue": "2,7 m"
+        },
+        {
+          "localizedValue": "3 m"
+        },
+        {
+          "localizedValue": "3,7 m"
+        },
+        {
+          "localizedValue": "4,6 m"
+        },
+        {
+          "localizedValue": "6 m"
+        },
+        {
+          "localizedValue": "6,1 m"
+        },
+        {
+          "localizedValue": "7,6 m"
+        },
+        {
+          "localizedValue": "8 m"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Höhe",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Kleiner als 60 cm"
+        },
+        {
+          "localizedValue": "Größer als 125 cm"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Breite",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "Kleiner als 50 cm"
+        },
+        {
+          "localizedValue": "53 cm"
+        },
+        {
+          "localizedValue": "55,0 cm"
+        },
+        {
+          "localizedValue": "66,0 cm"
+        },
+        {
+          "localizedValue": "70,0 cm"
+        },
+        {
+          "localizedValue": "75,0 cm"
+        },
+        {
+          "localizedValue": "85,0 cm"
+        },
+        {
+          "localizedValue": "89 cm"
+        },
+        {
+          "localizedValue": "Größer als 90 cm"
+        },
+        {
+          "localizedValue": "Mehr als 2,03 m"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Herstellergarantie",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": true,
+        "aspectApplicableTo": [
+          "ITEM"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "1 Monat"
+        },
+        {
+          "localizedValue": "3 Monate"
+        },
+        {
+          "localizedValue": "6 Monate"
+        },
+        {
+          "localizedValue": "9 Monate"
+        },
+        {
+          "localizedValue": "1 Jahr"
+        },
+        {
+          "localizedValue": "2 Jahre"
+        },
+        {
+          "localizedValue": "3 Jahre"
+        },
+        {
+          "localizedValue": "4 Jahre"
+        },
+        {
+          "localizedValue": "5 Jahre"
+        },
+        {
+          "localizedValue": "10 Jahre"
+        },
+        {
+          "localizedValue": "Lebenszeit"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Wasserverbrauch pro Zyklus",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "20 L/Zyklus oder weniger"
+        },
+        {
+          "localizedValue": "21-40 L/Zyklus"
+        },
+        {
+          "localizedValue": "41-60 L/Zyklus"
+        },
+        {
+          "localizedValue": "61-75 L/Zyklus"
+        },
+        {
+          "localizedValue": "76-95 L/Zyklus"
+        },
+        {
+          "localizedValue": "96-115 L/Zyklus"
+        },
+        {
+          "localizedValue": "116-135 L/Zyklus"
+        },
+        {
+          "localizedValue": "136-155 L/Zyklus"
+        },
+        {
+          "localizedValue": "156-175 L/Zyklus"
+        },
+        {
+          "localizedValue": "176-190 L/Zyklus"
+        },
+        {
+          "localizedValue": "191 L/Zyklus oder mehr"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "Anzahl der Einheiten",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "ITEM"
+        ]
+      }
+    },
+    {
+      "localizedAspectName": "Maßeinheit",
+      "aspectConstraint": {
+        "aspectDataType": "STRING",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "SELECTION_ONLY",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false,
+        "aspectApplicableTo": [
+          "PRODUCT"
+        ]
+      },
+      "aspectValues": [
+        {
+          "localizedValue": "kg"
+        },
+        {
+          "localizedValue": "100g"
+        },
+        {
+          "localizedValue": "10g"
+        },
+        {
+          "localizedValue": "L"
+        },
+        {
+          "localizedValue": "100ml"
+        },
+        {
+          "localizedValue": "10ml"
+        },
+        {
+          "localizedValue": "m"
+        },
+        {
+          "localizedValue": "m²"
+        },
+        {
+          "localizedValue": "m³"
+        },
+        {
+          "localizedValue": "Einheit"
+        }
+      ]
+    },
+    {
+      "localizedAspectName": "EPREL-Registrierungsnummer",
+      "aspectConstraint": {
+        "aspectDataType": "NUMBER",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false
+      }
+    },
+    {
+      "localizedAspectName": "Haltbarkeitsgarantie",
+      "aspectConstraint": {
+        "aspectDataType": "NUMBER",
+        "aspectFormat": "int32",
+        "itemToAspectCardinality": "SINGLE",
+        "aspectMode": "FREE_TEXT",
+        "aspectRequired": false,
+        "aspectUsage": "OPTIONAL",
+        "aspectEnabledForVariations": false
+      }
+    }
+  ]
+}
